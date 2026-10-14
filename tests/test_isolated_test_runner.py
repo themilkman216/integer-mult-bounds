@@ -131,6 +131,25 @@ class IsolatedRunnerTest(unittest.TestCase):
         self.assertFalse(any(line.startswith('PASS all') for line in lines))
         self.assertIn('Failed modules: test_b_fail.py', result.stderr.decode())
 
+    def test_inherited_optimization_cannot_hide_verifier_assertions(self):
+        # Research tests call verifiers that still use Python assert. The
+        # outer runner itself may be optimized, but its checks must not be.
+        box = self.sandbox({'test_assertion.py': '''import os
+import unittest
+
+class T(unittest.TestCase):
+    def test_verifier(self):
+        self.assertEqual(os.environ.get('REPLAY_SENTINEL'), 'preserved')
+        assert False, 'deliberate mathematical assertion'
+'''})
+        for level in ('1', '2'):
+            with self.subTest(level=level):
+                result = box.run('--workers', '1', env={
+                    'PYTHONOPTIMIZE': level, 'REPLAY_SENTINEL': 'preserved'})
+                self.assertNotEqual(result.returncode, 0)
+                self.assertIn('deliberate mathematical assertion', result.stderr.decode())
+                self.assertIn('Failed modules: test_assertion.py', result.stderr.decode())
+
 
 if __name__ == '__main__':
     unittest.main()

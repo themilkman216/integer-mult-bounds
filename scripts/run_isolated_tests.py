@@ -39,10 +39,15 @@ def run_modules(files, python=None, tests_dir=None, cwd=None, workers=None):
     if workers is None:
         workers = os.cpu_count() or 1
     workers = max(1, min(workers, len(files)))
+    # A developer's optimized parent interpreter must not silently remove
+    # assertions in research verifiers imported by the isolated tests.
+    env = os.environ.copy()
+    env.pop('PYTHONOPTIMIZE', None)
 
     def run_one(path):
         result = subprocess.run(module_command(python, tests_dir, path.name),
-                                cwd=cwd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                                cwd=cwd, env=env,
+                                stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         return path, result.returncode, result.stdout, result.stderr
 
     with ThreadPoolExecutor(max_workers=workers) as pool:

@@ -1,6 +1,26 @@
 # Reproducing the result
 
-## Current reviewed checkpoint: #596 with #543
+For the current reviewed checkpoint, use the [selected record](../certificates/selected-result.json).
+Its `reproduce`, `review` and `source_manifest` fields identify the command,
+scoped maintainer assessment and exact inputs. Read them before running a
+historical command from this page:
+
+```sh
+python3 - <<'PYTHON'
+import json
+from pathlib import Path
+record = json.loads(Path("certificates/selected-result.json").read_text())
+for field in ("reproduce", "review", "source_manifest"):
+    print(field + ":", record[field])
+PYTHON
+```
+
+The [published PR39 release](releases/community-kappa-15.md) is a historical
+release, distinct from the current reviewed main checkpoint. Older guides and
+commands below retain their original scope. This clarification follows
+[Anas Khan's PR #90](https://github.com/CrocSwap/integer-mult-bounds/pull/90).
+
+## Historical reviewed checkpoint: #596 with #543
 
 ```sh
 python3 -m pip install numpy sympy scipy

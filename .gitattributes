@@ -144,3 +144,10 @@ research/r439-frame519-seed02/** -text -whitespace
 research/r439-frame524-seed13/** -text -whitespace
 research/r439-frame520/** -text -whitespace
 research/r439-frame267-seed01/** -text -whitespace
+
+# Exact historical source/evidence bytes in batch1099.
+research/complex-u10-t37/evidence/u10/SEARCH-ROUND1-part*.txt -text -whitespace
+research/p111-minrank-proof-reconciliation/vendor/pr620/geo.py -text -whitespace
+research/community-batch1099-audit/** -text -whitespace
+research/community-frontier1094-audit/** -text -whitespace
+research/abelian-cayley-metric-scope/** -text

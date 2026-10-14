@@ -100,7 +100,7 @@
           "source_path": "scripts/verify_selected_result.py",
           "source_sha256": "300b039d43be0832a405b20d38e57441e91caf85cba5afa9ce826bfb770fad22",
           "action": "retained",
-          "integrated_path": "scripts/verify_selected_result.py",
+          "integrated_path": "research/community-batch970-audit/before-integration/scripts/verify_selected_result.py",
           "integrated_sha256": "300b039d43be0832a405b20d38e57441e91caf85cba5afa9ce826bfb770fad22"
         },
         {

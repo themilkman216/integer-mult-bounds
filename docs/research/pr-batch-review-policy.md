@@ -1,7 +1,15 @@
 # Bounded PR review batches
 
-Default to **18 open PRs per batch**, normally 12–24. Batch size is a work
-inventory, not a promise that every PR will pass review or be merged. Research
+Use a frozen inventory of **40 PRs per batch** when the queue is large, with
+completed compatible subsets normally published in checkpoints of roughly 10.
+An authorized historical reconciliation may freeze 100 PRs, using shared-content
+indexes and separate per-PR dispositions. That is a reconciliation inventory,
+not 100 full replays or permission to close unmatched work. Compare against the
+PR's recorded base and cross-check GitHub's complete changed-file count; comparing
+only against today's main can omit files incorporated after submission.
+Smaller 12–24 PR inventories remain appropriate for dependency-heavy work.
+Batch size is a work inventory, not a promise that every PR will pass review
+or be merged. Research
 notes, negative results, independent checks, Lean work and verification tooling
 are first-class contributions alongside new exponent claims.
 

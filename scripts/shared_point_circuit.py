@@ -9,7 +9,6 @@ identify its support exactly.
 from functools import lru_cache
 from hashlib import sha256
 from itertools import combinations
-import json
 
 from exclusion_circuit import ExclusionCircuit
 
@@ -87,24 +86,52 @@ class SharedPointCircuit:
             self.support_in(a,common)&~self.support_in(b,common))
 
     def verify(self):
+        """Exact support nesting and a byte-stable circuit digest.
+
+        Tooling note (shared-point / bit-compression replay): node and partial-
+        output digest lines are written with the same UTF-8 text that
+        ``json.dumps(..., separators=(',',':'))`` produced historically, but
+        without building JSON encoder objects per row. Support checks and
+        ``circuit_sha256`` are unchanged. See ``research/shared-point-digest/``.
+        """
         self.local.verify()
         digest=sha256()
+        update=digest.update
+        encode=str.encode
+        args=self.args
+        provenance=self.provenance
+        support_in=self.support_in
+        local_support=self.local.support
+        core=self.core
+        union=self.union
         for node in sorted(self.active):
-            if self.args[node]:
-                a,b=self.args[node];common,local=self.provenance[node]
+            edge=args[node]
+            if edge:
+                a,b=edge;common,local=provenance[node]
                 assert a<node and b<node
-                A=self.support_in(a,common);B=self.support_in(b,common)
+                A=support_in(a,common);B=support_in(b,common)
                 assert not A&B
-                assert A|B==self.local.support[local]
-                assert self.core[node]==self.core[a]&self.core[b]
-                assert self.union[node]==self.union[a]|self.union[b]
-            assert self.core[node]
-            digest.update(json.dumps((node,self.args[node],self.provenance[node]),
-                                     separators=(',',':')).encode()+b'\n')
+                assert A|B==local_support[local]
+                assert core[node]==core[a]&core[b]
+                assert union[node]==union[a]|union[b]
+                assert core[node]
+                # Byte-identical to json.dumps((node,(a,b),(common,local)),
+                # separators=(',',':'))+'\n'
+                update(encode(f'[{node},[{a},{b}],[{common},{local}]]\n'))
+            else:
+                assert core[node]
+                # Byte-identical to json.dumps((node,None,None),
+                # separators=(',',':'))+'\n'
+                update(encode(f'[{node},null,null]\n'))
+        points=self.points
+        local_outputs=self.local.outputs
         for (common,target),node in sorted(self.outputs.items()):
-            excluded=tuple(self.points[common].index(x) for x in target if x!=common)
-            assert self.support_in(node,common)==self.local.support[self.local.outputs[excluded]]
-            digest.update(json.dumps((common,target,node),separators=(',',':')).encode()+b'\n')
+            excluded=tuple(points[common].index(x) for x in target if x!=common)
+            assert support_in(node,common)==local_support[local_outputs[excluded]]
+            t0,t1,t2=target
+            # Byte-identical to json.dumps((common,target,node),
+            # separators=(',',':'))+'\n'
+            update(encode(f'[{common},[{t0},{t1},{t2}],{node}]\n'))
         return dict(h=self.h,inputs=len(self.inputs),partial_outputs=len(self.outputs),
                     additions=self.additions,roles=self.additions+len(self.outputs),
                     merged_additions=self.merged,

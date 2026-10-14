@@ -100,9 +100,26 @@ class DisjointTensor(ExclusionCircuit):
                 require(a < node and b < node and not self.support[a]&self.support[b],
                         'An addition uses cancellation or is not acyclic')
                 require(self.support[node] == self.support[a]|self.support[b], 'Wrong sum')
+        # Expected output support equals the full input mask with every input
+        # that meets T cleared. Equivalent to the historical genexpr
+        # sum(1<<i for i,S in enumerate(inputs) if not S&T).
+        # See research/disjoint-tensor-support-masks/.
+        full = (1 << len(self.inputs)) - 1
+        vertex = [0] * self.h
+        for i, S in enumerate(self.inputs):
+            bits = S
+            while bits:
+                bit = bits & -bits
+                bits ^= bit
+                vertex[bit.bit_length() - 1] |= 1 << i
         for T, node in self.outputs.items():
-            expected = sum(1 << i for i, S in enumerate(self.inputs) if not S&T)
-            require(self.support[node] == expected, 'Wrong integer output coefficient')
+            hit = 0
+            bits = T
+            while bits:
+                bit = bits & -bits
+                bits ^= bit
+                hit |= vertex[bit.bit_length() - 1]
+            require(self.support[node] == full ^ hit, 'Wrong integer output coefficient')
         require(self.additions <= plan(self.h,self.k,self.k)[0], 'Interning exceeded recurrence')
         code = self.compile(); values = [0]*code['roles']
         for S, slot in code['sources'].items(): values[slot] = self.support[self.variables[S]]

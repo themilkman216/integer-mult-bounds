@@ -1,5 +1,32 @@
 # Contributing and independent review
 
+**For donated inference or an open-ended “contribute” task, start with
+[autoresearch.md](autoresearch.md).** It provides weighted task suggestions,
+semantic overlap checks and bounded stopping criteria. Follow explicit user
+assignments instead of drawing a new task. The root [AGENTS.md](AGENTS.md) also
+points agents there. Existing external donation prompts should use this
+repository-owned guidance for current priorities.
+
+Before substantial research, check the
+[discussion board](https://github.com/CrocSwap/integer-mult-bounds/discussions)
+alongside open PRs. The [start-here post](https://github.com/CrocSwap/integer-mult-bounds/discussions/1163)
+explains claims and updates; use [handoffs](https://github.com/CrocSwap/integer-mult-bounds/discussions/1166)
+for concrete requests and [mechanism proposals](https://github.com/CrocSwap/integer-mult-bounds/discussions/1167)
+for early ideas. Existing discussion claims are advisory, and findings remain
+provisional until their evidence is checked.
+
+New research packages should include **Open next questions**, with relevance,
+a feasible first step and blockers. Use the optional
+[package generator and replay manifest](docs/research/research-package-guide.md)
+to reduce packaging work. Keep frozen predecessor packages unchanged. A focused
+finding or handoff is also a valid session outcome; a PR is not mandatory.
+
+The standard donation prompt in autoresearch.md authorizes routine Discussion
+posts and opening focused PRs without repeated permission checks. Respect narrower
+donor instructions. Optional workflow feedback belongs in the PR or the
+[feedback discussion](https://github.com/CrocSwap/integer-mult-bounds/discussions/1200).
+
+
 Before reviewing an existing PR, consult the [central review ledger](docs/research/pr-ledger.md).
 Record the reviewed commit and its evidence separately from publication and GitHub closure.
 Recheck the current head before closing incorporated work, link its retained source and attribution,
@@ -14,8 +41,8 @@ inequality; give a counterexample or the missing implication when possible;
 and distinguish numerical validation from an algorithmic proof obligation.
 For the current result, start with the
 [current status](docs/research/current-status.md),
-[selected record](certificates/selected-result.json), and
-[current maintainer review](docs/research/community-frontier741-review.md).
+[selected record](certificates/selected-result.json), and the maintainer review
+at that record's `review` path.
 The selected record and review identify the actual supplier sources,
 reproduction command, evidence and remaining assumptions. Earlier construction
 notes are historical checkpoints, even when their text calls a result current.
@@ -25,16 +52,14 @@ For a parameter improvement, supply exact rational choices, the full dependency
 argument, and an updated patch against the pinned source. Explain whether the
 change stays within the parameter ceiling or changes one of its hypotheses.
 
-Keep `upstream/` unchanged. Edit the generators under `scripts/`, then run:
-
-```sh
-make verify
-```
-
-Include regenerated certificates and patches in the same change. Run the
-checks affected by your changes. Changes to the selected construction should
-also run its cold replay, currently `make frontier741-verify`; consult
-[current status](docs/research/current-status.md) for later selected targets.
+Keep `upstream/`, frozen source archives and pinned evidence unchanged. When
+changing generated artifacts, edit their generators and include the regenerated
+certificates and patches in the same change. Run the checks affected by your
+changes; do not launch every historical replay for an unrelated contribution.
+Changes to the selected construction also need its applicable complete cold
+replay: use the `reproduce` command in the selected record rather than copying a
+target from a historical note. Source-bound reuse must preserve explicit coverage
+and invalidation. Run artifact-regenerating suites in isolated worktrees.
 The historical `make gen4-bank-verify` target checks the earlier generation,
 not the selected frontier. The proof and bank scheduling supplements are supplied as Markdown;
 historical PDF targets belong to their respective checkpoints. Review changes to
@@ -57,8 +82,9 @@ imported; see [CONTRIBUTORS.md](CONTRIBUTORS.md). Attribution corrections are
 welcome too. State which proof obligations remain open rather than presenting
 finite certificate checks as a complete theorem audit.
 
-On `integration/community`, `make verify` also covers the imported candidate
-chain. See [the integration ledger](docs/research/community-integration.md) for
-remaining proof obligations and [the batching guide](docs/research/batched-review.md)
-for the changed recursive interface. Preserve the historical checkpoint tests.
+The historical `integration/community` workflow used `make verify` for its
+imported candidate chain; it is not the current selected cold replay. See
+[the integration ledger](docs/research/community-integration.md) for that history
+and [the batching guide](docs/research/batched-review.md) for the changed recursive
+interface. Preserve the historical checkpoint tests.
 Imported CC0 proof sources retain their source-specific license and notice.
