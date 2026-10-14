@@ -3,7 +3,9 @@
     "allow": [
       "Bash(/root/.local/bin/muse *)",
       "Bash(~/.local/bin/muse *)",
-      "Bash(muse *)"
+      "Bash(muse *)",
+      "Bash(/root/.local/bin/muse exec:*)",
+      "Bash(bash /tmp/muse-dl/muse-install.sh)"
     ]
   }
 }
