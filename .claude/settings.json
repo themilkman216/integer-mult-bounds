@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/root/.local/bin/muse *)",
+      "Bash(~/.local/bin/muse *)",
+      "Bash(muse *)"
+    ]
+  }
+}
