@@ -1,0 +1,496 @@
+{
+ "S2_census": {
+  "base": {
+   "centre_paid": {
+    "8": 8
+   },
+   "climbs": 3431,
+   "distinct_rank1_transitions": 1870,
+   "distinct_zero_transitions": 120,
+   "events": 5959,
+   "paid": {
+    "1": 2335,
+    "2": 512,
+    "3": 426,
+    "4": 120,
+    "5": 38,
+    "8": 8
+   },
+   "pair_ub_all": 377,
+   "pair_ub_zero": 171,
+   "rank1": 2335,
+   "telescoping_registers": 658,
+   "zero_by_section": {
+    "A": 264,
+    "B": 78
+   },
+   "zero_rank1": 342
+  },
+  "candidates": {
+   "best_chart_key": {
+    "chart_key_equal": 3,
+    "distinct_families": 666,
+    "helpers": [
+     237,
+     292
+    ],
+    "pair": [
+     461,
+     516
+    ],
+    "route_equal": 391,
+    "to": [
+     85
+    ]
+   },
+   "count_each_word": 252,
+   "in_both": 252,
+   "route_perfect_pairs": [
+    [
+     250,
+     251
+    ],
+    [
+     260,
+     261
+    ],
+    [
+     284,
+     285
+    ],
+    [
+     390,
+     391
+    ],
+    [
+     438,
+     439
+    ],
+    [
+     462,
+     463
+    ],
+    [
+     468,
+     469
+    ],
+    [
+     490,
+     491
+    ],
+    [
+     558,
+     560
+    ]
+   ],
+   "selected_fixture_546_560": {
+    "chart_key_equal": 0,
+    "distinct_families": 666,
+    "helpers": [
+     322,
+     336
+    ],
+    "pair": [
+     546,
+     560
+    ],
+    "route_equal": 654,
+    "to": [
+     459
+    ]
+   }
+  },
+  "extra": {
+   "centre_paid": {
+    "8": 8
+   },
+   "climbs": 3431,
+   "distinct_rank1_transitions": 1870,
+   "distinct_zero_transitions": 120,
+   "events": 5959,
+   "paid": {
+    "1": 2335,
+    "2": 512,
+    "3": 426,
+    "4": 120,
+    "5": 38,
+    "8": 8
+   },
+   "pair_ub_all": 377,
+   "pair_ub_zero": 171,
+   "rank1": 2335,
+   "telescoping_registers": 658,
+   "zero_by_section": {
+    "A": 264,
+    "B": 78
+   },
+   "zero_rank1": 342
+  },
+  "fixture": {
+   "call0_owners": [
+    {
+     "child": 4,
+     "copy": 6380,
+     "family": 50732,
+     "helper": 334,
+     "offset": 0,
+     "owner_replica": 56,
+     "port": 108,
+     "replica": 0,
+     "stage": 0,
+     "time": 0,
+     "width": 9
+    },
+    {
+     "child": 4,
+     "copy": 6381,
+     "family": 50733,
+     "helper": 336,
+     "offset": 0,
+     "owner_replica": 56,
+     "port": 109,
+     "replica": 0,
+     "stage": 0,
+     "time": 0,
+     "width": 9
+    }
+   ],
+   "common_gap": [
+    0,
+    1191
+   ],
+   "pair": [
+    558,
+    560
+   ],
+   "registers": {
+    "558": {
+     "centre": false,
+     "chain": [
+      {
+       "frm": [],
+       "pos": 1203,
+       "rank": 1,
+       "section": "A",
+       "to": [
+        459
+       ]
+      },
+      {
+       "frm": [
+        459
+       ],
+       "pos": 4217,
+       "rank": 2,
+       "section": "B",
+       "to": [
+        304,
+        131,
+        120
+       ]
+      },
+      {
+       "frm": [
+        304,
+        131,
+        120
+       ],
+       "pos": 4363,
+       "rank": 3,
+       "section": "B",
+       "to": [
+        296,
+        130,
+        96,
+        24,
+        6,
+        1
+       ]
+      },
+      {
+       "frm": [
+        296,
+        130,
+        96,
+        24,
+        6,
+        1
+       ],
+       "pos": 5877,
+       "rank": 3,
+       "section": "final",
+       "to": [
+        256,
+        128,
+        64,
+        32,
+        16,
+        8,
+        4,
+        2,
+        1
+       ]
+      }
+     ],
+     "end_dim": 9,
+     "entering": false,
+     "helper": 334,
+     "lender": false,
+     "restored": false,
+     "start": [],
+     "trigger_gate": [
+      "add",
+      558,
+      559,
+      1,
+      1,
+      [
+       459
+      ]
+     ],
+     "trigger_pos": 1203,
+     "width": 9,
+     "window": [
+      0,
+      1203
+     ]
+    },
+    "560": {
+     "centre": false,
+     "chain": [
+      {
+       "frm": [],
+       "pos": 1191,
+       "rank": 1,
+       "section": "A",
+       "to": [
+        459
+       ]
+      },
+      {
+       "frm": [
+        459
+       ],
+       "pos": 4219,
+       "rank": 2,
+       "section": "B",
+       "to": [
+        259,
+        131,
+        75
+       ]
+      },
+      {
+       "frm": [
+        259,
+        131,
+        75
+       ],
+       "pos": 4357,
+       "rank": 3,
+       "section": "B",
+       "to": [
+        259,
+        131,
+        75,
+        35,
+        25,
+        7
+       ]
+      },
+      {
+       "frm": [
+        259,
+        131,
+        75,
+        35,
+        25,
+        7
+       ],
+       "pos": 5879,
+       "rank": 3,
+       "section": "final",
+       "to": [
+        256,
+        128,
+        64,
+        32,
+        16,
+        8,
+        4,
+        2,
+        1
+       ]
+      }
+     ],
+     "end_dim": 9,
+     "entering": false,
+     "helper": 336,
+     "lender": false,
+     "restored": false,
+     "start": [],
+     "trigger_gate": [
+      "add",
+      560,
+      561,
+      1,
+      1,
+      [
+       459
+      ]
+     ],
+     "trigger_pos": 1191,
+     "width": 9,
+     "window": [
+      0,
+      1191
+     ]
+    }
+   },
+   "representative_gap": 1191,
+   "rows_at_gap": "basis arrays e_558, e_560 (forward replay)",
+   "score": {
+    "chart_key_equal": 0,
+    "distinct_families": 666,
+    "helpers": [
+     334,
+     336
+    ],
+    "pair": [
+     558,
+     560
+    ],
+    "route_equal": 666,
+    "to": [
+     459
+    ]
+   },
+   "transition": {
+    "frm": [],
+    "rank": 1,
+    "section": "A",
+    "to": [
+     459
+    ]
+   }
+  },
+  "owners_checked": {
+   "calls": 666,
+   "helpers_per_call": 434,
+   "rows": 289044
+  }
+ },
+ "S3_operator": {
+  "U0_to_U1": {
+   "columns_exact": 512,
+   "denominators": [
+    1
+   ],
+   "rank": 1,
+   "support_per_column": 2
+  },
+  "U0_to_U2": {
+   "columns_exact": 512,
+   "denominators": [
+    2
+   ],
+   "rank": 3,
+   "support_per_column": 8
+  },
+  "U1_to_U2": {
+   "columns_exact": 512,
+   "denominators": [
+    1
+   ],
+   "rank": 2,
+   "support_per_column": 4
+  },
+  "pair_direct_sum": {
+   "mixed_dirt_inputs": [
+    "{0:3,7:-2,511:5}",
+    "{3:1,7:4}"
+   ],
+   "sum_encoding_collision": "E(e0,0)=E(0,e0), required outputs differ by block"
+  },
+  "same_stream_telescope": {
+   "columns_exact": 512,
+   "identity": "T_U2 T_U0^-1 = (T_U2 T_U1^-1)(T_U1 T_U0^-1)"
+  }
+ },
+ "S4_price": {
+  "endpoints": {
+   "frontier_n0": [
+    "33943899/20000000000",
+    "1697194951/1000000000000"
+   ],
+   "frontier_n0_hi": "0.001697194951",
+   "shared_width_one_pair": "identical histogram price to separate (endpoint = frontier_n0)",
+   "spliced_one_pair": [
+    "169730767/100000000000",
+    "1697307671/1000000000000"
+   ],
+   "spliced_one_pair_hi": "0.001697307671",
+   "volume_doubled_hi": "0.001601563359",
+   "volume_doubled_one_pair": [
+    "800781679/500000000000",
+    "1601563359/1000000000000"
+   ]
+  },
+  "moment_doubled_at_kappa2374": [
+   "1.00027655508",
+   "1.00027655508"
+  ],
+  "per_pair": {
+   "aF_planning": {
+    "a": "0.00170008031863291",
+    "doubled_penalty_per_pair_xW": [
+     "0.0275328253522",
+     "0.0275328253522"
+    ],
+    "spliced_gain_per_pair_xW": [
+     "3.25022908514e-05",
+     "3.25022908514e-05"
+    ]
+   },
+   "kappa2374": {
+    "a": "0.0016971949509",
+    "doubled_penalty_per_pair_xW": [
+     "0.0275325947694",
+     "0.0275325947694"
+    ],
+    "spliced_gain_per_pair_xW": [
+     "3.24467588891e-05",
+     "3.24467588891e-05"
+    ]
+   }
+  }
+ },
+ "S5_tamper_controls": [
+  "trigger_frame_459_to_458: ValueError: frame not monotone reg 561",
+  "fixture_climb_dropped: ValueError: frame not monotone reg 559",
+  "owner_family_merge: ValueError: distinct helper families in call 0",
+  "owner_offset_plus1: ValueError: fixture route-perfect in all calls",
+  "extra_rank48: ValueError: coverage 72W+64N",
+  "doubled_claimed_passing: ValueError: doubled moment claimed passing",
+  "sum_encoding_claimed_exact: ValueError: sum encoding claimed separable",
+  "result_endpoint_mutated: ValueError: RESULT replay comparison"
+ ],
+ "frontier_target": "0.0016971949509 (#2374, unreviewed, moment-root reading)",
+ "pins": {
+  "borrow_audit_py": "36c82ecbface61a5b824c59ea90d1f31a31ff4b87bfef24e16742f06e18fa3c5",
+  "borrow_providers": "f82f0ec2d7989ae9d82db23564de6964251d547411853b817ce031528dad1b54",
+  "ceiling_py": "86a1432870b3b21d8454106ec9162fddc0471472d9214c590a1420f2426cedfc",
+  "clifford_exact_py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+  "owners_compressed": "f91d45bbb35e1ad262d5413cdff1a5c720309dd15ab7f0cd7abc5a6e18ab94ad",
+  "owners_content": "06856c2e396666927e1885e66d340a96119f7a6bdb3ff554ae3f44e58c60df13",
+  "plan_json": "9b38b840732454c8a7266e5e3d851d3e68428919841ee24c4e77ebf2ffed44df",
+  "profile_json": "30d6f326df5781308adfd20e700f2080d28f6a5414066f7d9abe9e69162f32d9",
+  "word_base_compressed": "2a4bacd839c6c3d776709d3107e081ef0aa7753fececb630fe843cc105028eac",
+  "word_base_content": "a4963e5cec3e553067fe271122e98aef0d68ade655609d12d4a623ac80e40c97",
+  "word_extra_compressed": "832220ee1e6f2a6351d457ecb355aaf058ac5fe7f293fa9448471265f670b3a9",
+  "word_extra_content": "2a49ebfca63673566ae46a3d05e884f93f04ed80c488bf62fc7ec6552df70b39"
+ },
+ "selected_kappa": "836330098538459/500000000000000000",
+ "status": "FALSIFIED_AT_VOLUME_PRICE_no_new_kappa",
+ "task": "muse-joint-climb-2374 (Track 5A)"
+}

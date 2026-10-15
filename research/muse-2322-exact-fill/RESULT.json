@@ -1,0 +1,82 @@
+{
+ "status": "PASS_MUSE_2322_EXACT_FILL_VERIFY",
+ "stages": {
+  "fills": {
+   "shipped_idle": {
+    "1": 21869,
+    "3": 8479,
+    "4": 17,
+    "5": 2650,
+    "7": 87,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "candidate_idle": {
+    "1": 21869,
+    "3": 8470,
+    "4": 17,
+    "5": 2693,
+    "7": 1,
+    "12": 1,
+    "21": 1,
+    "30": 1,
+    "48": 24553
+   }
+  },
+  "dual_b2322": {
+   "LB_dec": 16994.848113380336,
+   "shipped_gap_dec": 0.02597128784661166,
+   "candidate_gap_dec": 0.008880715508678354,
+   "decomposition_sum_dec": 0.02597128784661166
+  },
+  "moment_gain_b2322": 0.017090572337933305,
+  "dual_A2322": {
+   "LB_dec": 16994.876041658015,
+   "shipped_gap_dec": 0.02601547566142529,
+   "candidate_gap_dec": 0.008895784697263055,
+   "decomposition_sum_dec": 0.02601547566142529
+  },
+  "moment_gain_A2322": 0.017119690964162236,
+  "endpoint": {
+   "candidate_bracket": [
+    "0.0016971494356475458117166897688835355107",
+    "0.0016971494356475458117166897688835355108"
+   ],
+   "gain_dec": 8.913938870891669e-08
+  },
+  "chain_bfs": {
+   "35,17": {
+    "depth": 1,
+    "visited": 2
+   },
+   "43,0": {
+    "depth": 3,
+    "visited": 5018
+   }
+  },
+  "bindings": {
+   "candidate_owners_sha256": "b65bc4a5a2f8dd3c06a9be9a114cc61883ea3f5511280755f0d7fea70a2cd4f9",
+   "carry": null
+  }
+ },
+ "tampers": {
+  "T1_offset": {
+   "rejected": true
+  },
+  "T3_width": {
+   "rejected": true
+  },
+  "T5_time": {
+   "rejected": true
+  },
+  "T4_window": {
+   "rejected": true
+  },
+  "T2_gamma_inflated": {
+   "rejected": true
+  }
+ },
+ "seconds": 8.758129119873047,
+ "claim": "LEGAL_FILL_NATIVE_ENDPOINT_ONLY: candidate passes #2322 owners_check and exact endpoint; full cold replay not (yet) recorded as passed"
+}

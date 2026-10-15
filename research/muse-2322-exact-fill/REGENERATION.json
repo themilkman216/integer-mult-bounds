@@ -1,0 +1,8 @@
+{
+ "status": "PASS_REGENERATED_SHIPPED_AND_CANDIDATE_FROM_PR2312",
+ "delta_moves": 473,
+ "shipped_rows": 289044,
+ "candidate_rows": 289044,
+ "source_root": "/tmp/muse2322/src2312",
+ "pr2312_owners_sha256": "80dfcc8972657975e37e20a7c3dd781a4b38f3037ff26de6082509a77e91d1ae"
+}

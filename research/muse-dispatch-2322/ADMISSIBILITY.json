@@ -1,0 +1,60 @@
+{
+ "status": "PASS_ADMISSIBILITY_CODE_ANALYSIS_2322",
+ "scope": "Code-level analysis of hash-pinned #2312 runtime as used verbatim by #2322 delta_replay.py. Not an executed strict replay of a candidate package (screen is zero-gain; task step 2 conditional).",
+ "pinned_quoted_files_sha256_verified": {
+  "replay.py": "3ec4330ede0db3c6daa453b0366817be9435c85c8c3213a0c35c442c96c1a955",
+  "code/witness.py": "08ca58abff11bdfba721dc56ab8acf06ec1b7c48a8699a0955cf35324680aca7",
+  "code/bind_providers_portable.py": "1d39bcc7b63ac158e021454beaae897d123e174360573762aecade3cd43193f6",
+  "code/assembly_controls.py": "d7675ff0b0994b29541d37eaa3010c5f39bb1447700c9f8e750522bf8c951f56",
+  "new/BORROW-PROVIDERS.json": "8f734e68f53ca6009b8022b7d9b8e1a60617c46984f7c724ee57d70ded32a764"
+ },
+ "later_head_files_differing_from_pin_not_quoted": [
+  "audit_mixed.py",
+  "code/invoice_allcold.py",
+  "code/audit_allcold.py",
+  "code/assemble.py",
+  "freeze_spec.py",
+  "independent_core.py",
+  "code/emit_allcold.py",
+  "new/SPEC.json"
+ ],
+ "line_numbers_in_pinned_files": {
+  "replay_bind_both": 19,
+  "replay_independent_both": 29,
+  "bind_set_dirs_eq_pids": 19,
+  "bind_orientation_law": 57,
+  "witness_pids": 31,
+  "witness_providers_eq_pids": 33,
+  "witness_partner": 54,
+  "ac_single_provider_branch": 188,
+  "ac_equal_partner_profiles": 143,
+  "ac_identical_partner_programs": 134,
+  "ac_wrong_selected_call": 128,
+  "ac_moved": 149
+ },
+ "bind_predicate": {
+  "shipped_417_249": true,
+  "extra665_gauge1": true,
+  "all_extra_666": false,
+  "rule": "bind_providers_portable assert set(dirs)==set(PIDS), dirs hardcoded {gauge44,extra} by replay.py bind stage"
+ },
+ "sole_retention_partner_control_census": {
+  "gauge_calls": 249,
+  "even_stage_forward_ok": 142,
+  "odd_stage_backward_not_ok": 107,
+  "first_extra_call": {
+   "stage": 0,
+   "replica": 0,
+   "time": 0,
+   "orientation": "forward"
+  },
+  "retain_8_73_ok": true,
+  "retain_3_65_reasons": [
+   "wrong_selected_call: no partner-stage-parity witness for P=extra",
+   "moved: no same-orientation partner witness for P=extra"
+  ],
+  "retain_8_73_is_unique": false
+ },
+ "verdict": "665+1 with retained (8,73) satisfies the both-providers bind/witness rules and the partner-control witness-existence conditions mirrored here; 666 all-extra fails the bind rule in the replay driver as written. Any admissibility beyond these mirrored predicates (full discovery->freeze->strict->outer) was not executed, because the dispatch is priced-identical: its kappa would be exactly #2322 kappa.",
+ "python": "3.13.16"
+}

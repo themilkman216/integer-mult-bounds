@@ -1,0 +1,103 @@
+{
+ "43": {
+  "A_windows": {
+   "(4, 0)": 112,
+   "(6, 0)": 36,
+   "(29, 16)": 2
+  },
+  "A_window_sizes": {
+   "27": 112,
+   "39": 36,
+   "58": 2
+  },
+  "A_resident_times": [
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21,
+   21
+  ],
+  "B7799": {
+   "items": 1004,
+   "window_ok_pairs": 172,
+   "window_family_ok_pairs": 172,
+   "items_with_any_window_ok": 86,
+   "max_window_ok": 2
+  },
+  "B7889": {
+   "items": 1867,
+   "window_ok_pairs": 0,
+   "window_family_ok_pairs": 0,
+   "items_with_any_window_ok": 0,
+   "max_window_ok": 0
+  },
+  "C79": {
+   "items": 21105,
+   "window_ok_pairs": 163412,
+   "window_family_ok_pairs": 158012,
+   "items_with_any_window_ok": 3406,
+   "max_window_ok": 148
+  },
+  "A_allowed_time_stage_hist": {
+   "0": 2808,
+   "1": 1476,
+   "2": 144,
+   "8": 38,
+   "7": 36,
+   "6": 30,
+   "5": 12
+  },
+  "B7799_seven_stage_hist": {
+   "2": 58,
+   "6": 212,
+   "0": 72,
+   "3": 72,
+   "5": 20,
+   "1": 60,
+   "7": 184,
+   "4": 44,
+   "8": 282
+  },
+  "A_resident_stage_hist": {
+   "0": 112,
+   "1": 36,
+   "6": 2
+  },
+  "A_children": {
+   "0": 148,
+   "16": 2
+  },
+  "A_reps": {
+   "4": 112,
+   "6": 36,
+   "29": 2
+  },
+  "B7799_children": {
+   "4": 164,
+   "6": 141,
+   "14": 148,
+   "15": 49
+  },
+  "B7889_children": {
+   "4": 784,
+   "6": 859,
+   "15": 112,
+   "14": 112
+  }
+ }
+}

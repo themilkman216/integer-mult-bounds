@@ -1,0 +1,56 @@
+{
+ "tag": "base",
+ "candidates": [
+  [
+   592,
+   298
+  ]
+ ],
+ "sim": {
+  "592": {
+   "lender": 298,
+   "deadline": 1061,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 751
+  }
+ },
+ "handoffs": {
+  "49": {
+   "register": 592,
+   "lender": 298,
+   "val": {
+    "298|": "1"
+   },
+   "exact": true
+  }
+ },
+ "handoff_all_exact": true,
+ "y_error_targets_before": [
+  193,
+  199
+ ],
+ "n_error_terms_before": 2,
+ "corrections": [
+  {
+   "target": 193,
+   "source": 298,
+   "operator_word": [
+    49
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 199,
+   "source": 298,
+   "operator_word": [
+    49
+   ],
+   "coefficient": "1/2"
+  }
+ ],
+ "unhandled_terms": [],
+ "y_error_targets_after": [],
+ "solved": true,
+ "seconds": 0.31875641800024823
+}

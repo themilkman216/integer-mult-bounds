@@ -1,0 +1,53 @@
+{
+ "status": "PASS_MUSE_DISPATCH_2322_VERIFY_ZERO_GAIN",
+ "claim": "No strict dispatch gain on #2322: H and exact moment identical for shipped 417/249, 665+1 retain (8,73), and 666 all-extra dispatches.",
+ "kappa_2322": "1697060296258836/1000000000000000000",
+ "kappa_candidate": "1697060296258836/1000000000000000000",
+ "kappa_gain_exact": "0",
+ "H": {
+  "1": 1576979,
+  "2": 340992,
+  "3": 292195,
+  "4": 79937,
+  "5": 27958,
+  "7": 87,
+  "8": 5328,
+  "12": 1,
+  "21": 1,
+  "48": 24545
+ },
+ "paid_common_per_call": {
+  "1": 2335,
+  "2": 512,
+  "3": 426,
+  "4": 120,
+  "5": 38,
+  "8": 8
+ },
+ "moment_enclosure_at_kappa2322": [
+  "115792089237316195123871831218851866340658601555390741603286965325814021197923/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+  "14474011154664524390483978902356483292582325194423842700410870665726752649753/14474011154664524427946373126085988481658748083205070504932198000989141204992"
+ ],
+ "stages": [
+  "provider_priced_equality_and_word_recount",
+  "owners_check_H_dispatch_invariant",
+  "exact_moment_identical_gain_zero",
+  "retained_call_admissibility_predicates",
+  "screen_admissibility_receipt_binding"
+ ],
+ "tamper_controls_rejected": [
+  "T1 extra paid_profile[1]+=1: rejected (ValueError)",
+  "T2 extra widths swapped (two helpers): rejected (ValueError)",
+  "T3 owner-row offset +=100: rejected (ValueError)",
+  "T4 H[1]+=1 mass: rejected (ValueError)",
+  "T5 all-extra 666 bind rule: rejected (ValueError)",
+  "T6 sole retained gauge44 (3,65) backward/odd-stage: rejected (ValueError)"
+ ],
+ "receipt_sha256": {
+  "SCREEN.json": "fab3d434ba6379cbfc8c64c3b73bd1bc5eadb7bbbace2111945c3898517a27f9",
+  "ADMISSIBILITY.json": "40810e78446643fdf3229722a8fd548751c9d0592901c0059b6dbe6702b2c624"
+ },
+ "not_run": "#2322 cold_replay / discovery->strict->outer on a 665+1 candidate data copy (conditional on a strict gain, falsified here); see README open obligations.",
+ "python": "3.13.16",
+ "seconds": 8.547
+}

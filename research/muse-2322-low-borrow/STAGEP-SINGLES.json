@@ -1,0 +1,233 @@
+{
+ "canonical": "gauge44.canonical.json.gz (byte-identical PR2269/PR2312 inputs)",
+ "base_witness": "PR2312 new/borrow/inputs/witness_43_base.json (42 pairs)",
+ "stage": "P: adapted pr2226 replay + build_word + audit_local --base canonical + borrow_controls",
+ "results": {
+  "V0": {
+   "description": "PR2312 shipped 42-pair witness (control)",
+   "pairs": 42,
+   "low": 0,
+   "replay_rc": 0,
+   "replay_seconds": 0.88,
+   "replay_tail": "PASS_FIXED_BORROWED_WORD columns=662 removed=42 cold=78\n",
+   "build_rc": 0,
+   "build_seconds": 0.49,
+   "build_tail": "wrote /tmp/muse-2322-stagep/word_V0.json.gz 1901 4504 42 78\n",
+   "audit_rc": 0,
+   "audit_seconds": 1.61,
+   "audit_tail": "o, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.\"\n}\n",
+   "audit_status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD",
+   "profile": {
+    "1": 2353,
+    "2": 500,
+    "3": 416,
+    "4": 128,
+    "5": 42,
+    "8": 8
+   },
+   "mass": 5387,
+   "widths": {
+    "4": 37,
+    "5": 9,
+    "7": 38,
+    "8": 114,
+    "9": 240
+   },
+   "removed": 42,
+   "warps": 42,
+   "corrections": 0,
+   "restored_cold": 78,
+   "zero_buffers": 78,
+   "controls_rc": 0,
+   "controls_seconds": 8.56,
+   "controls_tail": "renced\nrejected wrong claimed profile | paid profile mismatch {1: 2353, 2: 500, 3: 416, 4: 128, 5: 42, 8: 8}\nrejected wrong claimed width inventory | width inventory mismatch {4: 37, 5: 9, 7: 38, 8: 114, 9: 240}\nrejected frame chain not monotone | frame not monotone (114, (45,), ())\nALL CONTROLS OK\n"
+  },
+  "V653": {
+   "description": "PR2312 + 653<-73",
+   "pairs": 43,
+   "low": 0,
+   "replay_rc": 0,
+   "replay_seconds": 0.61,
+   "replay_tail": "PASS_FIXED_BORROWED_WORD columns=661 removed=43 cold=77\n",
+   "build_rc": 0,
+   "build_seconds": 0.5,
+   "build_tail": "wrote /tmp/muse-2322-stagep/word_V653.json.gz 1901 4503 43 77\n",
+   "audit_rc": 0,
+   "audit_seconds": 0.93,
+   "audit_tail": "o, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.\"\n}\n",
+   "audit_status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD",
+   "profile": {
+    "1": 2353,
+    "2": 500,
+    "3": 415,
+    "4": 128,
+    "5": 42,
+    "8": 8
+   },
+   "mass": 5384,
+   "widths": {
+    "4": 36,
+    "5": 9,
+    "7": 37,
+    "8": 115,
+    "9": 240
+   },
+   "removed": 43,
+   "warps": 43,
+   "corrections": 0,
+   "restored_cold": 77,
+   "zero_buffers": 77,
+   "controls_rc": 0,
+   "controls_seconds": 8.53,
+   "controls_tail": "renced\nrejected wrong claimed profile | paid profile mismatch {1: 2353, 2: 500, 3: 415, 4: 128, 5: 42, 8: 8}\nrejected wrong claimed width inventory | width inventory mismatch {4: 36, 5: 9, 7: 37, 8: 115, 9: 240}\nrejected frame chain not monotone | frame not monotone (114, (45,), ())\nALL CONTROLS OK\n",
+   "delta_profile_vs_V0": {
+    "3": -1
+   },
+   "delta_widths_vs_V0": {
+    "4": -1,
+    "7": -1,
+    "8": 1
+   }
+  },
+  "V606": {
+   "description": "PR2312 + 606<-1 (width-5 high)",
+   "pairs": 43,
+   "low": 0,
+   "replay_rc": 0,
+   "replay_seconds": 0.65,
+   "replay_tail": "PASS_FIXED_BORROWED_WORD columns=661 removed=43 cold=78\n",
+   "build_rc": 0,
+   "build_seconds": 0.57,
+   "build_tail": "wrote /tmp/muse-2322-stagep/word_V606.json.gz 1901 4505 43 78\n",
+   "audit_rc": 0,
+   "audit_seconds": 1.13,
+   "audit_tail": "o, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.\"\n}\n",
+   "audit_status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD",
+   "profile": {
+    "1": 2353,
+    "2": 500,
+    "3": 416,
+    "4": 128,
+    "5": 41,
+    "8": 8
+   },
+   "mass": 5382,
+   "widths": {
+    "4": 37,
+    "5": 8,
+    "7": 38,
+    "8": 114,
+    "9": 240
+   },
+   "removed": 43,
+   "warps": 43,
+   "corrections": 0,
+   "restored_cold": 78,
+   "zero_buffers": 78,
+   "controls_rc": 0,
+   "controls_seconds": 8.55,
+   "controls_tail": "renced\nrejected wrong claimed profile | paid profile mismatch {1: 2353, 2: 500, 3: 416, 4: 128, 5: 41, 8: 8}\nrejected wrong claimed width inventory | width inventory mismatch {4: 37, 5: 8, 7: 38, 8: 114, 9: 240}\nrejected frame chain not monotone | frame not monotone (114, (45,), ())\nALL CONTROLS OK\n",
+   "delta_profile_vs_V0": {
+    "5": -1
+   },
+   "delta_widths_vs_V0": {
+    "5": -1
+   }
+  },
+  "Vlow592": {
+   "description": "PR2312 + low 592<-298",
+   "pairs": 43,
+   "low": 1,
+   "replay_rc": 0,
+   "replay_seconds": 0.75,
+   "replay_tail": "PASS_FIXED_BORROWED_WORD columns=661 removed=43 cold=77\n",
+   "build_rc": 0,
+   "build_seconds": 0.67,
+   "build_tail": "wrote /tmp/muse-2322-stagep/word_Vlow592.json.gz 1897 4505 43 77\n",
+   "audit_rc": 0,
+   "audit_seconds": 1.03,
+   "audit_tail": "o, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.\"\n}\n",
+   "audit_status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD",
+   "profile": {
+    "1": 2353,
+    "2": 500,
+    "3": 415,
+    "4": 128,
+    "5": 42,
+    "8": 8
+   },
+   "mass": 5384,
+   "widths": {
+    "4": 36,
+    "5": 9,
+    "7": 38,
+    "8": 113,
+    "9": 241
+   },
+   "removed": 43,
+   "warps": 43,
+   "corrections": 2,
+   "restored_cold": 77,
+   "zero_buffers": 77,
+   "controls_rc": 0,
+   "controls_seconds": 10.42,
+   "controls_tail": " frame\nrejected wrong claimed profile | paid profile mismatch {1: 2353, 2: 500, 3: 415, 4: 128, 5: 42, 8: 8}\nrejected wrong claimed width inventory | width inventory mismatch {4: 36, 5: 9, 7: 38, 8: 113, 9: 241}\nrejected frame chain not monotone | frame not monotone (212, (51,), ())\nALL CONTROLS OK\n",
+   "delta_profile_vs_V0": {
+    "3": -1
+   },
+   "delta_widths_vs_V0": {
+    "4": -1,
+    "8": -1,
+    "9": 1
+   }
+  },
+  "Vlow624": {
+   "description": "PR2312 + low 624<-378",
+   "pairs": 43,
+   "low": 1,
+   "replay_rc": 0,
+   "replay_seconds": 0.72,
+   "replay_tail": "PASS_FIXED_BORROWED_WORD columns=661 removed=43 cold=77\n",
+   "build_rc": 0,
+   "build_seconds": 0.56,
+   "build_tail": "wrote /tmp/muse-2322-stagep/word_Vlow624.json.gz 1897 4505 43 77\n",
+   "audit_rc": 0,
+   "audit_seconds": 0.96,
+   "audit_tail": "o, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.\"\n}\n",
+   "audit_status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD",
+   "profile": {
+    "1": 2354,
+    "2": 500,
+    "3": 416,
+    "4": 127,
+    "5": 42,
+    "8": 8
+   },
+   "mass": 5384,
+   "widths": {
+    "4": 36,
+    "5": 9,
+    "7": 38,
+    "8": 113,
+    "9": 241
+   },
+   "removed": 43,
+   "warps": 43,
+   "corrections": 2,
+   "restored_cold": 77,
+   "zero_buffers": 77,
+   "controls_rc": 0,
+   "controls_seconds": 11.0,
+   "controls_tail": " frame\nrejected wrong claimed profile | paid profile mismatch {1: 2354, 2: 500, 3: 416, 4: 127, 5: 42, 8: 8}\nrejected wrong claimed width inventory | width inventory mismatch {4: 36, 5: 9, 7: 38, 8: 113, 9: 241}\nrejected frame chain not monotone | frame not monotone (114, (45,), ())\nALL CONTROLS OK\n",
+   "delta_profile_vs_V0": {
+    "1": 1,
+    "4": -1
+   },
+   "delta_widths_vs_V0": {
+    "4": -1,
+    "8": -1,
+    "9": 1
+   }
+  }
+ }
+}

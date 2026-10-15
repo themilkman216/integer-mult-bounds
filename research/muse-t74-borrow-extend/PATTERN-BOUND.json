@@ -1,0 +1,32 @@
+{
+ "fill": "FILL80-START.json.gz",
+ "iterations": 18,
+ "start_moment": 17983.197972778788,
+ "relaxed_moment": 17982.576722493694,
+ "budget": 17977.06775088235,
+ "margin": -5.508971611343441,
+ "patterns": {
+  "8:[8]": 35982,
+  "32:[9, 9, 9]": 25706,
+  "16:[9, 7]": 21589,
+  "48:[]": 20701,
+  "8:[]": 13746,
+  "48:[9, 9, 9, 9, 9]": 12451,
+  "16:[8, 8]": 8598,
+  "32:[9, 9, 9, 4]": 2664,
+  "32:[9, 9, 9, 5]": 2664,
+  "16:[9]": 1819,
+  "32:[9, 8, 8, 7]": 1383,
+  "16:[]": 1146,
+  "32:[9, 9, 7, 7]": 502,
+  "32:[]": 233
+ },
+ "role_counts": {
+  "4": 2664,
+  "5": 2664,
+  "7": 23976,
+  "8": 55944,
+  "9": 181152
+ },
+ "caveat": "Pattern-count hill climb (moves+swaps, maximal multiplicity) of the window/family-relaxed problem; a local optimum of this relaxation, not a proved global lower bound."
+}

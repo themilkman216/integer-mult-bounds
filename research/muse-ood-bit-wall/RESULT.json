@@ -1,0 +1,579 @@
+{
+ "B0_base": {
+  "a_hi": "488979689/250000000000",
+  "a_hi_dec": "0.001955918756",
+  "a_lo": "391183751/200000000000",
+  "controls": "endpoint below bracket; extra rank-1 lowers ceiling; custom-R == pinned relax at R=45 (3 points); seed03 bracket meets ours",
+  "kappa_cap_if_bit_binds": "0.00195210060581",
+  "one_extra_rank1_hi_dec": "0.001955510123",
+  "partner_kappa_multiple_at_most": "1.16706346527",
+  "reading": "Ratio-adjusted partner target = required a / realization ratio: the ceiling a word needs if it keeps the shipped endpoint/ceiling loss. Heuristic margin, not a bound.",
+  "realization_ratio_endpoint_over_ceiling_hi": "0.886246953905",
+  "seed03_independent_bracket": [
+   "21505554149/10995116277760",
+   "2150555415/1099511627776"
+  ],
+  "x_base_ceiling_hi": "1",
+  "x_bit_endpoint_hi": "1.12835366665"
+ },
+ "B1_helper_skeleton": {
+  "ceilings_I_ideal_data": {
+   "K=0": {
+    "a_hi": "3397192147/500000000000",
+    "a_hi_dec": "0.006794384294",
+    "a_lo": "6794384293/1000000000000",
+    "helper_registers_incl_totals": 0,
+    "kappa_cap_if_bit_binds": "0.006748532173",
+    "partner_kappa_multiple_at_most": "4.03461036784",
+    "x_base_ceiling_hi": "3.47375588744",
+    "x_bit_endpoint_hi": "3.91962519265"
+   },
+   "K=138": {
+    "a_hi": "4981302647/1000000000000",
+    "a_hi_dec": "0.004981302647",
+    "a_lo": "2490651323/500000000000",
+    "helper_registers_incl_totals": 138,
+    "kappa_cap_if_bit_binds": "0.00495661226122",
+    "partner_kappa_multiple_at_most": "2.96331094019",
+    "x_base_ceiling_hi": "2.54678402757",
+    "x_bit_endpoint_hi": "2.87367309568"
+   },
+   "K=180": {
+    "a_hi": "1151838999/250000000000",
+    "a_hi_dec": "0.004607355996",
+    "a_lo": "921471199/200000000000",
+    "helper_registers_incl_totals": 180,
+    "kappa_cap_if_bit_binds": "0.00458622562188",
+    "partner_kappa_multiple_at_most": "2.74187526546",
+    "x_base_ceiling_hi": "2.35559681703",
+    "x_bit_endpoint_hi": "2.65794630565"
+   },
+   "K=212": {
+    "a_hi": "4358129723/1000000000000",
+    "a_hi_dec": "0.004358129723",
+    "a_lo": "2179064861/500000000000",
+    "helper_registers_incl_totals": 212,
+    "kappa_cap_if_bit_binds": "0.00433921884438",
+    "partner_kappa_multiple_at_most": "2.59420224859",
+    "x_base_ceiling_hi": "2.22817522948",
+    "x_bit_endpoint_hi": "2.51416969014"
+   },
+   "K=222": {
+    "a_hi": "2142844997/500000000000",
+    "a_hi_dec": "0.004285689994",
+    "a_lo": "4285689993/1000000000000",
+    "helper_registers_incl_totals": 222,
+    "kappa_cap_if_bit_binds": "0.00426740123523",
+    "partner_kappa_multiple_at_most": "2.55126608661",
+    "x_base_ceiling_hi": "2.19113906488",
+    "x_bit_endpoint_hi": "2.47237979801"
+   },
+   "K=267": {
+    "a_hi": "3987464229/1000000000000",
+    "a_hi_dec": "0.003987464229",
+    "a_lo": "996866057/250000000000",
+    "helper_registers_incl_totals": 267,
+    "kappa_cap_if_bit_binds": "0.00397162750639",
+    "partner_kappa_multiple_at_most": "2.37443774493",
+    "x_base_ceiling_hi": "2.03866557175",
+    "x_bit_endpoint_hi": "2.30033577297"
+   },
+   "K=332": {
+    "a_hi": "1811663567/500000000000",
+    "a_hi_dec": "0.003623327134",
+    "a_lo": "3623327133/1000000000000",
+    "helper_registers_incl_totals": 332,
+    "kappa_cap_if_bit_binds": "0.00361024603159",
+    "partner_kappa_multiple_at_most": "2.15838580837",
+    "x_base_ceiling_hi": "1.85249367996",
+    "x_bit_endpoint_hi": "2.09026803623"
+   },
+   "K=439": {
+    "a_hi": "314989607/100000000000",
+    "a_hi_dec": "0.00314989607",
+    "a_lo": "3149896069/1000000000000",
+    "helper_registers_incl_totals": 439,
+    "kappa_cap_if_bit_binds": "0.0031400053794",
+    "partner_kappa_multiple_at_most": "1.87725240601",
+    "x_base_ceiling_hi": "1.61044320493",
+    "x_bit_endpoint_hi": "1.81714949522"
+   }
+  },
+  "ceilings_S_shipped_data": {
+   "k=0": {
+    "a_hi": "631865479/125000000000",
+    "a_hi_dec": "0.005054923832",
+    "a_lo": "5054923831/1000000000000",
+    "helper_registers_incl_totals": 9,
+    "kappa_cap_if_bit_binds": "0.00502950009212",
+    "partner_kappa_multiple_at_most": "3.0068869343",
+    "x_base_ceiling_hi": "2.58442423362",
+    "x_bit_endpoint_hi": "2.9161445602"
+   },
+   "k=129": {
+    "a_hi": "4035809171/1000000000000",
+    "a_hi_dec": "0.004035809171",
+    "a_lo": "403580917/100000000000",
+    "helper_registers_incl_totals": 138,
+    "kappa_cap_if_bit_binds": "0.00401958688538",
+    "partner_kappa_multiple_at_most": "2.40311026257",
+    "x_base_ceiling_hi": "2.06338282642",
+    "x_bit_endpoint_hi": "2.3282255779"
+   },
+   "k=171": {
+    "a_hi": "946797733/250000000000",
+    "a_hi_dec": "0.003787190932",
+    "a_lo": "3787190931/1000000000000",
+    "helper_registers_incl_totals": 180,
+    "kappa_cap_if_bit_binds": "0.00377290223088",
+    "partner_kappa_multiple_at_most": "2.25562982695",
+    "x_base_ceiling_hi": "1.93627210761",
+    "x_bit_endpoint_hi": "2.18479973227"
+   },
+   "k=203": {
+    "a_hi": "3617400077/1000000000000",
+    "a_hi_dec": "0.003617400077",
+    "a_lo": "904350019/250000000000",
+    "helper_registers_incl_totals": 212,
+    "kappa_cap_if_bit_binds": "0.00360436165886",
+    "partner_kappa_multiple_at_most": "2.15486783577",
+    "x_base_ceiling_hi": "1.84946336135",
+    "x_bit_endpoint_hi": "2.08684876512"
+   },
+   "k=222": {
+    "a_hi": "3523601483/1000000000000",
+    "a_hi_dec": "0.003523601483",
+    "a_lo": "1761800741/500000000000",
+    "helper_registers_incl_totals": 231,
+    "kappa_cap_if_bit_binds": "0.0035112293102",
+    "partner_kappa_multiple_at_most": "2.09918865549",
+    "x_base_ceiling_hi": "1.80150707804",
+    "x_bit_endpoint_hi": "2.03273711701"
+   },
+   "k=258": {
+    "a_hi": "134343601/40000000000",
+    "a_hi_dec": "0.003358590025",
+    "a_lo": "419823753/125000000000",
+    "helper_registers_incl_totals": 267,
+    "kappa_cap_if_bit_binds": "0.00334734765655",
+    "partner_kappa_multiple_at_most": "2.00121199895",
+    "x_base_ceiling_hi": "1.71714188777",
+    "x_bit_endpoint_hi": "1.93754334523"
+   },
+   "k=300": {
+    "a_hi": "3184594247/1000000000000",
+    "a_hi_dec": "0.003184594247",
+    "a_lo": "1592297123/500000000000",
+    "helper_registers_incl_totals": 309,
+    "kappa_cap_if_bit_binds": "0.00317448480097",
+    "partner_kappa_multiple_at_most": "1.89786593028",
+    "x_base_ceiling_hi": "1.62818329608",
+    "x_bit_endpoint_hi": "1.83716659211"
+   },
+   "k=350": {
+    "a_hi": "11998371/4000000000",
+    "a_hi_dec": "0.00299959275",
+    "a_lo": "2999592749/1000000000000",
+    "helper_registers_incl_totals": 359,
+    "kappa_cap_if_bit_binds": "0.00299062210163",
+    "partner_kappa_multiple_at_most": "1.78794360436",
+    "x_base_ceiling_hi": "1.53359782496",
+    "x_bit_endpoint_hi": "1.73044072897"
+   },
+   "k=430": {
+    "a_hi": "137224507/50000000000",
+    "a_hi_dec": "0.00274449014",
+    "a_lo": "2744490139/1000000000000",
+    "helper_registers_incl_totals": 439,
+    "kappa_cap_if_bit_binds": "0.00273697852941",
+    "partner_kappa_multiple_at_most": "1.63630277937",
+    "x_base_ceiling_hi": "1.40317185035",
+    "x_bit_endpoint_hi": "1.58327410229"
+   }
+  },
+  "floors_helper_registers": {
+   "shipped": 439,
+   "sink_only": 212,
+   "source": "research/format-limits section D (drop-free monotone-chain model; crossing lemma argued, cover numbers checked there)",
+   "strict": 138,
+   "with_shipped_data_ladders": 222
+  },
+  "hypothesis": "Shipped fragmented helper climbs (430 helpers: 969 rank-1 + 1041 rank-2 + ... children, mass 3440) replaced by k single rank-8 climbs (mass 8k); removed helper mass becomes idle at R. Variant S keeps shipped data ladders and shipped totals; variant I idealises data to single rank-7 climbs (seed03 convention). Copies (63) kept. Monotone, drop-free: format-limits section D floors (212 sink-only / 138 strict / 222 with shipped ladders, helper registers incl. totals) still apply and are compared, not assumed away. Single-climb realisability (frames, windows, hosting) is NOT charged beyond rank shape; B2 prices descents.",
+  "thresholds": {
+   "a_0.003": {
+    "I_ideal_data": {
+     "K_fail": 480,
+     "K_pass": 479
+    },
+    "S_shipped_data": {
+     "k_fail": 350,
+     "k_pass": 349,
+     "registers_pass_incl_totals": 358
+    }
+   },
+   "kappa_x1.10_ratio_adjusted_ceiling": {
+    "I_ideal_data": {
+     "K_fail": 583,
+     "K_pass": 582
+    },
+    "S_shipped_data": {
+     "k_fail": 574,
+     "k_pass": 573,
+     "registers_pass_incl_totals": 582
+    }
+   },
+   "kappa_x1.10_required_a": {
+    "I_ideal_data": {
+     "K_fail": 583,
+     "K_pass": 582
+    },
+    "S_shipped_data": {
+     "k_fail": 574,
+     "k_pass": 573,
+     "registers_pass_incl_totals": 582
+    }
+   },
+   "kappa_x2_required_a": {
+    "I_ideal_data": {
+     "K_fail": 389,
+     "K_pass": 388
+    },
+    "S_shipped_data": {
+     "k_fail": 259,
+     "k_pass": 258,
+     "registers_pass_incl_totals": 267
+    }
+   },
+   "kappa_x2_required_a_R50_whatif": {
+    "S_shipped_data": {
+     "k_fail": 277,
+     "k_pass": 276,
+     "registers_pass_incl_totals": 285
+    },
+    "note": "idle cap beyond the record guard; needs the elementary-cover row bound"
+   },
+   "kappa_x2_required_a_R53_whatif": {
+    "S_shipped_data": {
+     "k_fail": 286,
+     "k_pass": 285,
+     "registers_pass_incl_totals": 294
+    },
+    "note": "idle cap beyond the record guard; needs the elementary-cover row bound"
+   },
+   "planning_1_99": {
+    "I_ideal_data": {
+     "K_fail": 0,
+     "K_pass": null
+    },
+    "S_shipped_data": {
+     "k_fail": 0,
+     "k_pass": null,
+     "registers_pass_incl_totals": null
+    }
+   }
+  }
+ },
+ "B2_descent_breakeven": {
+  "budgets_at_kappa_x2": {
+   "S_k=129": {
+    "add_rank1": {
+     "L_fail": "468.4",
+     "L_pass": "468.3",
+     "note": "sharp adjacent-grid bracket"
+    },
+    "add_rank8": {
+     "L_fail": "1035.8",
+     "L_pass": "1035.7",
+     "note": "sharp adjacent-grid bracket"
+    },
+    "helper_registers_incl_totals": 138
+   },
+   "S_k=141": {
+    "add_rank1": {
+     "L_fail": "425",
+     "L_pass": "424.9",
+     "note": "sharp adjacent-grid bracket"
+    },
+    "add_rank8": {
+     "L_fail": "939.8",
+     "L_pass": "939.7",
+     "note": "sharp adjacent-grid bracket"
+    },
+    "helper_registers_incl_totals": 150
+   },
+   "S_k=171": {
+    "add_rank1": {
+     "L_fail": "316.4",
+     "L_pass": "316.3",
+     "note": "sharp adjacent-grid bracket"
+    },
+    "add_rank8": {
+     "L_fail": "699.8",
+     "L_pass": "699.7",
+     "note": "sharp adjacent-grid bracket"
+    },
+    "helper_registers_incl_totals": 180
+   },
+   "S_k=203": {
+    "add_rank1": {
+     "L_fail": "200.7",
+     "L_pass": "200.6",
+     "note": "sharp adjacent-grid bracket"
+    },
+    "add_rank8": {
+     "L_fail": "443.8",
+     "L_pass": "443.7",
+     "note": "sharp adjacent-grid bracket"
+    },
+    "helper_registers_incl_totals": 212
+   }
+  },
+  "hypothesis": "Helpers below the monotone floors pay descents. Added work billed as fractional rank-r children inside the coverage total (0.1 mass grid, certified opposite signs). Format-limits C.7 prices a rank-1 descent at 2 mass units per call; the descent-count reading divides the rank-1-shaped budget by 2 (pessimistic shape) and is labelled as such."
+ },
+ "B3_copy_charge_unit": {
+  "cst_sweep_v111": {
+   "cst=0": {
+    "a_hi": "1354911109/250000000000",
+    "a_hi_dec": "0.005419644436",
+    "a_lo": "1083928887/200000000000",
+    "kappa_cap_if_bit_binds": "0.00539043022085",
+    "partner_kappa_multiple_at_most": "3.22266903359",
+    "x_base_ceiling_hi": "2.77089445529",
+    "x_bit_endpoint_hi": "3.12654891854"
+   },
+   "cst=14": {
+    "a_hi": "4648950171/1000000000000",
+    "a_hi_dec": "0.004648950171",
+    "a_lo": "464895017/100000000000",
+    "kappa_cap_if_bit_binds": "0.0046274374449",
+    "partner_kappa_multiple_at_most": "2.76651375634",
+    "x_base_ceiling_hi": "2.37686261596",
+    "x_bit_endpoint_hi": "2.68194164786"
+   },
+   "cst=21": {
+    "a_hi": "2131906117/500000000000",
+    "a_hi_dec": "0.004263812234",
+    "a_lo": "4263812233/1000000000000",
+    "kappa_cap_if_bit_binds": "0.00424570932663",
+    "partner_kappa_multiple_at_most": "2.53829757775",
+    "x_base_ceiling_hi": "2.17995365141",
+    "x_bit_endpoint_hi": "2.4597586957"
+   },
+   "cst=28": {
+    "a_hi": "31030511/8000000000",
+    "a_hi_dec": "0.003878813875",
+    "a_lo": "1939406937/500000000000",
+    "kappa_cap_if_bit_binds": "0.00386382680996",
+    "partner_kappa_multiple_at_most": "2.30998909205",
+    "x_base_ceiling_hi": "1.98311604871",
+    "x_bit_endpoint_hi": "2.23765626497"
+   },
+   "cst=35": {
+    "a_hi": "1746977591/500000000000",
+    "a_hi_dec": "0.003493955182",
+    "a_lo": "3493955181/1000000000000",
+    "kappa_cap_if_bit_binds": "0.00348178996391",
+    "partner_kappa_multiple_at_most": "2.08158834054",
+    "x_base_ceiling_hi": "1.78634985287",
+    "x_bit_endpoint_hi": "2.01563440641"
+   },
+   "cst=42": {
+    "a_hi": "1554618119/500000000000",
+    "a_hi_dec": "0.003109236238",
+    "a_lo": "3109236237/1000000000000",
+    "kappa_cap_if_bit_binds": "0.00309959885292",
+    "partner_kappa_multiple_at_most": "1.85309536171",
+    "x_base_ceiling_hi": "1.58965510631",
+    "x_bit_endpoint_hi": "1.79369316792"
+   },
+   "cst=49": {
+    "a_hi": "2724657129/1000000000000",
+    "a_hi_dec": "0.002724657129",
+    "a_lo": "340582141/125000000000",
+    "kappa_cap_if_bit_binds": "0.00271725354476",
+    "partner_kappa_multiple_at_most": "1.6245101961",
+    "x_base_ceiling_hi": "1.39303185301",
+    "x_bit_endpoint_hi": "1.57183259911"
+   },
+   "cst=56": {
+    "a_hi": "2340217941/1000000000000",
+    "a_hi_dec": "0.002340217941",
+    "a_lo": "117010897/50000000000",
+    "kappa_cap_if_bit_binds": "0.00233475410755",
+    "partner_kappa_multiple_at_most": "1.39583288443",
+    "x_base_ceiling_hi": "1.19648013693",
+    "x_bit_endpoint_hi": "1.35005274958"
+   },
+   "cst=63": {
+    "a_hi": "488979689/250000000000",
+    "a_hi_dec": "0.001955918756",
+    "a_lo": "391183751/200000000000",
+    "kappa_cap_if_bit_binds": "0.00195210060581",
+    "partner_kappa_multiple_at_most": "1.16706346527",
+    "x_base_ceiling_hi": "1",
+    "x_bit_endpoint_hi": "1.12835366665"
+   },
+   "cst=7": {
+    "a_hi": "5034227601/1000000000000",
+    "a_hi_dec": "0.005034227601",
+    "a_lo": "12585569/2500000000",
+    "kappa_cap_if_bit_binds": "0.00500901109907",
+    "partner_kappa_multiple_at_most": "2.99463758857",
+    "x_base_ceiling_hi": "2.57384289892",
+    "x_bit_endpoint_hi": "2.90420507239"
+   }
+  },
+  "deficit_arithmetic": {
+   "delta_D_per_replica_unit": 9,
+   "per_replica_unit_D_102_54": 330,
+   "per_replica_unit_D_111_63": 321,
+   "reading": "D = T[(s-1)v - s.cst] at s=9; puncturing 9 more lines at delta-cst 9 gains only +9 per replica unit before w shrinkage",
+   "shipped_D": 10272
+  },
+  "hypothesis": "Copy charge c carried as c/7 rank-7 copies (seed03 premise; rank-8 carriage changes no seed03 conclusion). Same-unit reductions below 63 must escape the pairing-rank floor (#446 Thm C, cited in format-limits A.6: bit 111/63 status argued for punctures p<=25 only) and are shown as a price curve, not as available. Puncture row scales every non-copy count by 102/111, sets copies to 54 and families to 816 (format-limits A.6 outside-scope unit x=54/102); existence of that puncture is unproved.",
+  "puncture_102_54_scaled": {
+   "a_hi": "2188419177/1000000000000",
+   "a_hi_dec": "0.002188419177",
+   "a_lo": "273552397/125000000000",
+   "families": 816,
+   "kappa_cap_if_bit_binds": "0.00218364045635",
+   "partner_kappa_multiple_at_most": "1.30548957891",
+   "w_dec": "90.6666666667",
+   "x_base_ceiling_hi": "1.11887018328",
+   "x_bit_endpoint_hi": "1.26248127381"
+  }
+ },
+ "B4_data_algebra_bound": {
+  "data_ideal_only": {
+   "a_hi": "1071420679/500000000000",
+   "a_hi_dec": "0.002142841358",
+   "a_lo": "2142841357/1000000000000",
+   "kappa_cap_if_bit_binds": "0.00213825940731",
+   "partner_kappa_multiple_at_most": "1.278358516",
+   "verdicts": {
+    "kappa_x1.10_required_a": -1,
+    "kappa_x2_required_a": 1,
+    "planning_1_99": 1
+   },
+   "x_base_ceiling_hi": "1.09556767193",
+   "x_bit_endpoint_hi": "1.23618779969"
+  },
+  "free_data": {
+   "a_hi": "648224829/250000000000",
+   "a_hi_dec": "0.002592899316",
+   "a_lo": "518579863/200000000000",
+   "kappa_cap_if_bit_binds": "0.00258619357644",
+   "partner_kappa_multiple_at_most": "1.54615598611",
+   "verdicts": {
+    "kappa_x1.10_required_a": -1,
+    "kappa_x2_required_a": 1,
+    "planning_1_99": 1
+   },
+   "x_base_ceiling_hi": "1.32566820991",
+   "x_bit_endpoint_hi": "1.49582258542"
+  },
+  "hypothesis": "Any register-algebra saving can only remove or reshape data-register work (sources+targets, mass 1554). free_data deletes it entirely: an absolute ceiling for every data-side algebra with shipped helpers and copies. data_ideal_only reshapes it to single rank-7 climbs."
+ },
+ "B5_connector_dilution": {
+  "f=1/10": {
+   "a_hi": "1095373919/500000000000",
+   "a_hi_dec": "0.002190747838",
+   "a_lo": "2190747837/1000000000000",
+   "kappa_cap_if_bit_binds": "0.00218595895315",
+   "partner_kappa_multiple_at_most": "1.30687569237",
+   "x_base_ceiling_hi": "1.12006075471",
+   "x_bit_endpoint_hi": "1.26382465946"
+  },
+  "f=2/74": {
+   "a_hi": "2014267997/1000000000000",
+   "a_hi_dec": "0.002014267997",
+   "a_lo": "503566999/250000000000",
+   "kappa_cap_if_bit_binds": "0.00201021887745",
+   "partner_kappa_multiple_at_most": "1.20180947748",
+   "x_base_ceiling_hi": "1.02983213941",
+   "x_bit_endpoint_hi": "1.16201487054"
+  },
+  "hypothesis": "Generous fiction: a fraction f of ALL local mass is five-source connector work whose query saving converts rank-1 mass to idle at no leaf cost. f=2/74 is the #2056 query saving (74->72; its leaf bill ties 182=182, so the true conversion is smaller); f=1/10 is a robustness fiction. No connector instance inside the selected bit supplier is identified by #2056/#2060/#2063/#2065 or here."
+ },
+ "B6_schedule_fence": {
+  "D_over_W_bound_dec": "0.361486486486",
+  "D_over_W_bound_s9": "107/296",
+  "D_over_W_shipped": "107/296",
+  "D_over_W_shipped_dec": "0.361486486486",
+  "N_bound": {
+   "K=3,s=4": 8,
+   "K=4,s=9": 9,
+   "K=5,s=11": 11,
+   "K=7,s=8": 16
+  },
+  "attains_bound": true,
+  "hypothesis": "Shear-type local words under the coverage law; any pairs per stage, mixed orientations, arbitrary block-diagonal bridges, any pair-level signed rho (#2052 Theorem S model, complex T74 pricing; bit fence checked here only as exact fraction arithmetic). Escapes named there: non-shear word, rho through a third bank class (coverage-law change), even-s attainment beyond (K=3,s=4).",
+  "reading": "Shipped B_K attains the per-port deficit bound at s=9; multi-pair bit schedules inside the model cannot raise D/W"
+ },
+ "pins": {
+  "a_bit_selected": "1733427039589844234749/1000000000000000000000000",
+  "a_complex_selected": "67018507072324140917/40000000000000000000000",
+  "base_commit": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+  "bit_word_per_call": {
+   "1": 1323,
+   "2": 1342,
+   "3": 79,
+   "4": 44,
+   "5": 102,
+   "6": 11,
+   "7": 19
+  },
+  "engine": "research/complex-local-word-ceiling/ceiling.py",
+  "engine_sha256": "86a1432870b3b21d8454106ec9162fddc0471472d9214c590a1420f2426cedfc",
+  "grid": "1/10^12",
+  "kappa_selected": "836330098538459/500000000000000000",
+  "seed03_result": "research/bit-revision3-levers-seed03/RESULT.json",
+  "seed03_result_sha256": "5cabbf737ed857061ed02b6a49243e656fbe850e5a614a5f94763f32fb16896b",
+  "selected_record": "certificates/selected-result.json",
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32"
+ },
+ "scope": "Exact favorable relaxations of the selected PR589 bit local word under named changed hypotheses (helper skeleton, descent charge, copy charge / unit, data algebra, connector dilution, schedule). Planning budgets only: no construction, hosting, precision or supplier admission. Kappa readings use the retained planning transfer kappa=a/(1+a); the exact moment of a completed construction remains the acceptance test. Ceilings above the format-limits X(9) fence additionally escape its (Sch) slot premises and are flagged, not claimed inside that model.",
+ "status": "PASS_MUSE_OOD_BIT_WALL_SCREEN",
+ "targets": {
+  "a_0.003": {
+   "a": "3/1000",
+   "a_dec": "0.003",
+   "x_bit_endpoint": "1.73067566819"
+  },
+  "a_0.005": {
+   "a": "1/200",
+   "a_dec": "0.005",
+   "x_bit_endpoint": "2.88445944698"
+  },
+  "bit_endpoint": {
+   "a": "1733427039589844234749/1000000000000000000000000",
+   "a_dec": "0.00173342703959",
+   "x_bit_endpoint": "1"
+  },
+  "kappa_x1.05_required_a": {
+   "a": "17562932069307639/9982437067930692361",
+   "a_dec": "0.00175938319969",
+   "x_bit_endpoint": "1.01497389824"
+  },
+  "kappa_x1.10_ratio_adjusted_ceiling": {
+   "a": "418458860123853525576908000000000000/201190425783118551931544381041064934193",
+   "a_dec": "0.00207991438208",
+   "x_bit_endpoint": "1.19988573766"
+  },
+  "kappa_x1.10_required_a": {
+   "a": "9199631083923049/4990800368916076951",
+   "a_dec": "0.0018433177855",
+   "x_bit_endpoint": "1.06339508004"
+  },
+  "kappa_x2_required_a": {
+   "a": "836330098538459/249163669901461541",
+   "a_dec": "0.0033565491264",
+   "x_bit_endpoint": "1.93636596738"
+  },
+  "planning_1_99": {
+   "a": "1/99",
+   "a_dec": "0.010101010101",
+   "x_bit_endpoint": "5.82719080199"
+  }
+ }
+}

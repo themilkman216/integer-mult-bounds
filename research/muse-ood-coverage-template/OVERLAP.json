@@ -1,0 +1,68 @@
+{
+  "status": "POSSIBLE_OVERLAP_NOT_A_NOVELTY_CERTIFICATE",
+  "base_commit": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+  "upstream_main_check": {
+    "command": "git fetch --no-tags https://github.com/CrocSwap/integer-mult-bounds.git main; git rev-parse FETCH_HEAD",
+    "fetched_head": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+    "checked_utc": "2026-10-14T19:29:21Z",
+    "priority_revision": 4,
+    "selected_kappa": "836330098538459/500000000000000000",
+    "conclusion": "Checkout equals canonical main at check time. Open PRs above #2027 are not on main and were not readable here (see limits)."
+  },
+  "refresh_attempt": {
+    "command": "python3 scripts/find_overlap.py --task p104-side-correction --refresh --cache /tmp/muse-ood-overlap/p104.json --json",
+    "searched_at": "2026-10-14T19:28:14.818982+00:00",
+    "warnings": [
+      "open_prs: refresh failed; using old data if available: gh: Bad credentials (HTTP 401)",
+      "open_prs: no usable remote snapshot",
+      "discussions: refresh failed; using old data if available: gh: Bad credentials (HTTP 401)",
+      "discussions: no usable remote snapshot"
+    ],
+    "also_tried": [
+      "web_fetch https://github.com/CrocSwap/integer-mult-bounds/pull/1240 -> HTTP 403 Forbidden",
+      "curl https://api.github.com/repos/CrocSwap/integer-mult-bounds/pulls/1240 -> HTTP 403 API rate limit exceeded"
+    ]
+  },
+  "offline_searches": {
+    "tool": "python3 scripts/find_overlap.py --task TASK --offline --json (separate /tmp caches)",
+    "local_records_each": 1536,
+    "coverage_each": {"open_prs": null, "discussions": null},
+    "warnings_each": [
+      "open_prs: offline; cached data may miss current changes",
+      "open_prs: no usable remote snapshot",
+      "discussions: offline; cached data may miss current changes",
+      "discussions: no usable remote snapshot"
+    ],
+    "by_task": {
+      "p104-side-correction": {"searched_at": "2026-10-14T19:28:35.030312+00:00", "matches_total": 65, "top": "research/p104-native-channel/README.md"},
+      "joint-query-controller": {"searched_at": "2026-10-14T19:28:35.498446+00:00", "matches_total": 1080, "top": "research/joint-query/README.md"},
+      "coverage-law-change": {"searched_at": "2026-10-14T19:28:35.930748+00:00", "matches_total": 124, "top": "research/complex-local-word-ceiling/README.md (among READMEs)"},
+      "centre-path-sharing": {"searched_at": "2026-10-14T19:28:36.387788+00:00", "matches_total": 277, "top": "research/centre-sharing-overhead-budget/README.md (among READMEs)"},
+      "complex-rank-shape-decoder": {"searched_at": "2026-10-14T19:28:36.833794+00:00", "matches_total": 222, "top": "many TASK.json scope-key hits; read decoder scope map instead"},
+      "bit-new-register-model": {"searched_at": "2026-10-14T19:28:37.230802+00:00", "matches_total": 140, "top": "research/bit-three-register-lower-bound/README.md"},
+      "connector-alphabet-change": {"searched_at": "2026-10-14T19:28:37.655730+00:00", "matches_total": 57, "top": "connector TASK hits; read research/universal-connector-boundary/README.md"},
+      "selected-stock-envelope": {"searched_at": "2026-10-14T19:28:38.103414+00:00", "matches_total": 74, "top": "research/selected-bootstrap-stock-audit/README.md"}
+    },
+    "term_searches": {
+      "masked decoder / shared pricing / subadditive": {"matches_total": 133},
+      "unpaid coordinate / coverage identity": {"matches_total": 95}
+    }
+  },
+  "reviewed_heads_local": {
+    "source": "research/community-efficient1000-audit/DISPOSITIONS.json (reviewed_head) unless noted",
+    "1240": {"head": "1e136b8c4a552050820334ad113628775182f08c", "via": "docs/research/research-priority-log.md revision 3 (maintainer replay); package research/complex-local-word-ceiling on main"},
+    "1264": {"head": "1be64e9ef79fe11f24f05b62b0fd7d70be0b7b4c", "via": "docs/research/research-priority-log.md revision 3 (maintainer replay incl. 14 census blobs)"},
+    "1956": {"head": "f8003953e1719923f769df46c478aa0fa6d3ed9a"},
+    "1965": {"head": "c9819a94f9c630f8b42ff5c3027965c4ba451653"},
+    "1969": {"head": "a6e6ad3936f67b8f63b5b68c5e75d540610a65e7"},
+    "1972": {"head": "fd82d172f46933fd253c2c6de4bd5eaff5429cfd", "via": "research/p104-native-channel/SOURCES.json vendored pin (open PR; global word not on main)"},
+    "1974": {"head": "a4992da8e4e81a74cf1fd2b2d3af948662476d6e"},
+    "1990": {"head": "c3bd90d9a8d9202c063700ae443e83825780e056"},
+    "1991": {"head": "6e222517e182e98499239bc9a4009f540e1c5520"},
+    "1995": {"head": "d47b4b656732f840c9b3252cad5a4efa20924b71"},
+    "2013": {"head": "a43cc72abcb16ca4d61fc469174a9b971b084d6f"},
+    "2017": {"head": "5950e7896b8825a2c167ee63836251b3096060f8"},
+    "2027": {"head": "cd37822ee3523e53b645848644e0dae42d47abe7"}
+  },
+  "limits": "Remote open-PR (incl. drafts #2028-#2101) and discussion coverage is UNAVAILABLE in this session. Offline search covers local READMEs/TASK metadata and the PR ledger through #2027 only; it does not search code diffs. No matches would not prove novelty, and matches above do not prove duplication. Recheck live heads before any submission."
+}

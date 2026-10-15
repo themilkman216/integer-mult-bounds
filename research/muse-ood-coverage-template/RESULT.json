@@ -1,0 +1,1076 @@
+{
+ "S0_base": {
+  "a_hi": "169005411/100000000000",
+  "a_hi_dec": "0.00169005411",
+  "a_lo": "1690054109/1000000000000",
+  "controls": "endpoint below bracket; extra rank-1 lowers ceiling; custom-R == pinned relax at R=51 (3 points)",
+  "kappa_cap_bit_fixed": "0.00168720264623",
+  "kappa_cap_if_complex_binds": "0.00168720264623",
+  "one_extra_rank1_hi_dec": "0.001689738048",
+  "x_base_hi": "1"
+ },
+ "S1_template": {
+  "K_sweep_V112_centre_fixed": {
+   "K=16": {
+    "a_hi": "261926111/125000000000",
+    "a_hi_dec": "0.002095408888",
+    "a_lo": "2095408887/1000000000000",
+    "families": 3584,
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.00209102733075",
+    "stages": 33,
+    "w": "108.606060606",
+    "x_base_hi": "1.23984721886"
+   },
+   "K=2": {
+    "a_hi": "616469403/500000000000",
+    "a_hi_dec": "0.001232938806",
+    "a_lo": "246587761/200000000000",
+    "families": 448,
+    "kappa_cap_bit_fixed": "0.00123142053983",
+    "kappa_cap_if_complex_binds": "0.00123142053983",
+    "stages": 5,
+    "w": "89.6",
+    "x_base_hi": "0.72952623156"
+   },
+   "K=4": {
+    "a_hi": "169005411/100000000000",
+    "a_hi_dec": "0.00169005411",
+    "a_lo": "1690054109/1000000000000",
+    "families": 896,
+    "kappa_cap_bit_fixed": "0.00168720264623",
+    "kappa_cap_if_complex_binds": "0.00168720264623",
+    "stages": 9,
+    "w": "99.5555555556",
+    "x_base_hi": "1"
+   },
+   "K=5": {
+    "a_hi": "448072157/250000000000",
+    "a_hi_dec": "0.001792288628",
+    "a_lo": "1792288627/1000000000000",
+    "families": 1120,
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.00178908207654",
+    "stages": 11,
+    "w": "101.818181818",
+    "x_base_hi": "1.06049186082"
+   },
+   "K=6": {
+    "a_hi": "93135701/50000000000",
+    "a_hi_dec": "0.00186271402",
+    "a_lo": "1862714019/1000000000000",
+    "families": 1344,
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.00185925076753",
+    "stages": 13,
+    "w": "103.384615385",
+    "x_base_hi": "1.10216235621"
+   },
+   "K=64": {
+    "a_hi": "551711817/250000000000",
+    "a_hi_dec": "0.002206847268",
+    "a_lo": "2206847267/1000000000000",
+    "families": 14336,
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.0022019878172",
+    "stages": 129,
+    "w": "111.131782946",
+    "x_base_hi": "1.3057849775"
+   },
+   "K=8": {
+    "a_hi": "390685649/200000000000",
+    "a_hi_dec": "0.001953428245",
+    "a_lo": "488357061/250000000000",
+    "families": 1792,
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.00194961980261",
+    "stages": 17,
+    "w": "105.411764706",
+    "x_base_hi": "1.15583769386"
+   }
+  },
+  "V104_cst56_selected_shape_proxy": {
+   "a_hi": "1864970767/1000000000000",
+   "a_hi_dec": "0.001864970767",
+   "a_lo": "932485383/500000000000",
+   "centre": 56,
+   "families": 832,
+   "kappa_cap_bit_fixed": "0.00173042746982",
+   "kappa_cap_if_complex_binds": "0.00186149912555",
+   "stages": 9,
+   "warning": "shape proxy only; not a P104 supplier screen",
+   "x_base_hi": "1.10349766671"
+  },
+  "V_sweep_K4": {
+   "V=104": {
+    "centre_fixed": {
+     "a_hi": "363978973/250000000000",
+     "a_hi_dec": "0.001455915892",
+     "a_lo": "1455915891/1000000000000",
+     "kappa_cap_bit_fixed": "0.00145379928252",
+     "kappa_cap_if_complex_binds": "0.00145379928252",
+     "x_base_hi": "0.861461111443"
+    },
+    "centre_scaled": {
+     "a_hi": "169005411/100000000000",
+     "a_hi_dec": "0.00169005411",
+     "a_lo": "1690054109/1000000000000",
+     "kappa_cap_bit_fixed": "0.00168720264623",
+     "kappa_cap_if_complex_binds": "0.00168720264623",
+     "x_base_hi": "1"
+    },
+    "families": 832,
+    "stages": 9,
+    "w": "92.4444444444"
+   },
+   "V=111": {
+    "centre_fixed": {
+     "a_hi": "415657587/250000000000",
+     "a_hi_dec": "0.001662630348",
+     "a_lo": "1662630347/1000000000000",
+     "kappa_cap_bit_fixed": "0.00165987059677",
+     "kappa_cap_if_complex_binds": "0.00165987059677",
+     "x_base_hi": "0.983773441431"
+    },
+    "centre_scaled": {
+     "a_hi": "169005411/100000000000",
+     "a_hi_dec": "0.00169005411",
+     "a_lo": "1690054109/1000000000000",
+     "kappa_cap_bit_fixed": "0.00168720264623",
+     "kappa_cap_if_complex_binds": "0.00168720264623",
+     "x_base_hi": "1"
+    },
+    "families": 888,
+    "stages": 9,
+    "w": "98.6666666667"
+   },
+   "V=112": {
+    "centre_fixed": {
+     "a_hi": "169005411/100000000000",
+     "a_hi_dec": "0.00169005411",
+     "a_lo": "1690054109/1000000000000",
+     "kappa_cap_bit_fixed": "0.00168720264623",
+     "kappa_cap_if_complex_binds": "0.00168720264623",
+     "x_base_hi": "1"
+    },
+    "centre_scaled": {
+     "a_hi": "169005411/100000000000",
+     "a_hi_dec": "0.00169005411",
+     "a_lo": "1690054109/1000000000000",
+     "kappa_cap_bit_fixed": "0.00168720264623",
+     "kappa_cap_if_complex_binds": "0.00168720264623",
+     "x_base_hi": "1"
+    },
+    "families": 896,
+    "stages": 9,
+    "w": "99.5555555556"
+   },
+   "V=120": {
+    "centre_fixed": {
+     "a_hi": "473251953/250000000000",
+     "a_hi_dec": "0.001893007812",
+     "a_lo": "1893007811/1000000000000",
+     "kappa_cap_bit_fixed": "0.00173042746982",
+     "kappa_cap_if_complex_binds": "0.00188943110416",
+     "x_base_hi": "1.12008710301"
+    },
+    "centre_scaled": {
+     "a_hi": "169005411/100000000000",
+     "a_hi_dec": "0.00169005411",
+     "a_lo": "1690054109/1000000000000",
+     "kappa_cap_bit_fixed": "0.00168720264623",
+     "kappa_cap_if_complex_binds": "0.00168720264623",
+     "x_base_hi": "1"
+    },
+    "families": 960,
+    "stages": 9,
+    "w": "106.666666667"
+   },
+   "V=96": {
+    "centre_fixed": {
+     "a_hi": "1182807673/1000000000000",
+     "a_hi_dec": "0.001182807673",
+     "a_lo": "147850959/125000000000",
+     "kappa_cap_bit_fixed": "0.00118141029184",
+     "kappa_cap_if_complex_binds": "0.00118141029184",
+     "x_base_hi": "0.699863788977"
+    },
+    "centre_scaled": {
+     "a_hi": "169005411/100000000000",
+     "a_hi_dec": "0.00169005411",
+     "a_lo": "1690054109/1000000000000",
+     "kappa_cap_bit_fixed": "0.00168720264623",
+     "kappa_cap_if_complex_binds": "0.00168720264623",
+     "x_base_hi": "1"
+    },
+    "families": 768,
+    "stages": 9,
+    "w": "85.3333333333"
+   }
+  },
+  "hypothesis": "Per-call word reused across K pairs; non-centre counts scale with V/112. centre_fixed keeps eight rank-8 centre children and charge 64 per call (most favorable); centre_scaled scales both with V (pessimistic bracket). Bridge/terminal overhead varying with K is NOT charged here; S3 prices the overhead budget that would erase the gain. A changed template needs a new hosting/owner proof."
+ },
+ "S2_unpaid_centre": {
+  "hypothesis": "Selected word fixed; unpaid>1 is the coverage-law what-if of ceiling.py (total mass (m-unpaid)w+centre). Realizing it needs a progress-preserving endpoint contract; S3 bounds what the extra advancement may cost.",
+  "points": {
+   "unpaid=1,centre=0": {
+    "a_hi": "473765347/100000000000",
+    "a_hi_dec": "0.00473765347",
+    "a_lo": "4737653469/1000000000000",
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.00471531394652",
+    "x_base_hi": "2.80325549458"
+   },
+   "unpaid=1,centre=32": {
+    "a_hi": "1606486447/500000000000",
+    "a_hi_dec": "0.003212972894",
+    "a_lo": "3212972893/1000000000000",
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.0032026827611",
+    "x_base_hi": "1.90110652374"
+   },
+   "unpaid=1,centre=64": {
+    "a_hi": "169005411/100000000000",
+    "a_hi_dec": "0.00169005411",
+    "a_lo": "1690054109/1000000000000",
+    "kappa_cap_bit_fixed": "0.00168720264623",
+    "kappa_cap_if_complex_binds": "0.00168720264623",
+    "x_base_hi": "1"
+   },
+   "unpaid=1,centre=8": {
+    "a_hi": "1089079671/250000000000",
+    "a_hi_dec": "0.004356318684",
+    "a_lo": "4356318683/1000000000000",
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.00433742348503",
+    "x_base_hi": "2.57762083369"
+   },
+   "unpaid=2,centre=0": {
+    "a_hi": "9409963999/1000000000000",
+    "a_hi_dec": "0.009409963999",
+    "a_lo": "4704981999/500000000000",
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.00932224203704",
+    "x_base_hi": "5.56784776495"
+   },
+   "unpaid=2,centre=32": {
+    "a_hi": "1973277993/250000000000",
+    "a_hi_dec": "0.007893111972",
+    "a_lo": "7893111971/1000000000000",
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.00783129865483",
+    "x_base_hi": "4.67033092331"
+   },
+   "unpaid=2,centre=64": {
+    "a_hi": "6377984109/1000000000000",
+    "a_hi_dec": "0.006377984109",
+    "a_lo": "1594496027/250000000000",
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.00633756323142",
+    "x_base_hi": "3.7738342644"
+   },
+   "unpaid=2,centre=8": {
+    "a_hi": "4515294937/500000000000",
+    "a_hi_dec": "0.009030589874",
+    "a_lo": "9030589873/1000000000000",
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.00894976818803",
+    "x_base_hi": "5.34337322135"
+   },
+   "unpaid=3,centre=0": {
+    "a_hi": "3504632243/250000000000",
+    "a_hi_dec": "0.014018528972",
+    "a_lo": "14018528971/1000000000000",
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.0138247266411",
+    "x_base_hi": "8.29472197905"
+   },
+   "unpaid=3,centre=32": {
+    "a_hi": "3127354477/250000000000",
+    "a_hi_dec": "0.012509417908",
+    "a_lo": "12509417907/1000000000000",
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.0123548657294",
+    "x_base_hi": "7.40178544224"
+   },
+   "unpaid=3,centre=64": {
+    "a_hi": "11001994531/1000000000000",
+    "a_hi_dec": "0.011001994531",
+    "a_lo": "1100199453/100000000000",
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.0108822678793",
+    "x_base_hi": "6.50984750482"
+   },
+   "unpaid=3,centre=8": {
+    "a_hi": "13641093503/1000000000000",
+    "a_hi_dec": "0.013641093503",
+    "a_lo": "6820546751/500000000000",
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.0134575182384",
+    "x_base_hi": "8.07139453245"
+   }
+  }
+ },
+ "S3_breakeven": {
+  "budgets": {
+   "unpaid1_centre32_base_template": {
+    "a_0.003": {
+     "add_rank1": {
+      "L_fail": "379.1",
+      "L_pass": "379",
+      "note": "sharp adjacent-grid bracket"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1646",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": "807.2",
+      "L_pass": "807.1",
+      "note": "sharp adjacent-grid bracket"
+     }
+    },
+    "a_0.005": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "bit_endpoint": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1646",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1646",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1646",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    },
+    "planning_1_99": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "plus5pct_complex_ceiling": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1646",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1646",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1646",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    }
+   },
+   "unpaid1_centre64_K5_template": {
+    "a_0.003": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "a_0.005": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "bit_endpoint": {
+     "add_rank1": {
+      "L_fail": "182.1",
+      "L_pass": "182",
+      "note": "sharp adjacent-grid bracket"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1808.9",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": "387.2",
+      "L_pass": "387.1",
+      "note": "sharp adjacent-grid bracket"
+     }
+    },
+    "planning_1_99": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "plus5pct_complex_ceiling": {
+     "add_rank1": {
+      "L_fail": "53.6",
+      "L_pass": "53.5",
+      "note": "sharp adjacent-grid bracket"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1808.9",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": "114",
+      "L_pass": "113.9",
+      "note": "sharp adjacent-grid bracket"
+     }
+    }
+   },
+   "unpaid1_centre64_K64_template": {
+    "a_0.003": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "a_0.005": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "bit_endpoint": {
+     "add_rank1": {
+      "L_fail": "1482.2",
+      "L_pass": "1482.1",
+      "note": "sharp adjacent-grid bracket"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "2479.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "2479.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    },
+    "planning_1_99": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "plus5pct_complex_ceiling": {
+     "add_rank1": {
+      "L_fail": "1322",
+      "L_pass": "1321.9",
+      "note": "sharp adjacent-grid bracket"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "2479.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "2479.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    }
+   },
+   "unpaid1_centre64_K6_template": {
+    "a_0.003": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "a_0.005": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "bit_endpoint": {
+     "add_rank1": {
+      "L_fail": "400.8",
+      "L_pass": "400.7",
+      "note": "sharp adjacent-grid bracket"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1921.6",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": "852.2",
+      "L_pass": "852.1",
+      "note": "sharp adjacent-grid bracket"
+     }
+    },
+    "planning_1_99": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "plus5pct_complex_ceiling": {
+     "add_rank1": {
+      "L_fail": "267",
+      "L_pass": "266.9",
+      "note": "sharp adjacent-grid bracket"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1921.6",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": "567.6",
+      "L_pass": "567.5",
+      "note": "sharp adjacent-grid bracket"
+     }
+    }
+   },
+   "unpaid2_centre0_base_template": {
+    "a_0.003": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    },
+    "a_0.005": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    },
+    "bit_endpoint": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    },
+    "planning_1_99": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "plus5pct_complex_ceiling": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    }
+   },
+   "unpaid2_centre64_base_template": {
+    "a_0.003": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    },
+    "a_0.005": {
+     "add_rank1": {
+      "L_fail": "1481.2",
+      "L_pass": "1481.1",
+      "note": "sharp adjacent-grid bracket"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    },
+    "bit_endpoint": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    },
+    "planning_1_99": {
+     "add_rank1": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank51": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     },
+     "add_rank8": {
+      "L_fail": "0",
+      "L_pass": null,
+      "note": "even zero added mass fails"
+     }
+    },
+    "plus5pct_complex_ceiling": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1546.4",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    }
+   },
+   "unpaid3_centre64_base_template": {
+    "a_0.003": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    },
+    "a_0.005": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    },
+    "bit_endpoint": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    },
+    "planning_1_99": {
+     "add_rank1": {
+      "L_fail": "481.5",
+      "L_pass": "481.4",
+      "note": "sharp adjacent-grid bracket"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": "1032.8",
+      "L_pass": "1032.7",
+      "note": "sharp adjacent-grid bracket"
+     }
+    },
+    "plus5pct_complex_ceiling": {
+     "add_rank1": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank51": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     },
+     "add_rank8": {
+      "L_fail": null,
+      "L_pass": "1446.8",
+      "note": "coverage-bound hit (no failing grid point in range)"
+     }
+    }
+   }
+  },
+  "hypothesis": "Added work billed as fractional rank-r children inside the same coverage total. L_fail-L_pass is one 0.1 mass grid step with certified opposite relaxation signs. Rank 1 is the most expensive shape per unit mass, rank 51 the cheapest; a real mechanism must price its actual shape.",
+  "targets_dec": {
+   "a_0.003": "0.003",
+   "a_0.005": "0.005",
+   "bit_endpoint": "0.00173342703959",
+   "planning_1_99": "0.010101010101",
+   "plus5pct_complex_ceiling": "0.0017745568155"
+  }
+ },
+ "S4_halving_depth": {
+  "caps_m64": {
+   "HD=1": 31,
+   "HD=2": 45,
+   "HD=3": 50,
+   "HD=4": 53,
+   "HD=5": 55,
+   "HD=8": 58
+  },
+  "caps_m73": {
+   "HD=1": 36,
+   "HD=2": 51,
+   "HD=3": 57,
+   "HD=4": 61,
+   "HD=5": 63,
+   "HD=8": 66
+  },
+  "hypothesis": "Idle cap R(HD)=max{R: 2R^HD < m^HD}. HD>2 needs a new outer row bound (cf. bit HD discussion in research/bit-revision3-levers-seed03). R=72 is the absolute child-rank limit m-1, beyond every HD. Signs are certified with pinned child_cost enclosures.",
+  "plus5pct_signs": {
+   "R=51": {
+    "reading": "above 1: +5% impossible even at this R",
+    "relax_at_plus5pct": [
+     "1.00024541304",
+     "1.00024541304"
+    ],
+    "sign": 1
+   },
+   "R=57": {
+    "reading": "above 1: +5% impossible even at this R",
+    "relax_at_plus5pct": [
+     "1.00020068604",
+     "1.00020068604"
+    ],
+    "sign": 1
+   },
+   "R=61": {
+    "reading": "above 1: +5% impossible even at this R",
+    "relax_at_plus5pct": [
+     "1.00017341697",
+     "1.00017341697"
+    ],
+    "sign": 1
+   },
+   "R=66": {
+    "reading": "above 1: +5% impossible even at this R",
+    "relax_at_plus5pct": [
+     "1.00014174608",
+     "1.00014174608"
+    ],
+    "sign": 1
+   },
+   "R=72": {
+    "reading": "above 1: +5% impossible even at this R",
+    "relax_at_plus5pct": [
+     "1.00010677158",
+     "1.00010677158"
+    ],
+    "sign": 1
+   }
+  },
+  "roots": {
+   "R=57": {
+    "a_hi": "1704851517/1000000000000",
+    "a_hi_dec": "0.001704851517",
+    "a_lo": "426212879/250000000000",
+    "kappa_cap_bit_fixed": "0.00170194994505",
+    "kappa_cap_if_complex_binds": "0.00170194994505",
+    "x_base_hi": "1.0087555818"
+   },
+   "R=72": {
+    "a_hi": "1736778937/1000000000000",
+    "a_hi_dec": "0.001736778937",
+    "a_lo": "217097367/125000000000",
+    "kappa_cap_bit_fixed": "0.00173042746982",
+    "kappa_cap_if_complex_binds": "0.00173376776566",
+    "x_base_hi": "1.02764694143"
+   }
+  }
+ },
+ "S5_joint_kappa": {
+  "hypothesis": "Planning transfer kappa=a/(1+a), a=min(bit,complex) (beta=10^-24 and seven-step slacks neglected; exact at the selected point to <10^-18). Required a for target kappa is kappa/(1-kappa).",
+  "joint_targets": {
+   "kappa_0.01": {
+    "bit_multiplier_needed": "5.82719080199",
+    "complex_multiplier_needed": "6.02878848979",
+    "kappa_target": "0.01",
+    "required_a_each_side": "0.010101010101"
+   },
+   "kappa_x1.05": {
+    "bit_multiplier_needed": "1.01497389824",
+    "complex_multiplier_needed": "1.05008796916",
+    "kappa_target": "0.00175629320693",
+    "required_a_each_side": "0.00175938319969"
+   },
+   "kappa_x1.10": {
+    "bit_multiplier_needed": "1.06339508004",
+    "complex_multiplier_needed": "1.10018433178",
+    "kappa_target": "0.00183992621678",
+    "required_a_each_side": "0.0018433177855"
+   },
+   "kappa_x2": {
+    "bit_multiplier_needed": "1.93636596738",
+    "complex_multiplier_needed": "2.00335654913",
+    "kappa_target": "0.00334532039415",
+    "required_a_each_side": "0.0033565491264"
+   },
+   "kappa_x6": {
+    "bit_multiplier_needed": "5.84835850742",
+    "complex_multiplier_needed": "6.05068851387",
+    "kappa_target": "0.0100359611825",
+    "required_a_each_side": "0.010137702774"
+   }
+  },
+  "selected_check": {
+   "a_complex_over_1plus": "0.00167266019707691866",
+   "bit_limited_gain": "1.03453616751",
+   "bit_limited_kappa_cap": "0.00173042746982360286",
+   "kappa_selected": "0.00167266019707691801"
+  }
+ },
+ "pins": {
+  "a_bit_selected": "1733427039589844234749/1000000000000000000000000",
+  "a_complex_selected": "67018507072324140917/40000000000000000000000",
+  "base_commit": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+  "engine": "research/complex-local-word-ceiling/ceiling.py",
+  "engine_sha256": "86a1432870b3b21d8454106ec9162fddc0471472d9214c590a1420f2426cedfc",
+  "grid": "1/10^12",
+  "kappa_selected": "836330098538459/500000000000000000",
+  "selected_record": "certificates/selected-result.json",
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+  "word_per_call": {
+   "1": 2412,
+   "2": 418,
+   "3": 432,
+   "4": 142,
+   "5": 82,
+   "8": 8
+  }
+ },
+ "scope": "Exact favorable relaxations of the selected complex local word under parameterized template/coverage/halving hypotheses. Planning budgets only: no construction, hosting, precision or supplier admission. Kappa translations use the retained planning transfer kappa=a/(1+a) with a=min(bit,complex); the exact moment of a completed construction remains the acceptance test.",
+ "status": "PASS_MUSE_OOD_COVERAGE_TEMPLATE_SCREEN"
+}

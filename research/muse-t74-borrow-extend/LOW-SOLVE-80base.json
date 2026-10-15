@@ -1,0 +1,1171 @@
+{
+ "tag": "base",
+ "candidates": [
+  [
+   592,
+   298
+  ],
+  [
+   593,
+   291
+  ],
+  [
+   594,
+   289
+  ],
+  [
+   596,
+   314
+  ],
+  [
+   600,
+   305
+  ],
+  [
+   601,
+   325
+  ],
+  [
+   602,
+   330
+  ],
+  [
+   604,
+   323
+  ],
+  [
+   608,
+   346
+  ],
+  [
+   609,
+   339
+  ],
+  [
+   610,
+   337
+  ],
+  [
+   612,
+   362
+  ],
+  [
+   624,
+   378
+  ],
+  [
+   625,
+   371
+  ],
+  [
+   626,
+   369
+  ],
+  [
+   628,
+   394
+  ],
+  [
+   672,
+   385
+  ],
+  [
+   673,
+   387
+  ],
+  [
+   674,
+   389
+  ],
+  [
+   676,
+   373
+  ],
+  [
+   680,
+   353
+  ],
+  [
+   681,
+   355
+  ],
+  [
+   682,
+   357
+  ],
+  [
+   684,
+   341
+  ],
+  [
+   688,
+   321
+  ],
+  [
+   689,
+   277
+  ],
+  [
+   690,
+   282
+  ],
+  [
+   692,
+   307
+  ],
+  [
+   696,
+   275
+  ],
+  [
+   697,
+   273
+  ],
+  [
+   698,
+   309
+  ],
+  [
+   700,
+   293
+  ]
+ ],
+ "sim": {
+  "592": {
+   "lender": 298,
+   "deadline": 1061,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 751
+  },
+  "593": {
+   "lender": 291,
+   "deadline": 1061,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 752
+  },
+  "594": {
+   "lender": 289,
+   "deadline": 1061,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 750
+  },
+  "596": {
+   "lender": 314,
+   "deadline": 1061,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 769
+  },
+  "600": {
+   "lender": 305,
+   "deadline": 1069,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 768
+  },
+  "601": {
+   "lender": 325,
+   "deadline": 1069,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 786
+  },
+  "602": {
+   "lender": 330,
+   "deadline": 1069,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 788
+  },
+  "604": {
+   "lender": 323,
+   "deadline": 1069,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 789
+  },
+  "608": {
+   "lender": 346,
+   "deadline": 1077,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 807
+  },
+  "609": {
+   "lender": 339,
+   "deadline": 1077,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 808
+  },
+  "610": {
+   "lender": 337,
+   "deadline": 1077,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 806
+  },
+  "612": {
+   "lender": 362,
+   "deadline": 1077,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 825
+  },
+  "624": {
+   "lender": 378,
+   "deadline": 1093,
+   "retirement_dimension": 4,
+   "f1_dim": 5,
+   "retirement_B_event": 843
+  },
+  "625": {
+   "lender": 371,
+   "deadline": 1093,
+   "retirement_dimension": 4,
+   "f1_dim": 5,
+   "retirement_B_event": 844
+  },
+  "626": {
+   "lender": 369,
+   "deadline": 1093,
+   "retirement_dimension": 4,
+   "f1_dim": 5,
+   "retirement_B_event": 842
+  },
+  "628": {
+   "lender": 394,
+   "deadline": 1093,
+   "retirement_dimension": 4,
+   "f1_dim": 5,
+   "retirement_B_event": 861
+  },
+  "672": {
+   "lender": 385,
+   "deadline": 1141,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 860
+  },
+  "673": {
+   "lender": 387,
+   "deadline": 1141,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 862
+  },
+  "674": {
+   "lender": 389,
+   "deadline": 1141,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 859
+  },
+  "676": {
+   "lender": 373,
+   "deadline": 1141,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 841
+  },
+  "680": {
+   "lender": 353,
+   "deadline": 1149,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 824
+  },
+  "681": {
+   "lender": 355,
+   "deadline": 1149,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 826
+  },
+  "682": {
+   "lender": 357,
+   "deadline": 1149,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 823
+  },
+  "684": {
+   "lender": 341,
+   "deadline": 1149,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 805
+  },
+  "688": {
+   "lender": 321,
+   "deadline": 1157,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 787
+  },
+  "689": {
+   "lender": 277,
+   "deadline": 1157,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 731
+  },
+  "690": {
+   "lender": 282,
+   "deadline": 1157,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 733
+  },
+  "692": {
+   "lender": 307,
+   "deadline": 1157,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 770
+  },
+  "696": {
+   "lender": 275,
+   "deadline": 1165,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 734
+  },
+  "697": {
+   "lender": 273,
+   "deadline": 1165,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 732
+  },
+  "698": {
+   "lender": 309,
+   "deadline": 1165,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 767
+  },
+  "700": {
+   "lender": 293,
+   "deadline": 1165,
+   "retirement_dimension": 4,
+   "f1_dim": 4,
+   "retirement_B_event": 749
+  }
+ },
+ "handoffs": {
+  "49": {
+   "register": 592,
+   "lender": 298,
+   "val": {
+    "298|": "1"
+   },
+   "exact": true
+  },
+  "50": {
+   "register": 593,
+   "lender": 291,
+   "val": {
+    "291|": "1"
+   },
+   "exact": true
+  },
+  "51": {
+   "register": 594,
+   "lender": 289,
+   "val": {
+    "289|": "1"
+   },
+   "exact": true
+  },
+  "52": {
+   "register": 596,
+   "lender": 314,
+   "val": {
+    "314|": "1"
+   },
+   "exact": true
+  },
+  "53": {
+   "register": 600,
+   "lender": 305,
+   "val": {
+    "305|": "1"
+   },
+   "exact": true
+  },
+  "54": {
+   "register": 601,
+   "lender": 325,
+   "val": {
+    "325|": "1"
+   },
+   "exact": true
+  },
+  "55": {
+   "register": 602,
+   "lender": 330,
+   "val": {
+    "330|": "1"
+   },
+   "exact": true
+  },
+  "56": {
+   "register": 604,
+   "lender": 323,
+   "val": {
+    "323|": "1"
+   },
+   "exact": true
+  },
+  "57": {
+   "register": 608,
+   "lender": 346,
+   "val": {
+    "346|": "1"
+   },
+   "exact": true
+  },
+  "58": {
+   "register": 609,
+   "lender": 339,
+   "val": {
+    "339|": "1"
+   },
+   "exact": true
+  },
+  "59": {
+   "register": 610,
+   "lender": 337,
+   "val": {
+    "337|": "1"
+   },
+   "exact": true
+  },
+  "60": {
+   "register": 612,
+   "lender": 362,
+   "val": {
+    "362|": "1"
+   },
+   "exact": true
+  },
+  "61": {
+   "register": 624,
+   "lender": 378,
+   "val": {
+    "378|": "1"
+   },
+   "exact": true
+  },
+  "62": {
+   "register": 625,
+   "lender": 371,
+   "val": {
+    "371|": "1"
+   },
+   "exact": true
+  },
+  "63": {
+   "register": 626,
+   "lender": 369,
+   "val": {
+    "369|": "1"
+   },
+   "exact": true
+  },
+  "64": {
+   "register": 628,
+   "lender": 394,
+   "val": {
+    "394|": "1"
+   },
+   "exact": true
+  },
+  "65": {
+   "register": 672,
+   "lender": 385,
+   "val": {
+    "385|": "1"
+   },
+   "exact": true
+  },
+  "66": {
+   "register": 673,
+   "lender": 387,
+   "val": {
+    "387|": "1"
+   },
+   "exact": true
+  },
+  "67": {
+   "register": 674,
+   "lender": 389,
+   "val": {
+    "389|": "1"
+   },
+   "exact": true
+  },
+  "68": {
+   "register": 676,
+   "lender": 373,
+   "val": {
+    "373|": "1"
+   },
+   "exact": true
+  },
+  "69": {
+   "register": 680,
+   "lender": 353,
+   "val": {
+    "353|": "1"
+   },
+   "exact": true
+  },
+  "70": {
+   "register": 681,
+   "lender": 355,
+   "val": {
+    "355|": "1"
+   },
+   "exact": true
+  },
+  "71": {
+   "register": 682,
+   "lender": 357,
+   "val": {
+    "357|": "1"
+   },
+   "exact": true
+  },
+  "72": {
+   "register": 684,
+   "lender": 341,
+   "val": {
+    "341|": "1"
+   },
+   "exact": true
+  },
+  "73": {
+   "register": 688,
+   "lender": 321,
+   "val": {
+    "321|": "1"
+   },
+   "exact": true
+  },
+  "74": {
+   "register": 689,
+   "lender": 277,
+   "val": {
+    "277|": "1"
+   },
+   "exact": true
+  },
+  "75": {
+   "register": 690,
+   "lender": 282,
+   "val": {
+    "282|": "1"
+   },
+   "exact": true
+  },
+  "76": {
+   "register": 692,
+   "lender": 307,
+   "val": {
+    "307|": "1"
+   },
+   "exact": true
+  },
+  "77": {
+   "register": 696,
+   "lender": 275,
+   "val": {
+    "275|": "1"
+   },
+   "exact": true
+  },
+  "78": {
+   "register": 697,
+   "lender": 273,
+   "val": {
+    "273|": "1"
+   },
+   "exact": true
+  },
+  "79": {
+   "register": 698,
+   "lender": 309,
+   "val": {
+    "309|": "1"
+   },
+   "exact": true
+  },
+  "80": {
+   "register": 700,
+   "lender": 293,
+   "val": {
+    "293|": "1"
+   },
+   "exact": true
+  }
+ },
+ "handoff_all_exact": true,
+ "y_error_targets_before": [
+  114,
+  117,
+  121,
+  123,
+  126,
+  130,
+  133,
+  137,
+  149,
+  151,
+  153,
+  155,
+  159,
+  164,
+  166,
+  173,
+  175,
+  177,
+  181,
+  183,
+  188,
+  190,
+  193,
+  199,
+  202,
+  204,
+  208,
+  211,
+  214,
+  216,
+  218,
+  222
+ ],
+ "n_error_terms_before": 64,
+ "corrections": [
+  {
+   "target": 114,
+   "source": 337,
+   "operator_word": [
+    59
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 114,
+   "source": 339,
+   "operator_word": [
+    58
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 117,
+   "source": 387,
+   "operator_word": [
+    66
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 117,
+   "source": 389,
+   "operator_word": [
+    67
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 121,
+   "source": 337,
+   "operator_word": [
+    59
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 121,
+   "source": 346,
+   "operator_word": [
+    57
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 123,
+   "source": 305,
+   "operator_word": [
+    53
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 123,
+   "source": 330,
+   "operator_word": [
+    55
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 126,
+   "source": 355,
+   "operator_word": [
+    70
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 126,
+   "source": 357,
+   "operator_word": [
+    71
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 130,
+   "source": 371,
+   "operator_word": [
+    62
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 130,
+   "source": 394,
+   "operator_word": [
+    64
+   ],
+   "coefficient": "1"
+  },
+  {
+   "target": 133,
+   "source": 273,
+   "operator_word": [
+    78
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 133,
+   "source": 309,
+   "operator_word": [
+    79
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 137,
+   "source": 346,
+   "operator_word": [
+    57
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 137,
+   "source": 362,
+   "operator_word": [
+    60
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 149,
+   "source": 273,
+   "operator_word": [
+    78
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 149,
+   "source": 293,
+   "operator_word": [
+    80
+   ],
+   "coefficient": "1"
+  },
+  {
+   "target": 151,
+   "source": 369,
+   "operator_word": [
+    63
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 151,
+   "source": 378,
+   "operator_word": [
+    61
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 153,
+   "source": 341,
+   "operator_word": [
+    72
+   ],
+   "coefficient": "1"
+  },
+  {
+   "target": 153,
+   "source": 355,
+   "operator_word": [
+    70
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 155,
+   "source": 277,
+   "operator_word": [
+    74
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 155,
+   "source": 307,
+   "operator_word": [
+    76
+   ],
+   "coefficient": "1"
+  },
+  {
+   "target": 159,
+   "source": 275,
+   "operator_word": [
+    77
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 159,
+   "source": 293,
+   "operator_word": [
+    80
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 164,
+   "source": 341,
+   "operator_word": [
+    72
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 164,
+   "source": 353,
+   "operator_word": [
+    69
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 166,
+   "source": 369,
+   "operator_word": [
+    63
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 166,
+   "source": 371,
+   "operator_word": [
+    62
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 173,
+   "source": 339,
+   "operator_word": [
+    58
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 173,
+   "source": 362,
+   "operator_word": [
+    60
+   ],
+   "coefficient": "-1/2"
+  },
+  {
+   "target": 175,
+   "source": 323,
+   "operator_word": [
+    56
+   ],
+   "coefficient": "-1/2"
+  },
+  {
+   "target": 175,
+   "source": 325,
+   "operator_word": [
+    54
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 177,
+   "source": 385,
+   "operator_word": [
+    65
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 177,
+   "source": 389,
+   "operator_word": [
+    67
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 181,
+   "source": 373,
+   "operator_word": [
+    68
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 181,
+   "source": 385,
+   "operator_word": [
+    65
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 183,
+   "source": 325,
+   "operator_word": [
+    54
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 183,
+   "source": 330,
+   "operator_word": [
+    55
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 188,
+   "source": 289,
+   "operator_word": [
+    51
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 188,
+   "source": 291,
+   "operator_word": [
+    50
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 190,
+   "source": 277,
+   "operator_word": [
+    74
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 190,
+   "source": 282,
+   "operator_word": [
+    75
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 193,
+   "source": 289,
+   "operator_word": [
+    51
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 193,
+   "source": 298,
+   "operator_word": [
+    49
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 199,
+   "source": 298,
+   "operator_word": [
+    49
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 199,
+   "source": 314,
+   "operator_word": [
+    52
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 202,
+   "source": 305,
+   "operator_word": [
+    53
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 202,
+   "source": 323,
+   "operator_word": [
+    56
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 204,
+   "source": 291,
+   "operator_word": [
+    50
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 204,
+   "source": 314,
+   "operator_word": [
+    52
+   ],
+   "coefficient": "-1/2"
+  },
+  {
+   "target": 208,
+   "source": 373,
+   "operator_word": [
+    68
+   ],
+   "coefficient": "1"
+  },
+  {
+   "target": 208,
+   "source": 387,
+   "operator_word": [
+    66
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 211,
+   "source": 307,
+   "operator_word": [
+    76
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 211,
+   "source": 321,
+   "operator_word": [
+    73
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 214,
+   "source": 378,
+   "operator_word": [
+    61
+   ],
+   "coefficient": "1/2"
+  },
+  {
+   "target": 214,
+   "source": 394,
+   "operator_word": [
+    64
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 216,
+   "source": 282,
+   "operator_word": [
+    75
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 216,
+   "source": 321,
+   "operator_word": [
+    73
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 218,
+   "source": 353,
+   "operator_word": [
+    69
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 218,
+   "source": 357,
+   "operator_word": [
+    71
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 222,
+   "source": 275,
+   "operator_word": [
+    77
+   ],
+   "coefficient": "-1"
+  },
+  {
+   "target": 222,
+   "source": 309,
+   "operator_word": [
+    79
+   ],
+   "coefficient": "-1"
+  }
+ ],
+ "unhandled_terms": [],
+ "y_error_targets_after": [],
+ "solved": true,
+ "seconds": 0.3887598569999682
+}

@@ -1,0 +1,369 @@
+#2029 Correct the supplier trace and overlap; cross-check kernel B against kernel A
+#2031 D5 T=3 DRAT certificates for research/root-unit-decoder-lemmas: release assets, pins and replay script (no new claim)
+#2033 Research: price fixed copy-sharing pair on the R439 star word
+#2035 Apply parallel worker memory budgets on Windows
+#2037 Docs: route R439 H2/K work through the retained semantic-D evidence
+#2038 test(connector): add direct C0 operation BFS test for small linear transformations
+#2039 Tooling: fold partial-swap SharedPointCircuit.__init__ rewrite into #2039
+#2040 Research: audit PR1824 payload equivalence and add a strict opt-in comparator
+#2041 Record tri-plane research handoff
+#2042 Record Walsh shear census and final overlap
+#2044 Conditional κ = 0.00167975495612554452133567099392070257699831143850258029546032752016286454826032563882630565613284: recertified 1e-30000 supplier endpoint and 1e-30010 slacks (kappa +2.00336e-500 over PR1897): fine source-prime padding (PR1786) at the free epsilon -> 1 point, with gauge-free interiors and the radix-distributed union schedule on PR1673's capped phase-cell fusion outer, pivot-566+554 T74 supplier
+#2045 Clarify initial pull request pin
+#2046 Add post-merge retention receipt for the nine PRs integrated at 51122344
+#2047 Clarify substantive Q8 result commit in handoff
+#2048 Research: prove the native rank lift for PR1918's selected centre cuts
+#2050 Prove generic output-bank mixing query erasure
+#2052 Research: multi-pair schedules cannot beat the nine-stage template (Theorem S, no new kappa)
+#2054 Tooling: fold SharedPointCircuit.__init__ rewrite onto merged #1994 verify
+#2055 fix: replay frozen skip-clone checks with authenticated PR53 source
+#2056 Add pair-source connector path result: five-source minimum 10, 72-query support bound attained
+#2059 Add authenticated portable invoice-reference comparison
+#2060 Prove exact connector price for correlated source updates
+#2061 Research: prove sharp COPY69 for A2+E6 nine-normal P112 decoder
+#2062 Research: sharp A7+A1 nine-normal COPY72 floor
+#2063 Research: classify all positive five-source connector tariffs
+#2064 Prove sharp mutable-source restoration connectivity bound
+#2065 Research: reverse F2 transfers attain sharp six-pass connector
+#2066 Prove Gaussian whole-hyperplane reciprocity cost obstruction
+#2067 Prove sharp all-size dirty-word endpoint defect accumulation
+#2068 Verify paired-log inverse with universal operator certificate
+#2069 Research bounded Dic3 diagonal sharing
+#2070 Bound matched paired-log decoders by averaged phase-query rank
+#2071 Prove mixed four-shear signed connectors cannot escape one-way ports
+#2075 Independently certify Eisenstein scalar rank domination over all flat pairs
+#2076 Research exact centre-prefix fanout obstruction
+#2077 Reject optimized Python mode before certificate verification
+#2078 Add bounded rank-one boundary shear result
+#2079 Link cycle 19 handoff and pull request
+#2081 Audit selected T16 invoice input boundaries
+#2082 Prove sharp P104 temporal cut and restoring-correction budget obstruction
+#2083 Prove a terminal-cut paid-rank floor for P104 correction
+#2084 Correct selected BIT predecessor attribution
+#2085 Link rational frame package to canonical handoff
+#2086 Prove QQ16 first-forward A logger obstruction
+#2087 Credit PR589 supplier and PR555 base separately
+#2088 Realize two copied snapshots with selected physical address maps
+#2089 Record P104 tail correction handoff links
+#2090 Prove sharp eight-query temporal cut for frozen P104 itinerary
+#2093 Keep only substantive observation audit controls
+#2096 Prove the native P104 channel's local precision interface
+#2097 Clarify prime eligibility and remove redundant identity check
+#2098 Add heterogeneous 3|7 two-bank order-four boundary package (persistent-boundary card)
+#2099 Add bit ledger frame-rank audit (research/bit-ledger-frame-ranks-seedfeb2)
+#2100 Tooling: real poisoned transition-memo foil for ternary-frame cache
+#2101 Authenticate and compare the complete selected final-stage replay
+#2103 Add exact UT5(Z) four-role three-call obstruction
+#2104 Quantify QQ16 residual information after an extra B2 query
+#2105 Research note: certify selected complex coarse depth and conditional stock bill
+#2108 Prove the two-register three-mixing-block cost bound
+#2110 Add odd-denominator register call floor
+#2111 Three-total root-unit decoders: reductions, a sharp example and the remaining lift question (no κ claim)
+#2112 Clarify dyadic scope relative to odd-lattice floor
+#2113 Prove P104 cut under arbitrary interleaving of fixed frame paths
+#2115 Research: deferred target basis replaces H5 and the H2 target clause (V R = I) on R439 lineage words, scatter 527 -> 97 (no new kappa)
+#2116 Record A4 cycle handoff PR
+#2117 Tooling: 4.80× faster DisjointTensor.frame_data with identical frame receipts
+#2118 Add exact paired-plane local rematching result
+#2120 feat(research): tighten the selected BIT parent-stock bound
+#2122 Record QQ16 predecessor CI status limits
+#2124 Research Phase B mixed rank-six block envelope
+#2125 Where characteristic 2 starts to pay: a T² threshold for root-unit decoders (E6 ties, E7 first gain found; no κ claim)
+#2126 Record final paired-plane overlap refresh
+#2127 Prove P104 transport floor with arbitrary added storage
+#2128 Add six-source DUO universal connector path of (k,W)=(14,16)
+#2129 feat(research): prove sharp concave UT3 block tariffs
+#2130 Research: same-column rank-2 retiming capacity line at touch depth >= 2 (no new kappa)
+#2132 Scoped obstruction: commuting reorders plus free frames cannot lift the selected k8 ceiling by 5% (no new kappa)
+#2133 docs: map P104 side-correction results by premise
+#2134 Research one-trio six-source paths
+#2135 Research: bound D8 inverse pair with third role
+#2136 Rule out identity from nested P104 transport refinements
+#2137 Add exact E6 coordinate-form rank obstruction
+#2138 Research: prove fixed-z0 transfer optimum and two-root boundary
+#2139 Construct a delayed-query P104 side word and price its full profile
+#2140 feat(research): certify a selected BIT q-adic row route
+#2142 Merge remote-tracking branch 'origin/main' into research/t74-split-key-kernel-search
+#2145 test(research): exclude cross-call rank-8 cycles
+#2146 Refresh connector TRIO overlap record
+#2147 Add rank-one residual common-readout construction
+#2148 feat(research): price escape from refined P104 intervals
+#2150 Tooling: 69× faster mixed-point Circuit.verify supports with identical receipts
+#2151 Add shared-line rank-two ceiling screen
+#2152 Construct exact P104 forward word and certify native hosting costs
+#2153 Research: bound QQ16 transcript capacity; the full initial R2 query fails
+#2154 Tooling: derive task overlap terms from research package roots
+#2155 Tooling: 1.71× faster ExclusionCircuit.verify_embedding compile with identical receipts
+#2156 Reproduce the unrestricted basis bound and close the DUO batch frontier
+#2157 Credit PR589 tuning and the PR555 base separately
+#2158 Add mutation coverage of the selected finite invoice
+#2159 Certify the local-ring BIT fallback and common schedule
+#2160 Research: lower the selected PR589 rank-42 residual to one weighted child
+#2161 Refine PR2044 free epsilon with source-bound finite admission
+#2162 Characteristic-2 shadows of rank-3 decoders: the anti-Fano bound by first-order jets, with a Lean-checked core (no kappa claim)
+#2163 Add independent max-flow audit of the P104 rank-eight cut family
+#2166 feat(research): bound completed P104 word precision
+#2167 Research: clean ancillas do not save in the two-register m=3 bit model (no new kappa)
+#2168 Add exact integer coarse exponential with unchanged intervals
+#2169 Add two-stage ejection cycles on PR1407's T16 owner map
+#2171 Execute selected BIT controlled ADDs with explicit preparation costs
+#2172 Research: certify the P104 cut-2429 nested-contact price (864 rank units)
+#2173 Research P104 shared correction space dimension bracket
+#2174 Research: prove QQ16 two-query recovery at a recorded first-pair cut
+#2175 feat(research): certify the mixed UT4 z/uz call minimum
+#2176 Prove exact jf0 pairing cost with triangular minors
+#2177 Research: exact maximum of leaf-destination transport, max(1, floor(log2 n))
+#2178 Research: formalize the P104 transport transcript capacity in Lean
+#2180 Attain the fixed-grid kappa ceiling over PR2161
+#2181 feat(research): certify the QQ16 third-moment transcript floor
+#2182 Research: sharp fixed-port and two-root connector boundaries
+#2183 docs(research): map selected bootstrap proof obligations
+#2184 Integrate exact coarse arithmetic with identical full T74 assembly
+#2186 Add exact infinite-dihedral opposite-translation census
+#2187 Research exact C4 root-lifting obstruction
+#2188 Research: generate a mixed good/fallback child-weight descriptor (selected BIT)
+#2189 Research: rule out fifteen-coordinate QQ16 transcripts via the fourth moment
+#2190 Research: prove a ten-contact obstruction to the fixed P104 room carrier
+#2191 Record R439 copy-share construction handoff
+#2193 docs(research): refresh anti-Fano submission status
+#2194 Tooling: ship packed verify_factor into production complex_centers
+#2195 Prove selected BIT packet integration and live-row layout
+#2196 Record S5 research PR handoff
+#2197 Add QQ16 private d_A frame floor
+#2199 Correct the census interpretation after independent review
+#2201 Record quad connector PR handoff status
+#2203 Account for native payloads in paired-plane identity blocks
+#2204 Record QQ16 parity-floor PR handoff
+#2206 feat(research): certify cost 21 for the 19-line decoder
+#2207 Complete mixed BIT fallback descriptors and stream adapters
+#2208 Record approved upstream submission and refreshed overlap
+#2210 Record Leech-minor production benchmark medians and README timings
+#2212 Research exact selected BIT ADD route invoice
+#2213 Record rank-three anchor research handoff
+#2214 docs(ci): bind current replay guidance to the selected record
+#2215 Screen orthogonal-pair bit decoders in the frozen PR555 L3 family
+#2216 Add QQ16 F0-B1 selected-state shear
+#2217 Consolidation: PR #211 source-retention receipt and CONTRIBUTORS credit (seed a690c28b, no new kappa)
+#2219 Link P104 reuse result handoff
+#2220 Conditional κ = 0.001679754956125544521335670993920702576998311438502580295460327520162864548260325638826305656132844: recertified 1e-60000 supplier endpoint, fixed-grid-maximum kappa C - 1/F - B at 1e-60080 slacks (PR2180 / PR2161 retune)…
+#2222 Clarify provenance and record final open-PR refresh
+#2224 Record S3 convolution research handoff
+#2225 Record publication overlap refresh
+#2226 Bind the final 460-PR publication census
+#2227 Add restored R480 nonforest compensation construction
+#2228 Research: root-code floors T*r_min for exact root-unit decoders with the dense pairing (no kappa claim)
+#2229 Research seven-source sparse connector boundary
+#2230 Add heterogeneous paired-output connector schedule
+#2231 Record sparse-fusion orbit production benchmark medians and README timings
+#2232 Add scoped E6 adapted-pairing decoder result
+#2233 Add one-skip Phase B rank-six census
+#2234 Close selected BIT recursion with an elementary interchange base
+#2235 Add files via upload
+#2236 Record seven-source connector handoff
+#2237 Keep review link stable in package
+#2239 Record joint-dual production replay benchmark (1.882× identical receipts)
+#2240 Research bounded E6 one-extra frame decoder screen
+#2241 Add temporary two-output sum-anchor construction
+#2244 Research: paper-side line counts per dimension, Lagrangian bound v <= T(2^k'+1), exact ladder D4/D6/E7/E8, no-gos scoped to windows h <= 13 (no kappa claim)
+#2246 research: record A5 result handoff
+#2247 Add exact E6 sheared-frame cost census
+#2248 Research exact Q8 three-role target minima
+#2249 Add high-arity connector cost floor
+#2250 Execute selected complex compact adapters with sequential repair
+#2251 Research: attain the P104 shared correction-space minimum of 96
+#2252 Audit QQ16 shear against native boundary frames
+#2255 Audit live-byte source-pin drift after merged replay-speed tooling
+#2257 Tooling: demote historical frameopt pin in bit-frame-closure-basis to provenance
+#2258 Prove bipartite commutator incidence tariff
+#2259 Add aligned FANIN4 stream construction
+#2260 Add files via upload
+#2261 Research UT3(F4) central commutator sharing
+#2263 Tooling: demote historical xcheck pin in r420-triple-bases-seed01 to provenance
+#2265 Outer retune of PR2260: PR1673 capped phase-cell fusion outer on the selective-borrowing supplier
+#2266 Record exact GF(4) query optimum and PR
+#2267 Formalize rectangular decoder rank and minor cost interfaces
+#2268 Record QQ16 tap research handoff
+#2269 Conditional κ = 0.001696247139058474: capped phase-cell fusion outer (PR1673) on the T74 supplier with anticipatory dirty borrowing (PR2226, 43 high-helper aliases) on the T74 pivot-566+554 supplier: conditional kappa 0.0016962471390584742…
+#2271 research: add borrowed-source Gray mask fanout
+#2272 Research: dense-polar small-T gain screen, scoped negative (no new kappa)
+#2273 Machine-check the post-emit read-set of the 15 audit-unread hosted-template fields
+#2274 research: three-total-classical-configs review fixes (scope, lower-bound labelling, summary assertion)
+#2276 Tooling: record R420 geometry-cache production benchmark receipts
+#2277 Dense-pairing floors for overcomplete root-code decoders (E6 36, D5 20, every m) and for every rank-T realisation (E8 72, E7 49, D6 30, D4 12, P104 56), with a correction to Conjecture ID (a) (no κ claim)
+#2279 Prove the deferred R439 scatter optimum over all undo ideals
+#2280 research: bound two-center R439 defect relay
+#2281 Conditional κ = 0.0016962471390584742: recertified 1e-3000 supplier endpoint, fixed-grid-maximum kappa C - 1/F - B at 1e-3080 slacks (PR2180 / PR2161 retune) and exact-integer coarse exponential (PR2168): conditional kappa 0.00169624713905…
+#2282 Prove four-root minimum for seven-source paired-call connectors
+#2283 Record cycle 31 submission handoff
+#2284 Merge branch 'CrocSwap:main' into kl1
+#2286 Audit side-condition coverage of the pending T74 outer at #2044
+#2287 Propose selected complex layer and recursive precision closure
+#2288 Replace internal agent names by the public credit wording; manifest regenerated (text only, kappa unchanged)
+#2289 Formally audit the selected BIT stopped recurrence
+#2290 Research expanded rank-one couplings for GL3 bit targets
+#2293 Add CR2/B2 independent audit package (item 2 of the 1166 independent-check request)
+#2294 Address review: invertible isometry controls, scoped OQ3 wording, Corollary B'
+#2295 Discharge the selected BIT real moment premise in Lean
+#2296 Clarify cycle 32 initial PR status
+#2297 Research five-dimensional P112 port decoder
+#2298 Bind completed selected callees to conservative outer multiplication
+#2301 Audit the selected chain's unbound cross-stage owner-map fields (no new kappa)
+#2302 Replace internal agent names by the public credit wording; manifest regenerated (text only, kappa unchanged)
+#2303 Add exact two-call Q8 register exclusion
+#2305 Compose P104 private descent reuse with coalesced frames
+#2306 research: rule out selected-only QQ16 boundary repairs
+#2307 Audit selected BIT fallback words with symbolic unit weights
+#2308 Add exact two-frame shared correction census
+#2309 Add files via upload
+#2310 Bound selected BIT control work uniformly across root contexts
+#2311 Address review: rescope guard units, reclassify covered premises, harden controls
+#2312 Charge the private cleanup buffers as physical stock (Z=78, physical 66830, CLEAR charges, adapter bound, controls), regenerate evidence/INDEPENDENT.json, two-layer kappa labels and wording (kappa unchanged)
+#2313 Execute certified Gaussian resampling through exact integer recovery
+#2314 Prove a sharp weighted region for the mixed UT4 target
+#2315 Independently check record candidate #2269 (T74 borrow43)
+#2316 Audit Windows path-key rejection in selected PR1094 manifests
+#2317 Screen: no thirteen-call five-SWAP word with commuting projectors (scoped negative)
+#2318 Add Q8 inverse-label pair census at r=2 (exact minima, no compression)
+#2320 Evidence: pin RESULT.json for production data-corner 1.54× receipts
+#2321 Prove sharp COPY cost for the fixed P112 two-column completion
+#2322 Improve conditional kappa with coherent four-helper handoffs
+#2323 Prove pairing-rank dirty workspace compression for rank-one words
+#2324 Prove sharp stock-fit cutoff for the PR2234 BIT caller
+#2326 Research: no single coordinate tap restores the QQ16 selected inputs
+#2327 Audit PR2287 fixed-grid primitive prefixes and exactness conditions
+#2328 Research: the QQ16 shear prefix needs exactly sixteen native lines
+#2329 Honesty: disclose live clifford_exact swap; demote cold-wrapper pin
+#2330 Research note: justify decoder split min-max via linking systems
+#2332 Research: bind actual selected BIT matrix preparation to PR #2310's control tables
+#2334 test(research): 验证 B2 无环边强化界的九线反例
+#2335 research: F-star cert(M) falsifier census on exact 3-total decoders (seed 298df375, no new kappa)
+#2336 Evaluate selected PR1094 successor replay on Windows
+#2337 Clarify concurrent P104 result and preserve independent corroboration
+#2338 Decoder floors are tight in the frontier format: one F2^9 label table, factors in col M of a rank-8 realisation (P112 64, E8 72, P104 (#968's unit) 56; two-call batches 128) — no κ claim
+#2339 Construct PR2226 low (anticipatory) aliases on the T74 borrow words
+#2340 research: falsify the MAS edge form of Theorem B2 (iii) with two exact counterexamples
+#2341 Formalize the conditional common-label tensor lift
+#2342 Credit concurrent batch floor and frame this as an independent proof
+#2343 Audit body-dependent BIT stock and fixed-point selection
+#2344 Add exact Windows input-role adapter for selected replay comparison
+#2345 Prove exact early-prefix P104 shared correction dimensions
+#2346 Prove actual-cover QQ16 final-record obstruction
+#2348 Tooling: demote dependent audit_hosted_k pins after hosted-digest production
+#2349 Conditional κ = 0.001697065994108880: owner relocations on #2322's handoff construction
+#2350 Add exact QQ16 checker and source-bound receipts
+#2351 pool121 jet rigidity: apply review fixes (SCC/Peel correction, GF(2^k) qualifiers, counts)
+#2353 Audit P104 monotone relay floor with explicit lifetime model
+#2354 research: certify the QQ16 66-port family threshold
+#2355 Add an opt-in owner-bound selected replay successor
+#2356 Prove a five-tap floor for fixed-order R439 column interleaving
+#2357 Tooling: record emitted-local production benchmark and opt-in pin retarget
+#2358 Prove sharp P104 dimension-98 prefix boundary
+#2359 Audit T74 four-role pricing delta from both raw word pairs
+#2360 Certify PR2339 whole-helper T74 packing cap below 0.0016870
+#2361 Harden CI selection and failure reporting after independent audit
+#2363 Improve conditional kappa with complete T74 augmenting paths
+#2364 Execute complete generic packets with nested child dispatch
+#2365 Research: prove uniform parameter bounds for PR2298
+#2367 Independently audit P104 tail-prefix rank certificates
+#2368 docs(research): rule out the QQ16 shear with an old-chart record
+#2370 [Lean] Derive aligned ADD execution and finite-trace bit budgets
+#2371 [Lean] Bind exact L450 fragment bytes to checked chart payload
+#2373 Verify deferred target undo with native staged replay
+#2374 README title line: exact owner fill (text only, kappa unchanged)
+#2375 Tooling: retarget frame-pair pairwise pins to production baseline
+#2376 Docs: map which QQ16 observation contracts are already checked
+#2377 Fix registered replay descendant cleanup on command exit
+#2378 Formalize selected monomial coordinate and signed-word interfaces
+#2379 Add independent exact-F2 certificate of cost(tied_min) = 12 (no kappa claim)
+#2381 Record the public QQ16 finding and retrievable artifact
+#2382 Prove fixed-reader P112 two-total COPY exclusion through 47 ports
+#2383 Research: P104's relay floor survives free private-code access
+#2384 Research: the QQ16 66-port read set still loses selected inputs
+#2385 Research: P112's nine-term COPY floor holds for every nonzero coefficient
+#2386 Research: sharp complete-vector request bounds for selected BIT control
+#2387 Owner fill and width-aware ceiling for the PR2339 80-alias T74 words (negative result)
+#2388 Research: R439's B508 frame floor survives an earlier left boundary
+#2389 Research: adaptive QQ16 reads still need 66 ports; 45 optimal sets
+#2390 Research: bind the selected complex event ledger to its height guard
+#2391 test(research): refute native centre quarter factor
+#2392 Research: the P104 no-relay access-cover minimum is 4,580
+#2393 Research: P104 Y0 needs 48 new helper lifetimes, and 48 suffice
+#2394 Research: lower PR #2339's initial T74 prefix with 64 monomial applications
+#2395 Research: a stronger P112 two-call COPY floor for arbitrary cross forms
+#2396 Add seven-source universal connector word in the singleton+DUO alphabet (k=22, W=24)
+#2397 Research: an optimal 144-call seven-source sparse-mask connector
+#2398 Research: extra factors do not lower the fixed P112 COPY-power optimum
+#2399 Research: completed-callee substitution at PR #2234's BIT leaves and headers
+#2400 Research: PR #2308's P112 shared correction needs at least 12 COPY units
+#2402 Follow-up: mechanism and lender prices of the PR2339 target-climb merges
+#2403 [Lean] Restore saved exponents and refine ambient metadata XOR
+#2404 Formalize normal-class rank and completed price bounds in Lean
+#2405 Bind canonical raw prefixes to selected coefficient execution
+#2406 Certify a T74 cap under variable scalar and handoff frames
+#2407 Add exact R439 single-copy interleaving with 88 scatter ADDs
+#2409 Tooling: enforce -O admission and retarget seed93 tests to baseline
+#2410 [Lean] Check original PR1942 chart witnesses and strict envelope
+#2411 Link proof authors to GitHub profiles
+#2412 Tooling: align dependent HPE transport pins with sw4 execution
+#2413 Revise PR2298 audit: credit PR2365, assert S6 cutoffs, relabel controls
+#2414 Measure source-bound native compiler reuse with full replay controls
+#2415 docs: identify the equivalent group-basis control precisely
+#2416 Research: bound native lines at the QQ16 A-copy cut
+#2418 [Lean] Pay positioned paired-track acquisition and global return
+#2419 QQ16 read-set check: apply review fixes (scope and credit wording)
+#2420 Characterize live-row and physical-slot reserve compatibility
+#2421 test(r439): verify interleaved COPY through native engines
+#2422 Compose signed record phases with selected tensor action
+#2423 R438 bit supplier: one improving transport, optimal re-hosting, PR1345 atlas fixes
+#2425 [Lean] Decode compact bytes and recover the L450 source operator
+#2426 [Lean] Execute encoded exponent alignment and dyadic addition
+#2427 Credit thakrarsagar PR 2274 overlap in the classical-configs package README
+#2428 Exclude reframed two-writer helper-star absorption via forced-carry closure
+#2429 End-of-call restoration climbs on the T74 PR2322 words: census and prices
+#2430 docs(research): link masked decoder rigidity limits
+#2431 Evidence: record production packed-omission host benchmark and pin hygiene
+#2432 Normalize the retained logical replay wrapper formatting
+#2433 Tooling: 4.75× faster production P112 free-sink audit via signed modular determinants
+#2435 Conditional κ = 0.001698511343697629: entrance raise of 24 copy buffers on the handoff T74 words
+#2436 Compose four lifted-target aliases with entrance24 and verify full bound
+#2437 Bind R439 interleaved COPY to ideal whole-call hosting
+#2438 [Lean] Return reusable dyadic output with paid copy and sign split
+#2439 [Lean] Execute paid exponent widening and half-source addition
+#2440 Address review: scope, PR2437 credit, open-predecessor pins, second 84 schedule
+#2441 Reuse exact child-cost intervals with source and context guards
+#2442 Extend owner-fill optimality audit to PR2435: its fill leaves +5.8e-10
+#2443 test(qq16): certify coordinate decoding across two retained cuts
+#2444 Add exact-search tooling and the KB2 six-distinct-value screen
+#2445 Prove sharp two-target P104 acquisition sharing with 78 lifetimes
+#2446 Record frame-only diff vs PR2322, pin OUTER-CLAIM kappa, FAIL on replay rejects (review fixes)
+#2447 README: de-duplicate repeated paragraph, state hosting scope of the width stages (text only, kappa unchanged)
+#2448 Verify interleaved R439 packet routing with carry-aware finite replay
+#2449 research: implement encoded selected head-offset control
+#2450 e6-d5 package: address review (exact negative controls, -O guard, scope and credit)
+#2451 Cold-restoration screen on the T74 PR2322 words: single-gate moves are legal but save nothing
+#2452 test: observe native Windows replay descendant cleanup
+#2453 Price PR2435's entrance raise and further raises on the T74 handoff words
+#2454 Certify native frame operations for P104 two-target correction
+#2455 Prove eight source XORs at six-query connector endpoint
+#2456 Independently audit QQ16 retained-cut operator recovery
+#2457 research: complete binary callees over aggregate spectator ranges
+#2458 Research: bind P104 two-target correction to exact native transports
+#2459 Audit selected COPY separation in every odd characteristic
+#2460 research: certify P104 third-target collector rank deficit
+#2461 research: bound owner-local centre repair information
+#2462 RELEASE summary: fix clause order (text only, kappa unchanged)
+#2464 KB1 supplier instantiation of the certified z4 typed echo: priced whole construction, exact moments and a < D/E, one hosting obstruction (no new kappa)
+#2465 Bit helper-deletion ladder under optimal window-respecting re-hosting (d = 0..6)
+#2466 Independently verify PR2447's optimal owner fill; 4-move realization of the same optimum
+#2467 research: retain P104 relay floor under original helper reads
+#2468 research: construct native QQ16 future query with restored sources
+#2469 Fix Windows replay lifetime with gated Job Object ownership
+#2470 research: cite ywz65 PR2468 native C read in QQ16 retention census
+#2471 Bound fixed paired-plane scalar fitting rank between 48 and 50
+#2472 Audit exact T74 raised-entrance wrapper bindings
+#2473 Audit exact local billing for the encoded selected ADD
+#2474 Conditional κ = 0.001703676387993676: a fifth #2436 alias on the entrance-raised T74 words
+#2475 Add charged whole-call packet staging for selected BIT
+#2476 Prove uniform repair tariff across complex recursion
+#2477 Close the authenticated Windows selected-stage log comparison
+#2478 Verifier: audit_local.py accepts non-centre cut gates; additive guard (no new kappa)

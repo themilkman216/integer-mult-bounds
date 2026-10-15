@@ -1,0 +1,275 @@
+{
+ "status": "PASS_MUSE_BIT_DIRTY_BORROWING_BUILD",
+ "scope": "Exact F2 alias construction on the pinned selected P111 bit word with D-section monomial (frame-zero) compensation and rebuilt reverse cleanup; exact ceiling brackets; conditional exact global moment under the stated re-hosting of freed mass at rank<=42. No hosted outer assembly, no new kappa admitted; planning-transfer kappa caps only.",
+ "pins": {
+  "base_commit": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+  "word": "research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+  "word_file_sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+  "engine": "research/complex-local-word-ceiling/ceiling.py",
+  "engine_sha256": "86a1432870b3b21d8454106ec9162fddc0471472d9214c590a1420f2426cedfc",
+  "selected_kappa": "836330098538459/500000000000000000",
+  "a_bit_selected": "1733427039589844234749/1000000000000000000000000",
+  "pr2226_head": "dacaf3d81f1936bb55b8454b1244e5d014272754",
+  "pr2271_head": "95fd439596f72575d3869277c2d01aca1ca6ab6a"
+ },
+ "base_census_taxonomy": {
+  "handoff_points": 4193,
+  "handoff_compensable_x": 1277,
+  "chrono_triples": 1,
+  "candidates": 1
+ },
+ "base_funnel_classG": {
+  "counts": {
+   "handoff_points": 4193,
+   "handoff_no_prefix_reads_classH": 1277,
+   "handoff_fail_epre_outside_P": 2890,
+   "triples_chrono": 174020,
+   "triples_seam_fail_equal_dim": 109120,
+   "triples_seam_ok": 1538,
+   "triples_seam_ok_xblocked": 1537,
+   "triples_seam_fail_other": 63362,
+   "handoff_fail_epre_inconsistent_on_P": 26,
+   "triples_seam_ok_xclean": 1
+  },
+  "distinct_borrowers": {
+   "handoff": 439,
+   "chrono": 438,
+   "seam": 256,
+   "candidate": 1
+  },
+  "paid_comp_proxy_best_per_borrower": {
+   "borrowers_with_seam_ok_xblocked": 256,
+   "min_dx_distribution": {
+    "999": 242,
+    "7": 1,
+    "2": 13
+   },
+   "best_examples": [
+    [
+     464,
+     2,
+     54
+    ],
+    [
+     468,
+     2,
+     54
+    ],
+    [
+     471,
+     2,
+     54
+    ],
+    [
+     469,
+     2,
+     55
+    ],
+    [
+     473,
+     2,
+     55
+    ],
+    [
+     474,
+     2,
+     55
+    ],
+    [
+     475,
+     2,
+     55
+    ],
+    [
+     478,
+     2,
+     55
+    ]
+   ]
+  },
+  "gray_tour_screen": {
+   "gate_source_count_hist": {
+    "1": 2658,
+    "2": 9,
+    "3": 111,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 3,
+    "8": 1,
+    "94": 1,
+    "108": 1,
+    "109": 1,
+    "111": 1,
+    "113": 1,
+    "114": 1,
+    "117": 1,
+    "118": 1,
+    "120": 1,
+    "121": 1,
+    "122": 2,
+    "125": 5,
+    "126": 1,
+    "128": 1,
+    "130": 1,
+    "131": 1,
+    "133": 3,
+    "134": 1,
+    "135": 1,
+    "137": 2,
+    "138": 2,
+    "139": 1,
+    "143": 1,
+    "146": 1,
+    "148": 1,
+    "150": 1,
+    "154": 2,
+    "155": 1,
+    "156": 1,
+    "157": 1,
+    "158": 1,
+    "159": 1,
+    "160": 3,
+    "161": 1,
+    "162": 1,
+    "163": 3,
+    "164": 1,
+    "165": 1,
+    "166": 1,
+    "167": 1,
+    "168": 3,
+    "169": 1,
+    "170": 2,
+    "171": 2,
+    "172": 2,
+    "173": 2,
+    "176": 2,
+    "177": 3,
+    "178": 1,
+    "179": 3,
+    "180": 4,
+    "181": 2,
+    "183": 3,
+    "184": 1,
+    "185": 1,
+    "186": 1,
+    "187": 1,
+    "190": 1,
+    "191": 3,
+    "192": 2,
+    "193": 2,
+    "195": 1,
+    "196": 2,
+    "197": 2,
+    "198": 1,
+    "201": 3,
+    "202": 1,
+    "205": 1,
+    "206": 1,
+    "211": 1,
+    "214": 1,
+    "216": 1
+   },
+   "total_row_adds_DAB": 21149,
+   "note": "paid profile counts frame climbs only (replay()); row ADDs are not priced"
+  }
+ },
+ "base_candidates": [
+  {
+   "lender": 470,
+   "borrower": 444,
+   "tstar": 1994,
+   "handoff_section": "A",
+   "handoff_gate": 1994,
+   "prefix_incidents": 1,
+   "zero_response": false,
+   "targets_reached": 55
+  }
+ ],
+ "aliases_applied": [
+  {
+   "lender": 470,
+   "borrower": 444,
+   "tstar": 1994,
+   "handoff_section": "A",
+   "handoff_gate": 1994,
+   "prefix_incidents": 1,
+   "zero_response": false,
+   "targets_reached": 55,
+   "d_compensation": {},
+   "profile_after": {
+    "1": 1322,
+    "2": 1342,
+    "3": 79,
+    "4": 44,
+    "5": 102,
+    "6": 11,
+    "7": 18
+   },
+   "mass_after": 5121,
+   "helpers_after": 438
+  }
+ ],
+ "helpers_before": 439,
+ "helpers_removed": 1,
+ "helpers_after": 438,
+ "local_profile_before": {
+  "1": 1323,
+  "2": 1342,
+  "3": 79,
+  "4": 44,
+  "5": 102,
+  "6": 11,
+  "7": 19
+ },
+ "local_profile_after": {
+  "1": 1322,
+  "2": 1342,
+  "3": 79,
+  "4": 44,
+  "5": 102,
+  "6": 11,
+  "7": 18
+ },
+ "local_mass_before": 5129,
+ "local_mass_after": 5121,
+ "ceiling_bit_params": {
+  "m": 64,
+  "families": 888,
+  "stages": 9,
+  "centre_copies": 63,
+  "grid": "1/10^12"
+ },
+ "ceiling_before": {
+  "a_lo": "391183751/200000000000",
+  "a_hi": "488979689/250000000000",
+  "a_hi_dec": "0.001955918756"
+ },
+ "ceiling_after": {
+  "a_lo": "1957724993/1000000000000",
+  "a_hi": "978862497/500000000000",
+  "a_hi_dec": "0.001957724994"
+ },
+ "conditional_moment": {
+  "hypothesis": "global = 288*local + REM(fastc) + freed mass as rank-42 children (+1 remainder child); deficit fixed at 10272",
+  "W": 28416,
+  "m": 64,
+  "root_before": {
+   "a_lo": "1733427041/1000000000000",
+   "a_hi": "866713521/500000000000",
+   "a_lo_dec": "0.001733427041"
+  },
+  "root_after": {
+   "a_lo": "43369941/25000000000",
+   "a_hi": "1734797641/1000000000000",
+   "a_lo_dec": "0.00173479764"
+  },
+  "certified_a_bit_after_dec": "0.00173479764",
+  "kappa_cap_bit_limited_after_dec": "0.00173179332901985",
+  "kappa_cap_bit_limited_before_dec": "0.0017304274698236",
+  "vs_pr2269_kappa_dec": "0.0016962471390584742",
+  "vs_pr2226_complex_ceiling_a_dec": "0.001754331546940",
+  "gap_a_to_2226_ceiling_after_dec": "1.953390694e-05",
+  "sensitivity_aliases_of_observed_shape_for_2226_ceiling": 16
+ }
+}

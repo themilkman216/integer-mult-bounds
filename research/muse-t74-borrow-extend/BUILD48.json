@@ -1,0 +1,42 @@
+{
+ "base": {
+  "joint_rc": 0,
+  "joint_seconds": 0.6786567049998666,
+  "build_rc": 0,
+  "build_seconds": 0.4645054519999121,
+  "audit_rc": 0,
+  "audit_seconds": 0.9562633849998292,
+  "controls_rc": 0,
+  "controls_seconds": 7.893447487000003,
+  "audit_profile": {
+   "1": 2351,
+   "2": 501,
+   "3": 414,
+   "4": 129,
+   "5": 37,
+   "8": 8
+  },
+  "audit_mass": 5360,
+  "audit_status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD"
+ },
+ "extra": {
+  "joint_rc": 0,
+  "joint_seconds": 0.6659265050000158,
+  "build_rc": 0,
+  "build_seconds": 0.46122425100020337,
+  "audit_rc": 0,
+  "audit_seconds": 0.866902122999818,
+  "controls_rc": 0,
+  "controls_seconds": 7.970238453000093,
+  "audit_profile": {
+   "1": 2339,
+   "2": 509,
+   "3": 418,
+   "4": 125,
+   "5": 37,
+   "8": 8
+  },
+  "audit_mass": 5360,
+  "audit_status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD"
+ }
+}

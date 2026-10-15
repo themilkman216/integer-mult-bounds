@@ -1,0 +1,77 @@
+{
+ "status": "PASS_MUSE_2322_LOW_BORROW_VERIFY",
+ "verdict": "NO_NEW_KAPPA",
+ "kappa_2322_compared_against": "1697060296258836/1000000000000000000",
+ "kappa_2322_decimal": "0.001697060296258836",
+ "exact_actual_total_hi": "66304.553151680623",
+ "margins_vs_actual": {
+  "base #2322 widths (LP gap check)": "-0.026015663077",
+  "low x1": "0.010592235335",
+  "653 re-alias (measured stage-P)": "0.010592236001",
+  "low624 class x1 (measured stage-P)": "0.045678879281",
+  "high x1": "-0.026015662762",
+  "high x9 (all width-5)": "-0.026015660247",
+  "low x32": "2.236558683982",
+  "low x32 (joint paid delta variant)": "1.814140620230"
+ },
+ "falsified": {
+  "base #2322 widths (LP gap check)": false,
+  "low x1": true,
+  "653 re-alias (measured stage-P)": true,
+  "low624 class x1 (measured stage-P)": true,
+  "high x1": false,
+  "high x9 (all width-5)": false,
+  "low x32": true,
+  "low x32 (joint paid delta variant)": true
+ },
+ "stagep_deltas": {
+  "V653": {
+   "profile": {
+    "3": -1
+   },
+   "widths": {
+    "4": -1,
+    "7": -1,
+    "8": 1
+   }
+  },
+  "V606": {
+   "profile": {
+    "5": -1
+   },
+   "widths": {
+    "5": -1
+   }
+  },
+  "Vlow592": {
+   "profile": {
+    "3": -1
+   },
+   "widths": {
+    "4": -1,
+    "8": -1,
+    "9": 1
+   }
+  },
+  "Vlow624": {
+   "profile": {
+    "1": 1,
+    "4": -1
+   },
+   "widths": {
+    "4": -1,
+    "8": -1,
+    "9": 1
+   }
+  }
+ },
+ "stages": {
+  "census_2322": "PASS",
+  "canonical_identity": "PASS",
+  "stagep_singles": "PASS",
+  "exact_screen": "PASS",
+  "tamper_controls": "PASS (T1-T4 all rejected)"
+ },
+ "scope": "Exact pattern-LP dual certificates at a2322 for the shipped bin template; paid/width deltas measured exactly at stage P on the true PR2312 witness and transferred to #2322 final totals (assumption A: frame refit / pivot kernels / block-616 stages do not change these deltas). No native emission, owner fill, strict assembly or outer witness was run for candidates, per the stop rule. No new kappa is claimed.",
+ "disclosure": "Prepared with Meta Muse (muse-wonder-full-1.0) assistance."
+}

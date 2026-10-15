@@ -1,0 +1,33 @@
+{
+ "tag": "base",
+ "witness": "witness_80_base.json",
+ "pairs": 80,
+ "low": 32,
+ "replay_rc": 0,
+ "replay_seconds": 0.6691135450000729,
+ "build_rc": 0,
+ "build_seconds": 0.40826293300006,
+ "audit_rc": 0,
+ "audit_seconds": 1.0105371749996266,
+ "audit_profile": {
+  "1": 2303,
+  "2": 527,
+  "3": 386,
+  "4": 125,
+  "5": 37,
+  "8": 8
+ },
+ "audit_mass": 5264,
+ "audit_widths": {
+  "4": 4,
+  "5": 4,
+  "7": 36,
+  "8": 84,
+  "9": 272
+ },
+ "audit_status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD",
+ "corrections": 64,
+ "restored_cold": 44,
+ "controls_rc": 0,
+ "controls_seconds": 10.127496414000234
+}

@@ -1,0 +1,375 @@
+{
+ "base_commit": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+ "blocks": {
+  "broadcast_matrix": [
+   [
+    "1",
+    "1"
+   ],
+   [
+    "1",
+    "1"
+   ]
+  ],
+  "broadcast_rejected_as_identity": true,
+  "direct_per_plane": 4,
+  "direct_total_C": 224
+ },
+ "geometry": {
+  "orth_degree_max": 9,
+  "orth_degree_min": 0,
+  "orthogonal_pairs": 109,
+  "orthogonal_quads": 0,
+  "orthogonal_triples": 24,
+  "pair_census": {
+   "orth=False,inter=0,gamma=2,rho=2": 124,
+   "orth=False,inter=0,gamma=3,rho=1": 304,
+   "orth=False,inter=0,gamma=4,rho=1": 575,
+   "orth=False,inter=0,gamma=4,rho=2": 408,
+   "orth=False,inter=1,gamma=2,rho=2": 20,
+   "orth=True,inter=0,gamma=4,rho=0": 109
+  },
+  "pair_lb_min": 8,
+  "planes": 56,
+  "ports": 112
+ },
+ "lemma_case_checks": {
+  "s3_cases": [
+   {
+    "case": "intersection norm 1",
+    "gamma": 3,
+    "rho": 1,
+    "t": 0
+   },
+   {
+    "case": "intersection norm 1",
+    "gamma": 2,
+    "rho": 2,
+    "t": 1
+   },
+   {
+    "case": "intersection norm 0",
+    "rho": 2
+   }
+  ],
+  "s4_rank1_M_cases": [
+   {
+    "M": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "gamma": 3,
+    "rank_I_plus_MtM": 1
+   },
+   {
+    "M": [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "gamma": 3,
+    "rank_I_plus_MtM": 1
+   },
+   {
+    "M": [
+     [
+      1,
+      1
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "gamma": 4,
+    "rank_I_plus_MtM": 2
+   },
+   {
+    "M": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "gamma": 3,
+    "rank_I_plus_MtM": 1
+   },
+   {
+    "M": [
+     [
+      1,
+      0
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "gamma": 4,
+    "rank_I_plus_MtM": 2
+   },
+   {
+    "M": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ],
+    "gamma": 3,
+    "rank_I_plus_MtM": 1
+   },
+   {
+    "M": [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      1
+     ]
+    ],
+    "gamma": 4,
+    "rank_I_plus_MtM": 2
+   },
+   {
+    "M": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "gamma": 4,
+    "rank_I_plus_MtM": 2
+   },
+   {
+    "M": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "gamma": 4,
+    "rank_I_plus_MtM": 2
+   }
+  ]
+ },
+ "pins": {
+  "ceiling_py_sha256": "86a1432870b3b21d8454106ec9162fddc0471472d9214c590a1420f2426cedfc",
+  "data_phases_payload_sha256": "c5916ff312678f12aba403847643fbbc29f643acec60bdf836fa56cd3e8251fa",
+  "port_matching_certificate_sha256": "4fd648f7b5178bff5441bf364d58234b7bc1a43b924bc6da03013c948f1473b1",
+  "selected_archive_sha256": "f1da80610bf33c58527f18ad63b4350d0b864e1d4486141ee17ac9bed4d529d6",
+  "selected_kappa": "836330098538459/500000000000000000",
+  "selected_result_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32"
+ },
+ "schema_version": 1,
+ "screens": {
+  "budgets": {
+   "1": {
+    "bit_endpoint_a": {
+     "charge": 161,
+     "copies": 161,
+     "next_copies_fails": 162
+    },
+    "kappa_plus_10pct_a": {
+     "charge": 159,
+     "copies": 159,
+     "next_copies_fails": 160
+    },
+    "pr2226_ceiling_hi_a": {
+     "charge": 161,
+     "copies": 161,
+     "next_copies_fails": 162
+    },
+    "selected_a": {
+     "charge": 162,
+     "copies": 162,
+     "next_copies_fails": 163
+    }
+   },
+   "2": {
+    "bit_endpoint_a": {
+     "charge": 160,
+     "copies": 80,
+     "next_copies_fails": 81
+    },
+    "kappa_plus_10pct_a": {
+     "charge": 158,
+     "copies": 79,
+     "next_copies_fails": 80
+    },
+    "pr2226_ceiling_hi_a": {
+     "charge": 160,
+     "copies": 80,
+     "next_copies_fails": 81
+    },
+    "selected_a": {
+     "charge": 162,
+     "copies": 81,
+     "next_copies_fails": 82
+    }
+   },
+   "7": {
+    "bit_endpoint_a": {
+     "charge": 161,
+     "copies": 23,
+     "next_copies_fails": 24
+    },
+    "kappa_plus_10pct_a": {
+     "charge": 154,
+     "copies": 22,
+     "next_copies_fails": 23
+    },
+    "pr2226_ceiling_hi_a": {
+     "charge": 161,
+     "copies": 23,
+     "next_copies_fails": 24
+    },
+    "selected_a": {
+     "charge": 161,
+     "copies": 23,
+     "next_copies_fails": 24
+    }
+   },
+   "8": {
+    "bit_endpoint_a": {
+     "charge": 160,
+     "copies": 20,
+     "next_copies_fails": 21
+    },
+    "kappa_plus_10pct_a": {
+     "charge": 152,
+     "copies": 19,
+     "next_copies_fails": 20
+    },
+    "pr2226_ceiling_hi_a": {
+     "charge": 160,
+     "copies": 20,
+     "next_copies_fails": 21
+    },
+    "selected_a": {
+     "charge": 160,
+     "copies": 20,
+     "next_copies_fails": 21
+    }
+   },
+   "9": {
+    "bit_endpoint_a": {
+     "charge": 162,
+     "copies": 18,
+     "next_copies_fails": 19
+    },
+    "kappa_plus_10pct_a": {
+     "charge": 153,
+     "copies": 17,
+     "next_copies_fails": 18
+    },
+    "pr2226_ceiling_hi_a": {
+     "charge": 153,
+     "copies": 17,
+     "next_copies_fails": 18
+    },
+    "selected_a": {
+     "charge": 162,
+     "copies": 18,
+     "next_copies_fails": 19
+    }
+   }
+  },
+  "candidate_ceilings": {
+   "C112_on_pr2226_profile_conditional": {
+    "a_hi": "528896573/125000000000",
+    "a_hi_dec": "0.004231172584",
+    "a_lo": "4231172583/1000000000000",
+    "kappa_planning_cap_dec": "0.004213345193331"
+   },
+   "C112_rank2x56_conditional_join_invoice": {
+    "a_hi": "4078546959/1000000000000",
+    "a_hi_dec": "0.004078546959",
+    "a_lo": "2039273479/500000000000",
+    "kappa_planning_cap_dec": "0.004061979982893"
+   },
+   "C96_pr2118_profile_not_scalar_decoder": {
+    "a_hi": "2432366627/500000000000",
+    "a_hi_dec": "0.004864733254",
+    "a_lo": "4864733253/1000000000000",
+    "kappa_planning_cap_dec": "0.004841182193992"
+   }
+  },
+  "deficit_per_call_C224": "-224/9",
+  "selected_line_ceiling_reproduced": {
+   "a_hi": "169005411/100000000000",
+   "a_hi_dec": "0.00169005411",
+   "a_lo": "1690054109/1000000000000",
+   "kappa_planning_cap_dec": "0.001687202646233"
+  },
+  "targets_dec": {
+   "bit_endpoint_a": "0.00173342703959",
+   "kappa_plus_10pct_a": "0.001843317785504",
+   "pr2226_ceiling_hi_a": "0.001754331546941",
+   "selected_a": "0.001675462676808"
+  },
+  "w_per_call": "896/9",
+  "zero_breakeven_C_integer_max": 199,
+  "zero_breakeven_C_lt": "1792/9",
+  "zero_ratio_C199": "65407/65408",
+  "zero_ratio_C200": "8177/8176",
+  "zero_ratio_C224": "293/292"
+ },
+ "status": "scoped falsification and price screen; no new supplier or kappa",
+ "triple_pattern": {
+  "checked_nonorth_triple": {
+   "cost": 22,
+   "triple": [
+    0,
+    3,
+    4
+   ]
+  },
+  "checked_orth_triple": {
+   "cost": 12,
+   "triple": [
+    0,
+    1,
+    2
+   ]
+  },
+  "cost_histogram": {
+   "12": 24,
+   "14": 128,
+   "16": 542,
+   "18": 2767,
+   "20": 5847,
+   "22": 10945,
+   "24": 7467
+  },
+  "minimum_cost": 12
+ }
+}

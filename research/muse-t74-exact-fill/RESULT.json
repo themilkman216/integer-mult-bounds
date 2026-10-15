@@ -1,0 +1,146 @@
+{
+ "status": "PASS_MUSE_T74_EXACT_FILL_VERIFY",
+ "stages": {
+  "fill43": {
+   "idle": {
+    "1": 23976,
+    "3": 8673,
+    "5": 813,
+    "7": 150,
+    "48": 24479
+   },
+   "H": {
+    "1": 1584738,
+    "2": 337002,
+    "3": 286065,
+    "4": 84246,
+    "5": 28785,
+    "7": 150,
+    "8": 5328,
+    "48": 24479
+   }
+  },
+  "candidate43": {
+   "H": {
+    "1": 1581750,
+    "2": 338994,
+    "3": 287061,
+    "4": 83250,
+    "5": 28785,
+    "7": 150,
+    "8": 5328,
+    "48": 24479
+   },
+   "overrides": 250
+  },
+  "fill48": {
+   "idle": {
+    "1": 23976,
+    "3": 8673,
+    "5": 4143,
+    "7": 150,
+    "48": 24479
+   },
+   "H": {
+    "1": 1584738,
+    "2": 337002,
+    "3": 286065,
+    "4": 84246,
+    "5": 28785,
+    "7": 150,
+    "8": 5328,
+    "48": 24479
+   }
+  },
+  "candidate48": {
+   "H": {
+    "1": 1581750,
+    "2": 338994,
+    "3": 287061,
+    "4": 83250,
+    "5": 28785,
+    "7": 150,
+    "8": 5328,
+    "48": 24479
+   },
+   "overrides": 250
+  },
+  "literal_reconstruct_candidate43": {
+   "rc": 0
+  },
+  "dual_bound_43": {
+   "LB_dec": 16866.80536066968,
+   "shipped_idle_dec": [
+    16866.835643858758,
+    16866.835643858758
+   ],
+   "gap": 0.030283189074074682
+  },
+  "dual_bound_48": {
+   "LB_dec": 17095.928928708723,
+   "shipped_idle_dec": [
+    17095.95921189753,
+    17095.95921189753
+   ],
+   "gap": 0.030283188809198038
+  },
+  "delta_unit_A2269_hi": -0.00201887583198831,
+  "delta_unit_b_endpoint_hi": -0.0020154436918508713,
+  "moment_gain_43": {
+   "candidate_minus_H2269_hi": -0.012261514049764667,
+   "per_call_extra_minus_gauge_hi": -4.92430283123079e-05
+  },
+  "moment_gain_48": {
+   "candidate_minus_H2269_hi": -0.012261514049764667,
+   "per_call_extra_minus_gauge_hi": -4.92430283123079e-05
+  },
+  "chain_closure_43": {
+   "window_4_0_depth": null,
+   "visited_4_0": 1441,
+   "window_29_16_depth": 1,
+   "visited_29_16": 254
+  },
+  "chain_closure_48": {
+   "window_4_0_depth": null,
+   "visited_4_0": 1441,
+   "window_29_16_depth": 1,
+   "visited_29_16": 254
+  },
+  "candidate2_carry_through": {
+   "H": {
+    "1": 1581762,
+    "2": 338986,
+    "3": 287057,
+    "4": 83254,
+    "5": 28785,
+    "7": 150,
+    "8": 5328,
+    "48": 24479
+   },
+   "moment_gain_vs_H2269_at_least": 0.01221227102145236,
+   "supplier_kappa_decimal": "0.0016934380969811023597915250896295309591552020385664795165377472479029962658239976037",
+   "outer_kappa": "0.0016963106941348668014198905168802034982843631201060822574552147463574255930674845965482369999999997996607378610730266397160218966239593",
+   "outer_gain_dec": 6.355507639258065e-08
+  }
+ },
+ "tampers": {
+  "T1_offset": {
+   "rejected": true
+  },
+  "T4_window": {
+   "rejected": true
+  },
+  "T2_gamma_inflated": {
+   "rejected": true
+  },
+  "T3_H_count": {
+   "rejected": true
+  },
+  "T5_single_provider_dispatch": {
+   "rejected": true
+  }
+ },
+ "seconds": 20.706342935562134,
+ "engine_sha256": "86a1432870b3b21d8454106ec9162fddc0471472d9214c590a1420f2426cedfc",
+ "claim": "CONDITIONAL_KAPPA_CANDIDATE: 665+1 dispatch candidate carried through strict assembly, full package verify, fine endpoints and outer ledger (see CARRY-THROUGH.json/README for exact kappas, scope and the two sympy-blocked outer evidence replays); fill-rows k<150 remains open"
+}

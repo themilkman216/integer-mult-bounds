@@ -1,0 +1,80 @@
+{
+ "pins": {
+  "a_bit_selected": "1733427039589844234749/1000000000000000000000000",
+  "base_commit": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+  "engine": "research/complex-local-word-ceiling/ceiling.py",
+  "engine_sha256": "86a1432870b3b21d8454106ec9162fddc0471472d9214c590a1420f2426cedfc",
+  "grid": "1/10^12",
+  "kappa_selected": "836330098538459/500000000000000000",
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+  "word_per_call": {
+   "1": 2412,
+   "2": 418,
+   "3": 432,
+   "4": 142,
+   "5": 82,
+   "8": 8
+  }
+ },
+ "points": {
+  "K4_s9_m73_base": {
+   "K": 4,
+   "R": 51,
+   "a_hi": "169005411/100000000000",
+   "a_hi_dec": "0.00169005411",
+   "a_lo": "1690054109/1000000000000",
+   "bracket_above_bit_endpoint": false,
+   "families": 896,
+   "idle_mass": "1646",
+   "m": 73,
+   "stages": 9,
+   "w": "99.5555555556",
+   "x_base_hi": "1"
+  },
+  "K5_s11_m73_frozen": {
+   "K": 5,
+   "R": 51,
+   "a_hi": "448072157/250000000000",
+   "a_hi_dec": "0.001792288628",
+   "a_lo": "1792288627/1000000000000",
+   "bracket_above_bit_endpoint": true,
+   "families": 1120,
+   "idle_mass": "1808.90909091",
+   "m": 73,
+   "stages": 11,
+   "w": "101.818181818",
+   "x_base_hi": "1.06049186082"
+  },
+  "K5_s11_m89_legal": {
+   "K": 5,
+   "R": 62,
+   "a_hi": "207304263/125000000000",
+   "a_hi_dec": "0.001658434104",
+   "a_lo": "1658434103/1000000000000",
+   "bracket_above_bit_endpoint": false,
+   "families": 1120,
+   "idle_mass": "3438",
+   "m": 89,
+   "stages": 11,
+   "w": "101.818181818",
+   "x_base_hi": "0.981290536313"
+  },
+  "K6_s13_m105_legal": {
+   "K": 6,
+   "R": 74,
+   "a_hi": "1619530251/1000000000000",
+   "a_hi_dec": "0.001619530251",
+   "a_lo": "6478121/4000000000",
+   "bracket_above_bit_endpoint": false,
+   "families": 1344,
+   "idle_mass": "5230",
+   "m": 105,
+   "stages": 13,
+   "w": "103.384615385",
+   "x_base_hi": "0.958271241978"
+  }
+ },
+ "scope": "Exact favorable relaxations isolating m=73 frozen vs m=1+8s legal window on the selected word. No construction, no new kappa.",
+ "status": "PASS_MUSE_OOD_TEMPLATE_K5_REPRICE",
+ "verdict": "K5 legal-window bracket does NOT exceed the bit endpoint and does not beat the K4 base ceiling: the round-1 182.0 overhead budget is moot on the selected word"
+}

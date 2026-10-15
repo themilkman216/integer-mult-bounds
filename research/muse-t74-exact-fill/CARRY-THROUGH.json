@@ -1,0 +1,113 @@
+{
+ "candidate": "43-alias words, shipped fill rows, dispatch 665 extra + 1 gauge44 (retain (8,73)); FILL43-EXTRAm1.json.gz",
+ "supplier_kappa": "16934380969811023597915250896295309591552020385664795165377472479029962658239976037/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+ "supplier_kappa_decimal": "0.0016934380969811023597915250896295309591552020385664795165377472479029962658239976037",
+ "supplier_kappa_2269": "16933747569716072928255508000300979096861142515806490772516972557968893652911293239/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+ "supplier_gain_dec": 6.334000949506696e-08,
+ "complex_lower": "1696310694134866801419890516880203498284363120106082257455214746357425593067484596548237/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+ "profile": {
+  "1": 1581762,
+  "2": 338986,
+  "3": 287057,
+  "4": 83254,
+  "5": 28785,
+  "7": 150,
+  "8": 5328,
+  "48": 24479
+ },
+ "provider_counts": {
+  "extra": 665,
+  "gauge44": 1
+ },
+ "strict_status": "PASS_STRICT_MIXED_T74_EXACT_FILL",
+ "full_verify_status": "PASS_T74_EXACT_FILL_COMPLETE_FINITE_ADMISSION",
+ "full_verify_kappa_decimal": "0.0016934380969811023597915250896295309591552020385664795165377472479029962658239976037",
+ "full_verify_stages": [
+  {
+   "name": "fine-engine-oracle",
+   "exit_code": 0,
+   "seconds": 0.07483204500022111
+  },
+  {
+   "name": "retained-provider-and-parent-admission",
+   "exit_code": 0,
+   "seconds": 549.2118541149994
+  },
+  {
+   "name": "rebuild-words-566",
+   "exit_code": 0,
+   "seconds": 3.0441712310002913
+  },
+  {
+   "name": "reconstruct-owners",
+   "exit_code": 0,
+   "seconds": 7.0323479230000885
+  },
+  {
+   "name": "lift-parent",
+   "exit_code": 0,
+   "seconds": 10.694829911999477
+  },
+  {
+   "name": "rebuild-borrow-words",
+   "exit_code": 0,
+   "seconds": 18.25263782699949
+  },
+  {
+   "name": "audit-local-566-base",
+   "exit_code": 0,
+   "seconds": 1.035139810000146
+  },
+  {
+   "name": "audit-local-566-extra",
+   "exit_code": 0,
+   "seconds": 1.0684775429999718
+  },
+  {
+   "name": "rebind-566",
+   "exit_code": 0,
+   "seconds": 1.2401009129998783
+  },
+  {
+   "name": "lemmag-labels",
+   "exit_code": 0,
+   "seconds": 39.16143573200043
+  },
+  {
+   "name": "strict-t74",
+   "exit_code": 0,
+   "seconds": 126.33247263200064
+  },
+  {
+   "name": "geometry-controls",
+   "exit_code": 0,
+   "seconds": 0.5307576479999625
+  }
+ ],
+ "geometry_controls_rejected": 6,
+ "outer_kappa": "0.0016963106941348668014198905168802034982843631201060822574552147463574255930674845965482369999999997996607378610730266397160218966239593",
+ "outer_kappa_rational": "16963106941348668014198905168802034982843631201060822574552147463574255930674845965482369999999997996607378610730266397160218966239593/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+ "outer_kappa_2269": "0.0016962471390584742207696225394800943861284603706821716607210815258272261945561178592716719999999997996607505720883051558460754921039811",
+ "outer_gain_dec": 6.355507639258065e-08,
+ "outer_checks": {
+  "check_ledger": "PASS_FINE_PRIME_PADDING_EXACT_ARITHMETIC (62 positive checks)",
+  "independent_check": "PASS_INDEPENDENT_BALANCE_DERIVATION",
+  "run_outer_regeneration": "LEDGER/INDEPENDENT byte-identical on regeneration; stopped at check_gaugefree (missing sympy in this environment; also fails on unmodified #2269 package here)",
+  "sched_test": "PASS_UNION_SCHEDULE",
+  "sched_review": "PASS_UNION_SCHEDULE_REVIEW",
+  "struct_check": "PASS_STRUCTURED_BOUNDARY",
+  "check_fine_padding": "PASS_FINE_PADDING_FINITE_CONTROLS",
+  "check_gaugefree": "UNRUN (ModuleNotFoundError: sympy; environment lacks sympy/numpy, no network)",
+  "replay_evidence": "UNRUN (ModuleNotFoundError: sympy; same environment limitation)"
+ },
+ "sha256": {
+  "strict_assembly": "12b433c2edd480efc9c90f8503ccead69d9174a277ec719a1cab32432a8ed226",
+  "strict_result": "79fc82e9df73868d5292f2a02c4077958298d8adcb8f1ada77e64ed553fd266e",
+  "verify_result": "b755b4a6b845a2435fcebe0cd63be03980cd9373d3c96cd4e527a00f2ba77401",
+  "verify_stages": "e612f6ab5940f13b7bc7a6d61883c564a7fc3457d1dec5893ba93593d8b93aba",
+  "ledger": "1b4320f6aa234cf635f82a128f7fc1eb949da5b0de938606ebf60138441a7108",
+  "pkg_manifest": "ac0466e54f4ef9646a7b482367175f915f6163518d806d3b650b1c8e2d0806f7",
+  "candidate_fill": "87e26f4464a1ae07951241c32f58fd145e17a414ed0a1d2f0cc18922a3cb46ea"
+ },
+ "scope": "Conditional on all #2269/#2226 inherited obligations. Strict+full verify rerun fresh on candidate package copy in work/pkg (retained parent admission fresh, borrow natives fresh and reused thereafter); outer gaugefree/evidence replays blocked only by missing sympy in this environment."
+}

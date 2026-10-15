@@ -1,0 +1,58 @@
+{
+ "changed_fields": {
+  "extra": [
+   "actual_paid_profile",
+   "artifact_semantic_sha256",
+   "artifact_sha256",
+   "orientation_program_sha256"
+  ],
+  "gauge44": [
+   "actual_paid_profile",
+   "artifact_semantic_sha256",
+   "artifact_sha256",
+   "orientation_program_sha256"
+  ]
+ },
+ "new_paid": {
+  "extra": {
+   "1": 2339,
+   "2": 509,
+   "3": 418,
+   "4": 125,
+   "5": 37,
+   "8": 8
+  },
+  "gauge44": {
+   "1": 2351,
+   "2": 501,
+   "3": 414,
+   "4": 129,
+   "5": 37,
+   "8": 8
+  }
+ },
+ "new_profile": {
+  "1": 1584738,
+  "2": 337002,
+  "3": 286065,
+  "4": 84246,
+  "48": 24479,
+  "5": 25455,
+  "7": 150,
+  "8": 5328
+ },
+ "old_profile": {
+  "1": 1584738,
+  "2": 337002,
+  "3": 286065,
+  "4": 84246,
+  "48": 24479,
+  "5": 28785,
+  "7": 150,
+  "8": 5328
+ },
+ "provider_counts": {
+  "extra": 417,
+  "gauge44": 249
+ }
+}

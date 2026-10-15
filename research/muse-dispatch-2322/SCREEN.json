@@ -1,0 +1,475 @@
+{
+ "status": "PASS_SCREEN_ZERO_DISPATCH_GAIN_ON_2322",
+ "base_pkg": "research/t74-joint-owner-hillclimb (#2322, head 002304ef)",
+ "kappa_2322_rational": "1697060296258836/1000000000000000000",
+ "inputs_sha256": {
+  "data/PLAN.json": "b61f2893144e84a56ba7b325a24681981bb210d98abef5803c21b379a8e720ff",
+  "data/SPEC.json": "02d22c11fb4546e3bde0fe09f92f49714d934ebde174c76f1120a1a9a3095714",
+  "data/OWNERS.json.gz": "335f17fbd345eb6f7fc9590595cea723e7256dd09abfaf17d916d805c516fa6e",
+  "data/DISPATCH.json": "e7a20e652d6bd8371e48f9463d266a2d23c6c5cd3d41b7c039ef9efa8fc3cd3e",
+  "CLAIM.json": "439ded151e7897b8e7d5ef9ad47f3cd8d1daf0b69219ef507a922519c7003530",
+  "words/base.json.gz": "93c32c9dc8ca18394b7f3afac2cb4fa8582a6cb77399441b5107b396e63ca0f9",
+  "words/extra.json.gz": "aae6592eaa4cf8638f21d50c44d09d4f8a6bb079ddcf5e377711a10ee2ddb526"
+ },
+ "invoice_selected_local_paid_profile": {
+  "1": 1555110,
+  "2": 340992,
+  "3": 283716,
+  "4": 79920,
+  "5": 25308,
+  "8": 5328
+ },
+ "layer_equalities": {
+  "plan_paid_equal": true,
+  "plan_widths_list_equal": true,
+  "plan_ports_equal": true,
+  "plan_centers_equal": true,
+  "plan_orientation_program_sha_equal": true,
+  "spec_expected_profile_equal": true,
+  "spec_paid_profile_equal": true,
+  "spec_complete_contract_local_equal": true,
+  "spec_expected_local_equal": true,
+  "spec_program_hashes_equal": true,
+  "spec_local_adapters_bound_compiler_equal": true,
+  "contract_2312_paid_equal": true,
+  "contract_widths_list_equal": true,
+  "word_report_profile_equal": true,
+  "invoice_paid_equal": true,
+  "invoice_local_by_orientation_equal": true,
+  "invoice_selected_order_eq_plan": true
+ },
+ "paid_common": {
+  "1": 2335,
+  "2": 512,
+  "3": 426,
+  "4": 120,
+  "5": 38,
+  "8": 8
+ },
+ "contract_2312_paid_common": {
+  "1": 2343,
+  "2": 504,
+  "3": 422,
+  "4": 124,
+  "5": 42,
+  "8": 8
+ },
+ "word_recount": {
+  "base": {
+   "paid_profile": {
+    "1": 2335,
+    "2": 512,
+    "3": 426,
+    "4": 120,
+    "5": 38,
+    "8": 8
+   },
+   "width_inventory": {
+    "4": 33,
+    "5": 9,
+    "7": 38,
+    "8": 114,
+    "9": 240
+   }
+  },
+  "extra": {
+   "paid_profile": {
+    "1": 2335,
+    "2": 512,
+    "3": 426,
+    "4": 120,
+    "5": 38,
+    "8": 8
+   },
+   "width_inventory": {
+    "4": 33,
+    "5": 9,
+    "7": 38,
+    "8": 114,
+    "9": 240
+   }
+  }
+ },
+ "word_field_diff_counts": {
+  "B": 12,
+  "warps": 4
+ },
+ "pr2312_source_word_recount": {
+  "available": true,
+  "words": {
+   "base": {
+    "paid_profile": {
+     "1": 2343,
+     "2": 504,
+     "3": 422,
+     "4": 124,
+     "5": 42,
+     "8": 8
+    },
+    "width_inventory": {
+     "4": 37,
+     "5": 9,
+     "7": 38,
+     "8": 114,
+     "9": 240
+    },
+    "sha256": "4244149b59b287344b0e91aa50c6fa2a2491ee6c7a76d61cd352684a8182d005"
+   },
+   "extra": {
+    "paid_profile": {
+     "1": 2343,
+     "2": 504,
+     "3": 422,
+     "4": 124,
+     "5": 42,
+     "8": 8
+    },
+    "width_inventory": {
+     "4": 37,
+     "5": 9,
+     "7": 38,
+     "8": 114,
+     "9": 240
+    },
+    "sha256": "01d510cc4ba912567f6b02ea50b6b0e741ed231a3608de9c36e7eeccbdaf6cda"
+   }
+  },
+  "both_equal": true,
+  "pin": "sha256 matches generate_words.SOURCE_WORDS and UPSTREAM-2312.json"
+ },
+ "shipped_counts": {
+  "extra": 417,
+  "gauge44": 249
+ },
+ "candidate_profiles": {
+  "shipped_417_249": {
+   "counts": {
+    "extra": 417,
+    "gauge44": 249
+   },
+   "H": {
+    "1": 1576979,
+    "2": 340992,
+    "3": 292195,
+    "4": 79937,
+    "5": 27958,
+    "7": 87,
+    "8": 5328,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "idle": {
+    "1": 21869,
+    "3": 8479,
+    "4": 17,
+    "5": 2650,
+    "7": 87,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "owners_check_seconds": 1.373
+  },
+  "all_extra_666": {
+   "counts": {
+    "extra": 666
+   },
+   "H": {
+    "1": 1576979,
+    "2": 340992,
+    "3": 292195,
+    "4": 79937,
+    "5": 27958,
+    "7": 87,
+    "8": 5328,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "idle": {
+    "1": 21869,
+    "3": 8479,
+    "4": 17,
+    "5": 2650,
+    "7": 87,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "owners_check_seconds": 1.253
+  },
+  "all_gauge_666": {
+   "counts": {
+    "gauge44": 666
+   },
+   "H": {
+    "1": 1576979,
+    "2": 340992,
+    "3": 292195,
+    "4": 79937,
+    "5": 27958,
+    "7": 87,
+    "8": 5328,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "idle": {
+    "1": 21869,
+    "3": 8479,
+    "4": 17,
+    "5": 2650,
+    "7": 87,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "owners_check_seconds": 1.354
+  },
+  "extra665_retain_8_73": {
+   "counts": {
+    "extra": 665,
+    "gauge44": 1
+   },
+   "H": {
+    "1": 1576979,
+    "2": 340992,
+    "3": 292195,
+    "4": 79937,
+    "5": 27958,
+    "7": 87,
+    "8": 5328,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "idle": {
+    "1": 21869,
+    "3": 8479,
+    "4": 17,
+    "5": 2650,
+    "7": 87,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "owners_check_seconds": 1.39
+  },
+  "extra665_retain_3_65_backward": {
+   "counts": {
+    "extra": 665,
+    "gauge44": 1
+   },
+   "H": {
+    "1": 1576979,
+    "2": 340992,
+    "3": 292195,
+    "4": 79937,
+    "5": 27958,
+    "7": 87,
+    "8": 5328,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "idle": {
+    "1": 21869,
+    "3": 8479,
+    "4": 17,
+    "5": 2650,
+    "7": 87,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "owners_check_seconds": 1.332
+  },
+  "extra665_retain_first_gauge_2_33": {
+   "counts": {
+    "extra": 665,
+    "gauge44": 1
+   },
+   "H": {
+    "1": 1576979,
+    "2": 340992,
+    "3": 292195,
+    "4": 79937,
+    "5": 27958,
+    "7": 87,
+    "8": 5328,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "idle": {
+    "1": 21869,
+    "3": 8479,
+    "4": 17,
+    "5": 2650,
+    "7": 87,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "owners_check_seconds": 1.425
+  },
+  "mod3_mixed": {
+   "counts": {
+    "gauge44": 222,
+    "extra": 444
+   },
+   "H": {
+    "1": 1576979,
+    "2": 340992,
+    "3": 292195,
+    "4": 79937,
+    "5": 27958,
+    "7": 87,
+    "8": 5328,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "idle": {
+    "1": 21869,
+    "3": 8479,
+    "4": 17,
+    "5": 2650,
+    "7": 87,
+    "12": 1,
+    "21": 1,
+    "48": 24545
+   },
+   "owners_check_seconds": 1.718
+  }
+ },
+ "H_common": {
+  "1": 1576979,
+  "2": 340992,
+  "3": 292195,
+  "4": 79937,
+  "5": 27958,
+  "7": 87,
+  "8": 5328,
+  "12": 1,
+  "21": 1,
+  "48": 24545
+ },
+ "H_rank_mass": 4816512,
+ "H_deficit_check": 23680,
+ "algebraic_H_eq_idle_plus_666_paid_common": true,
+ "all_249_single_retentions_same_H_by_formula": true,
+ "exact_moments": {
+  "at_native_endpoint_lower": {
+   "b": "0.0016970602962588368950279736213908681182",
+   "enclosure": [
+    "28948022309329048855892746252171976963315304891064072072696793010526601871247/28948022309329048855892746252171976963317496166410141009864396001978282409984",
+    "115792089237316195423570985008687907853261219564256288290787172042106407485089/115792089237316195423570985008687907853269984665640564039457584007913129639936"
+   ],
+   "enclosure_minus_one_dec30": [
+    "-7.56968929570970088332061952230E-41",
+    "-7.56968929570970088332061952230E-41"
+   ],
+   "below_one": true,
+   "above_one": false
+  },
+  "at_native_endpoint_upper": {
+   "b": "0.0016970602962588368950279736213908681183",
+   "enclosure": [
+    "57896044618658097711785492504343953926647352228321038944365364939201081553481/57896044618658097711785492504343953926634992332820282019728792003956564819968",
+    "14474011154664524427946373126085988481661838057080259736091341234800270388383/14474011154664524427946373126085988481658748083205070504932198000989141204992"
+   ],
+   "enclosure_minus_one_dec30": [
+    "2.13484281735780513890518859874E-40",
+    "2.13484281735780513890518859874E-40"
+   ],
+   "below_one": false,
+   "above_one": true
+  },
+  "at_claim_kappa": {
+   "b": "1697060296258836/1000000000000000000",
+   "enclosure": [
+    "115792089237316195123871831218851866340658601555390741603286965325814021197923/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+    "14474011154664524390483978902356483292582325194423842700410870665726752649753/14474011154664524427946373126085988481658748083205070504932198000989141204992"
+   ],
+   "enclosure_minus_one_dec30": [
+    "-2.58825240794819607462517678285E-18",
+    "-2.58825240794819607462517678285E-18"
+   ],
+   "below_one": true,
+   "above_one": false
+  }
+ },
+ "candidate_665_1_moment_enclosure_at_kappa2322_identical": true,
+ "moment_gain": "0 (identical enclosures; interval difference is [0,0])",
+ "kappa_gain_over_2322": "0",
+ "kappa_candidate_by_exact_rational_comparison": "equal to 1697060296258836/1000000000000000000; no strict gain",
+ "kappa_2322_reduced": "424265074064709/250000000000000000",
+ "retained_call_census": {
+  "orientation_law": "forward iff stage even (all 666 calls)",
+  "first_extra_call": {
+   "stage": 0,
+   "replica": 0,
+   "time": 0,
+   "orientation": "forward"
+  },
+  "gauge_calls_total": 249,
+  "even_stage_forward_gauge_calls": 142,
+  "odd_stage_backward_gauge_calls": 107,
+  "retain_8_73": {
+   "stage": 8,
+   "replica": 73,
+   "time": 665,
+   "orientation": "forward",
+   "provider": "gauge44"
+  },
+  "retain_8_73_sorted_last_gauge_key": true,
+  "note": "Priced view: every single retention gives the same H. Partner-control view (README): only even-stage/forward retentions keep assembly_controls next() searches for P=extra satisfiable if it is the sole gauge44 call."
+ },
+ "contrast_2269": {
+  "gauge44_paid": {
+   "1": 2351,
+   "2": 501,
+   "3": 414,
+   "4": 129,
+   "5": 42,
+   "8": 8
+  },
+  "extra_paid": {
+   "1": 2339,
+   "2": 509,
+   "3": 418,
+   "4": 125,
+   "5": 42,
+   "8": 8
+  },
+  "gauge_minus_extra_per_call": {
+   "1": 12,
+   "2": -8,
+   "3": -4,
+   "4": 4,
+   "5": 0,
+   "8": 0
+  },
+  "pr2312_paid_common_438": {
+   "1": 2343,
+   "2": 504,
+   "3": 422,
+   "4": 124,
+   "5": 42,
+   "8": 8
+  },
+  "pr2322_paid_common_434": {
+   "1": 2335,
+   "2": 512,
+   "3": 426,
+   "4": 120,
+   "5": 38,
+   "8": 8
+  },
+  "explanation": "#2312 exact frame refit (42 gauge44 frames, 30 extra frames) + pivot-518/506 kernels on both words -> common profile {2343,504,422,124,42,8}; #2322 four-handoff delta {-8,+8,+4,-4,-4} applied to both -> {2335,512,426,120,38,8}."
+ },
+ "seconds_total": 10.976,
+ "python": "3.13.16"
+}

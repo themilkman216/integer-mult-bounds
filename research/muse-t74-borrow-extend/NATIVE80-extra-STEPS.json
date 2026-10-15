@@ -1,0 +1,27 @@
+[
+  {
+    "step": "native",
+    "exit_code": 0,
+    "seconds": 0.9186461909998798
+  },
+  {
+    "step": "ledgers",
+    "exit_code": 0,
+    "seconds": 1.1047819599998547
+  },
+  {
+    "step": "local-replay",
+    "exit_code": 0,
+    "seconds": 36.22342993200027
+  },
+  {
+    "step": "wrappers",
+    "exit_code": 0,
+    "seconds": 3.3151368210001237
+  },
+  {
+    "step": "phases",
+    "exit_code": 0,
+    "seconds": 202.0728392220003
+  }
+]

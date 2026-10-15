@@ -1,0 +1,90 @@
+{
+ "kappa2322": "1697060296258836/1000000000000000000",
+ "a2322": "424265074064709/249575734925935291",
+ "actual_total_hi": "66304.553151680623",
+ "base_lb": "66304.527136017546",
+ "assumption_A": "stage-P measured paid/width deltas transfer unchanged through the frame refit, pivot kernels and block-616 stages to #2322 final totals",
+ "rows": [
+  {
+   "name": "base #2322 widths (LP gap check)",
+   "paid_lo": "49309.651094546946",
+   "idle_lb": "16994.876041470600",
+   "candidate_lb": "66304.527136017546",
+   "min_dual_slack": "0.000000000000874",
+   "falsified_vs_actual": false,
+   "margin_vs_actual": "-0.026015663077",
+   "margin_vs_base_lb": "0.000000000000"
+  },
+  {
+   "name": "low x1",
+   "paid_lo": "49282.132319978123",
+   "idle_lb": "17022.431423937834",
+   "candidate_lb": "66304.563743915957",
+   "min_dual_slack": "0.000000000000874",
+   "falsified_vs_actual": true,
+   "margin_vs_actual": "0.010592235335",
+   "margin_vs_base_lb": "0.036607898411"
+  },
+  {
+   "name": "653 re-alias (measured stage-P)",
+   "paid_lo": "49282.132319978123",
+   "idle_lb": "17022.431423938500",
+   "candidate_lb": "66304.563743916623",
+   "min_dual_slack": "0.000000000000874",
+   "falsified_vs_actual": true,
+   "margin_vs_actual": "0.010592236001",
+   "margin_vs_base_lb": "0.036607899077"
+  },
+  {
+   "name": "low624 class x1 (measured stage-P)",
+   "paid_lo": "49282.167406622070",
+   "idle_lb": "17022.431423937834",
+   "candidate_lb": "66304.598830559904",
+   "min_dual_slack": "0.000000000000874",
+   "falsified_vs_actual": true,
+   "margin_vs_actual": "0.045678879281",
+   "margin_vs_base_lb": "0.071694542358"
+  },
+  {
+   "name": "high x1",
+   "paid_lo": "49263.826280697128",
+   "idle_lb": "17040.700855320732",
+   "candidate_lb": "66304.527136017860",
+   "min_dual_slack": "0.000000000000874",
+   "falsified_vs_actual": false,
+   "margin_vs_actual": "-0.026015662762",
+   "margin_vs_base_lb": "0.000000000314"
+  },
+  {
+   "name": "high x9 (all width-5)",
+   "paid_lo": "48897.227769898588",
+   "idle_lb": "17407.299366121788",
+   "candidate_lb": "66304.527136020376",
+   "min_dual_slack": "0.000000000000874",
+   "falsified_vs_actual": false,
+   "margin_vs_actual": "-0.026015660247",
+   "margin_vs_base_lb": "0.000000002830"
+  },
+  {
+   "name": "low x32",
+   "paid_lo": "48429.050308344625",
+   "idle_lb": "17877.739402019980",
+   "candidate_lb": "66306.789710364605",
+   "min_dual_slack": "0.000000000000874",
+   "falsified_vs_actual": true,
+   "margin_vs_actual": "2.236558683982",
+   "margin_vs_base_lb": "2.262574347059"
+  },
+  {
+   "name": "low x32 (joint paid delta variant)",
+   "paid_lo": "48428.627890280873",
+   "idle_lb": "17877.739402019980",
+   "candidate_lb": "66306.367292300853",
+   "min_dual_slack": "0.000000000000874",
+   "falsified_vs_actual": true,
+   "margin_vs_actual": "1.814140620230",
+   "margin_vs_base_lb": "1.840156283307",
+   "note": "paid delta = prior round stage-P measured 48->80 profile delta per call, transferred"
+  }
+ ]
+}

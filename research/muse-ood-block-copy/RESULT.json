@@ -1,0 +1,694 @@
+{
+ "blocks": [
+  {
+   "block": 0,
+   "columns": [
+    0,
+    1
+   ],
+   "feasible_subsets": 32,
+   "min_two_stream_charge": 16,
+   "term_cost_grid": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "union_support_rank": 8,
+   "witness": [
+    [
+     1,
+     1,
+     8
+    ],
+    [
+     2,
+     2,
+     8
+    ]
+   ]
+  },
+  {
+   "block": 1,
+   "columns": [
+    2,
+    3
+   ],
+   "feasible_subsets": 32,
+   "min_two_stream_charge": 15,
+   "term_cost_grid": [
+    8,
+    8,
+    7,
+    8,
+    8,
+    7,
+    8,
+    8,
+    7
+   ],
+   "union_support_rank": 8,
+   "witness": [
+    [
+     2,
+     3,
+     7
+    ],
+    [
+     3,
+     1,
+     8
+    ]
+   ]
+  },
+  {
+   "block": 2,
+   "columns": [
+    4,
+    5
+   ],
+   "feasible_subsets": 32,
+   "min_two_stream_charge": 14,
+   "term_cost_grid": [
+    7,
+    7,
+    8,
+    7,
+    7,
+    8,
+    7,
+    7,
+    8
+   ],
+   "union_support_rank": 8,
+   "witness": [
+    [
+     1,
+     1,
+     7
+    ],
+    [
+     2,
+     2,
+     7
+    ]
+   ]
+  },
+  {
+   "block": 3,
+   "columns": [
+    6,
+    7
+   ],
+   "feasible_subsets": 32,
+   "min_two_stream_charge": 14,
+   "term_cost_grid": [
+    7,
+    7,
+    8,
+    7,
+    7,
+    8,
+    7,
+    7,
+    8
+   ],
+   "union_support_rank": 8,
+   "witness": [
+    [
+     1,
+     1,
+     7
+    ],
+    [
+     2,
+     2,
+     7
+    ]
+   ]
+  },
+  {
+   "block": 4,
+   "columns": [
+    8,
+    9
+   ],
+   "feasible_subsets": 32,
+   "min_two_stream_charge": 14,
+   "one_stream_candidates_all_fail": [
+    {
+     "a": 1,
+     "b": 1,
+     "dirty_wrong": 7434,
+     "source_wrong": 3717
+    },
+    {
+     "a": 1,
+     "b": 2,
+     "dirty_wrong": 12294,
+     "source_wrong": 5226
+    },
+    {
+     "a": 1,
+     "b": 3,
+     "dirty_wrong": 7316,
+     "source_wrong": 3658
+    },
+    {
+     "a": 2,
+     "b": 1,
+     "dirty_wrong": 12790,
+     "source_wrong": 5229
+    },
+    {
+     "a": 2,
+     "b": 2,
+     "dirty_wrong": 6490,
+     "source_wrong": 3080
+    },
+    {
+     "a": 2,
+     "b": 3,
+     "dirty_wrong": 7316,
+     "source_wrong": 3472
+    },
+    {
+     "a": 3,
+     "b": 1,
+     "dirty_wrong": 11340,
+     "source_wrong": 3717
+    },
+    {
+     "a": 3,
+     "b": 2,
+     "dirty_wrong": 9900,
+     "source_wrong": 3245
+    },
+    {
+     "a": 3,
+     "b": 3,
+     "dirty_wrong": 12356,
+     "source_wrong": 5205
+    }
+   ],
+   "smallest_witness_vs_channel_e7_only": {
+    "actual_bit": 1,
+    "expected_bit": 0,
+    "input_column": 0,
+    "target": 0
+   },
+   "term_cost_grid": [
+    7,
+    7,
+    8,
+    7,
+    7,
+    8,
+    7,
+    7,
+    8
+   ],
+   "union_support_rank": 8,
+   "witness": [
+    [
+     1,
+     1,
+     7
+    ],
+    [
+     2,
+     2,
+     7
+    ]
+   ]
+  }
+ ],
+ "chronology": {
+  "B_gates_touching_ret": 0,
+  "cut": "after sections D+A, before scatter",
+  "cut_frame_dims": [
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7
+  ],
+  "cut_frame_indices": [
+   510,
+   511,
+   512,
+   513,
+   514,
+   515,
+   516,
+   517,
+   518
+  ],
+  "distinct_cut_subspaces": 9,
+  "first_C_gate_writing_479_or_480": 499,
+  "frame_pairs": [
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     0,
+     1
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     0,
+     2
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     0,
+     3
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     0,
+     4
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     0,
+     5
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     0,
+     6
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     0,
+     7
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     0,
+     8
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     1,
+     2
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     1,
+     3
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     1,
+     4
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     1,
+     5
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     1,
+     6
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     1,
+     7
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     1,
+     8
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     2,
+     3
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     2,
+     4
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     2,
+     5
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     2,
+     6
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     2,
+     7
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     2,
+     8
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     3,
+     4
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     3,
+     5
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     3,
+     6
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     3,
+     7
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     3,
+     8
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     4,
+     5
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     4,
+     6
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     4,
+     7
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     4,
+     8
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     5,
+     6
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     5,
+     7
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     5,
+     8
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     6,
+     7
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     6,
+     8
+    ]
+   },
+   {
+    "common_frames_all_full": true,
+    "join_dim": 8,
+    "meet_dim": 6,
+    "pair": [
+     7,
+     8
+    ]
+   }
+  ],
+  "last_writes_in_DA": {
+   "472": 2169,
+   "473": 2171,
+   "474": 2173,
+   "475": 2175,
+   "476": 2177,
+   "477": 2179,
+   "478": 2181,
+   "479": 2183,
+   "480": 2185
+  },
+  "mixed_channel_values_absent_from_all_registers": true,
+  "ret_registers": [
+   472,
+   473,
+   474,
+   475,
+   476,
+   477,
+   478,
+   479,
+   480
+  ],
+  "total_DA_gates": 2186,
+  "window_opens_only_at_cut": true
+ },
+ "counterfactual_ceiling_screen": {
+  "Dfc_per_replica_unit_s9": {
+   "cst40": 528,
+   "cst63": 321
+  },
+  "baseline_cst63": {
+   "a_bracket": [
+    "391183751/200000000000",
+    "488979689/250000000000"
+   ],
+   "a_hi_dec": "0.001955918756",
+   "centre": 63,
+   "model": {
+    "R": "45",
+    "deficit": "107/3",
+    "idle_mass": "1150",
+    "local_mass": "5129",
+    "total_mass": "6279",
+    "w": "296/3"
+   },
+   "profile": {
+    "1": 1323,
+    "2": 1342,
+    "3": 79,
+    "4": 44,
+    "5": 102,
+    "6": 11,
+    "7": 19
+   }
+  },
+  "counterfactual_block_cst40": {
+   "a_bracket": [
+    "644017333/200000000000",
+    "1610043333/500000000000"
+   ],
+   "a_hi_dec": "0.003220086666",
+   "centre": 40,
+   "model": {
+    "R": "45",
+    "deficit": "176/3",
+    "idle_mass": "1150",
+    "local_mass": "5106",
+    "total_mass": "6256",
+    "w": "296/3"
+   },
+   "profile": {
+    "1": 1323,
+    "2": 1342,
+    "3": 79,
+    "4": 44,
+    "5": 102,
+    "6": 11,
+    "7": 10,
+    "8": 5
+   }
+  },
+  "note": "Favourable relaxation only, computed as in research/muse-ood-bit-wall/screen.py (pinned ceiling.py, m=64, families=888, stages=9, unpaid=1, R=45). Not a construction; the exact moment of a completed word is the acceptance test and the complex side currently binds the selected kappa, so no kappa gain is claimed even counterfactually."
+ },
+ "overlap": "find_overlap --refresh failed (gh 401, no snapshot); --offline recorded. Titles #2028-#2178 and refs/upr heads checked: nearest are #2061/#2062 (scalar COPY floors for other decoders) and #2088 (two scalar snapshots, rank sum retained); none prices a block-valued copy.",
+ "pins": {
+  "base_commit": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+  "research/complex-local-word-ceiling/ceiling.py": "86a1432870b3b21d8454106ec9162fddc0471472d9214c590a1420f2426cedfc",
+  "research/e8-bit-p111-tuned/tune/EXPECTED.json": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+  "research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+  "selected_kappa": "836330098538459/500000000000000000"
+ },
+ "pricing": {
+  "baseline_scalar_total": 63,
+  "block4_priced_charge": 14,
+  "block4_union_charge_tested": 8,
+  "rule": "per-stream pairing-rank pricing (PR446 Thm C), minimised over the GL2 basis of each block coefficient space; one child carries one stream pair (no packing)",
+  "two_stream_blockwise_total": 73,
+  "union_support_sum_not_an_invoice": 40
+ },
+ "scope": "Fixed selected P111 word and PR1900 five-block grouping; scalar-stream COPY/ERASE model of the five predecessor contracts. A vector-valued (packed) child / plane-port supplier is a different hypothesis with its own coverage law and is not priced or excluded here.",
+ "status": "PASS_MUSE_OOD_BLOCK_COPY",
+ "tamper_controls_all_rejected": {
+  "broken_parseval_column": true,
+  "flipped_scatter_bit": true,
+  "merged_frame_517_518": true,
+  "one_stream_claimed_for_block4": true,
+  "union_rank_claimed_7": true
+ },
+ "verdict": "FALSIFIED at union charge: block 4 (most favourable, pure (e7,e8)) cannot be one stream (F2 rank, exact witnesses) and costs 14 as two streams; union rank 8 prices a single stream through the join frame, i.e. packing two streams into one child. Simultaneous liveness itself is legal (centers immutable across the scatter window)."
+}

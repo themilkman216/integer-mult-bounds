@@ -1,0 +1,43 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD",
+  "input_file": "word_Vlow592.json.gz",
+  "content_sha256": "929ffb7dd970af5af6c1dd4ab5cb19fe6c3e4cb9c9e9de2c76e76b30f3645300",
+  "compressed_sha256": "f02410649b0445af64035e6a9d8a3957547b77090687ae409d9513b990edb710",
+  "v": 112,
+  "h": 9,
+  "R": 480,
+  "removed_helpers": 43,
+  "independent_inputs": 661,
+  "warps": 43,
+  "corrections": 2,
+  "restored_cold": 77,
+  "zero_buffers": 77,
+  "entering": 149,
+  "local_profile": {
+    "1": 2353,
+    "2": 500,
+    "3": 415,
+    "4": 128,
+    "5": 42,
+    "8": 8
+  },
+  "local_mass": 5384,
+  "width_inventory": {
+    "4": 36,
+    "5": 9,
+    "7": 38,
+    "8": 113,
+    "9": 241
+  },
+  "orientations": {
+    "forward": "PASS",
+    "dual": "PASS"
+  },
+  "base": {
+    "base_sha256": "65c6d17ffee2eacf27bff438f37fc549c9ed0c909cbc7a52976cc75cf2d15b91",
+    "sections_match_minus_removed": true
+  },
+  "checked_columns": 661,
+  "elapsed_seconds": 0.9520721949993458,
+  "scope": "Exact free-operator-algebra replay (every remaining input is an independent column): K_G warps with G invertible, G(from)=to, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing."
+}

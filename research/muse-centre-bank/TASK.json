@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "task_id": "centre-path-sharing",
+  "priority_revision": 4,
+  "base_commit": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+  "original_card": {
+    "id": "centre-path-sharing",
+    "question": "Can the 64-per-call centre path (eight rank-8 COPY/ERASE totals through the private temporary) be shared across calls or shrunk?",
+    "starting_points": [
+      "research/complex-local-word-ceiling/README.md",
+      "research/split-centres-global/proofs/PR386-BIT-GEOMETRY.txt",
+      "certificates/selected-result.json"
+    ],
+    "methods": [
+      "Prove a lower bound on copied information per call for the selected decoder contract."
+    ],
+    "acceptance_gate": "Show the changed centre charge and copy profile per call with every added restoration or hosting cost charged, and its ceiling via ceiling.ceiling(centre=...).",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "research/complex-local-word-ceiling/verify.py"
+      ],
+      "expected": "PASS_COMPLEX_LOCAL_WORD_CEILING",
+      "inspect": "Read the selected word's per-call local profile, its packing ceiling and the lever table; run levers.py for the ideal budget of the lever you target.",
+      "scope": "Positive control and planning budget only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Write the per-call centre charge and copy children for sharing across k = 2 calls, charge the sharing overhead, and screen it; stop this route if even the ideal sharing gains under 10%. Ideal budgets: free 2.80x, shared by two 1.90x (levers.py).",
+    "bottleneck_link": "The centre path consumes 64 of about 99.6 unpaid coordinates per call, i.e. about 64% of the raw deficit.",
+    "allowed_variations": [
+      "One sharing pattern across a fixed number of calls.",
+      "One reduced copied-total contract for the existing decoder.",
+      "If the coverage law, template or guard changes, derive an applicable fully charged replacement bound instead of applying the incumbent ceiling outside its scope."
+    ],
+    "scope_change_triggers": [
+      "Removing copies without a replacement contract for the decoder's copied totals."
+    ],
+    "overlap_terms": [
+      "centre path",
+      "copied totals",
+      "private temporary",
+      "shared centre",
+      "batching"
+    ]
+  },
+  "scope_status": "refined",
+  "actual_scope": "Track 4A donor assignment: design the cheapest concrete two-call centre-sharing contracts (persistent 8-slot bank CB-A, deferred joint scatter CB-B, fused rank-16 descent CB-C under hypothesis (W)) on the selected #1094 word and 144-call schedule, price storage/reads/frame changes in full, derive exact break-even overhead with the pinned ceiling engine against the 32/call ideal and the unreviewed #2374 target, then test attainability by an all-pairs (10296) owner/chart census plus exact F_p scalar value-inequality witnesses. No packing/hosting/owner/dispatch/borrowing variation.",
+  "scope_change_reason": "The card's first experiment (k=2 sharing, charged overhead, ceiling screen) is executed literally; refinement names the three concrete contracts and the changed hypotheses against #2052/#2076/#2048/#2203/#2118 and the descent/p111 floors (README table) instead of reopening their excluded domains. The card's under-10% whole-bound stop is retained as context (bit-fixed cap +3.4536%); the donor target is beating #2374, which lies below that cap.",
+  "bottleneck_link": "Centre charge 64/call is about 64% of the raw deficit; ideal two-call sharing is the 1.90x complex lever. This package decides whether any fully charged two-call contract on the selected word retains a real eliminated cost.",
+  "budget_minutes": 120,
+  "stop_rule": "Cheapest falsification first: exact ceilings/break-even, then census/witnesses. Build on the selected word only if a pair survives with net saving above the break-even threshold (>=4 rank-8 children over the schedule, relaxation). Otherwise record the sharp falsification and handoff; do not widen to changed schedules, T74 words, or unpaid>=2 in this package.",
+  "outcome": "negative-result",
+  "evidence": "screen.py (exact brackets: base a_hi 0.001690054110, ideal shared 0.003212972894, fused CB-C free 0.001693625548 < a_lead 0.001700080319 with certified FAIL sign; rank-8 break-even 31.7/31.8 per call, integer 572/573 over 144 calls) and census.py (10296 pairs: full signature equal 0, max equal signature slots 0/8, per-slot pairing bound 0; forward F_p witnesses distinguish all 25280 slot pairs over 3 seeds with 144 endpoint identities per seed; deferral feasible for 1712 ordered pairs). verify.py recomputes decisive quantities with 7 value-mutating tamper controls. No construction attempted; no new kappa.",
+  "author": "Meta Muse (muse-wonder-full-1.0), out-of-distribution contributor session",
+  "ai_assistance": "Substantial AI assistance from Meta Muse (Muse Code, muse-wonder-full-1.0): contract design, screen/census/verify code, exact computations and draft text. No independent human review or proof-assistant verification is claimed.",
+  "open_questions": [
+    {
+      "question": "Does the #2322/T74 schedule contain an equal-value centre pair?",
+      "why_it_matters": "Leaderboard words carry the same 8x rank-8 centre but different owners/schedules; CB-A's conditional invoice would apply verbatim to any equal pair found there.",
+      "first_step": "Port census.py's signature extraction and F_p witness simulation to #2322's pinned words/order (refs/upr/2322 head 002304ef) and rerun the all-pairs counts.",
+      "blocked_by": "T74 owner/window extraction differs from the selected GLOBAL-TEMPLATE format; no equal pair is expected given the selected-word chart churn, so this is a bounded port, not a construction."
+    },
+    {
+      "question": "Can a changed global schedule create equal centre demands without changing the endpoint exchange?",
+      "why_it_matters": "CB-A fails only on demand equality; a schedule theorem creating repeated post-A source functionals on disjoint panels would reopen the full 32/call invoice.",
+      "first_step": "State the required repetition in the #2052 row-space model (same P-functionals at two cuts, disjoint Q panels) and test the smallest K=2 fragment for a waste identity obstruction.",
+      "blocked_by": "No candidate schedule exists; Theorem S waste accounting and cover routing (centre-fivecall-cover-audit) constrain repetitions."
+    },
+    {
+      "question": "Can 8 persistent complex bank families be admitted by the compiler/allocator?",
+      "why_it_matters": "CB-A/CB-B storage is currently an obligation: selected owner IDs exhaust [0,14336) with no preallocated reserve (contrast the bit reserve used by #2088).",
+      "first_step": "Bind 8 new family tags in the hosting proof's allocator model and price child scratch plus routing for simultaneous bank+private liveness.",
+      "blocked_by": "All-size compiler/workspace admission is inherited and unproved; worth doing only if an equal pair is ever found."
+    }
+  ],
+  "no_open_questions_reason": null,
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+  "catalog_sha256": "d46eb6d5b3e279428753d770653663fbdf1063e55c255ea073d768f344927ef7",
+  "track": "recursive-interfaces"
+}
